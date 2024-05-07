@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { AppComponent } from './app.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { RecursosComponent } from './components/recursos/recursos.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
@@ -7,7 +8,6 @@ import { HistoriaFeComponent } from './components/nosotros/historia-fe/historia-
 import { MvvComponent } from './components/nosotros/mvv/mvv.component';
 import { CodigoEticaComponent } from './components/nosotros/codigo-etica/codigo-etica.component';
 import { EquipoTrabajoComponent } from './components/nosotros/equipo-trabajo/equipo-trabajo.component';
-import { Component } from '@angular/core';
 import { FormularioComponent } from './components/afiliacion/formulario/formulario.component';
 
 
@@ -21,5 +21,6 @@ export const routes: Routes = [
     {path: 'servicios', component: ServiciosComponent},
     {path: 'afiliacion', component: AfiliacionComponent},
     {path: 'formulario', component: FormularioComponent},
-    {path: '**', redirectTo: 'inicio', pathMatch: 'full'}
+    {path: 'componentes', component: AppComponent},
+    {path: '**', redirectTo: 'coponents', pathMatch: 'full'}
 ];
