@@ -20,9 +20,10 @@
 .asesorias{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 500px;
+    justify-content: space-evenly;
+    height: auto;
     width: 100%;
+    background-color: gray;
 }
 
 .asesorias h2{
@@ -33,9 +34,8 @@
 }
 
 .servicio {
-    height: 480px;
-    width: 400px;
-    margin: 20px;
+    height: 100%;
+    width: 600px;
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -51,10 +51,37 @@
     width: 100%;
     height: auto;
 }
-
-.servicio .contenido {
-    padding: 20px;
+.contenido1{
+    margin-top:  2rem;
+    height: 100%;
+    width: auto;
 }
+
+.list1{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #57392e;
+    line-height: 23px;
+    padding-top: 1rem;
+}
+.contenido4{
+    margin-top:  2rem;
+    height: 100%;
+    width: auto;
+}
+
+.list4{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #57392e;
+    line-height: 23px;
+    padding: 1rem 0 2rem 0;
+}
+
 /*? estilos para beneficios*/
 .beneficios{
     display: flex;
