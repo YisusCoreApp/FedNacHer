@@ -123,6 +123,9 @@
 
 .card_section2 h2 {
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #009c7a;
     color: #fff;
     height: 40px;
