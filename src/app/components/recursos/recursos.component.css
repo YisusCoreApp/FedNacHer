@@ -1,0 +1,315 @@
+
+.informacion {
+    height: 350px;
+    width: auto;
+}
+
+.recursos{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.rec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 60%;
+}
+
+
+.rec h3 {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #009c7a;
+}
+.foto {
+    height: 300px;
+    width: 30%;
+    border: none;
+    display: flex;
+    padding-left: 5rem;    
+}
+.foto img{
+    height: auto;
+    width: 500px;
+}
+
+.rec p {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+}
+
+.mn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 0 2rem;
+}
+
+
+
+.mn h1,
+ul {
+    color: #57392e;
+}
+
+.mn h2 {
+    color: #009c7a;
+}
+
+.leyes {
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
+    height: 450px;
+    width: 100%;
+    margin: 2rem 0;
+    line-height: 35px;
+    background-color: #edf0f1;
+}
+
+.leyes h2 {
+    padding: 2rem 0 0 3rem;
+}
+
+.leyes ul {
+    padding: 0 3rem;
+}
+
+.leyes b {
+    color: #009c7a;
+}
+.productosH {
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
+    height: 1100px;
+    width: 100%;
+    margin: 2rem 0 ;
+    line-height: 35px;
+    background-color: #edf0f1;
+}
+
+.productosH h2 {
+    padding: 2rem 0 0 3rem;
+}
+
+.productosH ul {
+    padding: 0 3rem;
+}
+
+.productosH b {
+    color: #009c7a;
+}
+
+.beneficios {
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
+    height: 390px;
+    width: 100%;
+    margin: 2rem 0 ;
+    line-height: 35px;
+    background-color: #edf0f1;
+}
+
+.beneficios h2 {
+    padding: 2rem 0 0 3rem;
+}
+
+.beneficios ul {
+    padding: 0 3rem;
+}
+
+.beneficios b {
+    color: #009c7a;
+}
+
+.tph{
+    padding: 2rem 0  2rem 0;
+}
+.t {
+    height: 120px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.t p {
+    padding: 2rem 6rem;
+}
+.resp {
+    height: 250px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+
+}
+.resp p {
+    padding: 1rem 6rem;
+    line-height: 22px;
+    text-align: center;
+}
+
+/*? Todos los estilos para el aside*/
+
+.aside {
+    padding-top: 40rem;
+    position: relative;
+    
+}
+.conte::before{
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 63%;
+    background-image: url(/assets/aside.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: .2;
+    filter: blur(1.8px);
+    z-index: -1
+}
+
+.alertas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 580px;
+    text-align: left;
+    color: #57392e;
+}
+
+.tl1 {
+    font-size: 18px;
+    color: #009c7a;
+    padding: 2rem 0;
+}
+
+.txt1 {
+    font-size: 18px;
+    padding: 0 3rem;
+}
+.tl2{
+    font-size: 18px;
+    color: #009c7a;
+}
+.txt2    {
+    font-size: 18px;
+}
+.tl3{
+    font-size: 18px;
+    color: #009c7a;
+}
+.txt3{
+    font-size: 18px;
+}
+.tl4{
+    font-size: 18px;
+    color: #009c7a;
+}
+.txt4{
+    font-size: 18px;
+}
+.alertas button {
+    background-color: #0abf94;
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+    margin: 2rem 0;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    /* Hacemos el botón más redondeado */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* Convertimos el texto a mayúsculas */
+    outline: none;
+    /* Quitamos el borde al hacer clic */
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+
+/* Efecto de sombra al pasar el cursor */
+.alertas button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.alertas button:hover::before {
+    transform: scale(3);
+    /* Agrandamos el efecto de sombra al pasar el cursor */
+    opacity: 0;
+    /* Hacemos que la sombra desaparezca */
+}
+
+/* Animación al hacer clic */
+.alertas button:active {
+    transform: scale(0.9);
+    /* Reducimos el tamaño del botón al hacer clic */
+}
+
+.articles {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    
+}
+.articles p{
+    padding-top: 1rem;
+}
+.investigacion{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 350px;
+    line-height: 20px;
+}
+.libros{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 340px;
+    height: 700px;
+}
+.in{
+    height: 200px;
+    width: 350px;
+}
+
+.txt4{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 1.5rem;
+}

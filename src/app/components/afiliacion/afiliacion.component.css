@@ -1,0 +1,248 @@
+.n {
+    height: 350px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.n img {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.nosotros {
+    width: 600px;
+    height: 350px;
+    background-color: #e8e9d8;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.nosotros:hover {
+    transform: translateY(-5px);
+}
+
+.unirte h2 {
+    text-align: center;
+    color: #009c7a;
+    padding: 2rem 0;
+}
+
+.unirte span {
+    color: #57392e;
+}
+
+.info ul {
+    text-align: left;
+    color: #57392e;
+    margin: 0 4rem;
+    line-height: 60px;
+}
+
+/*? estilos para como afiliarse*/
+
+.a {
+    height: 350px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.comoA {
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.afiliarse h2 {
+    text-align: center;
+    color: #009c7a;
+    padding: 2rem 0;
+}
+
+.afiliarse span {
+    color: #57392e;
+}
+
+.info p {
+    text-align: left;
+    color: #57392e;
+    margin: 0 4rem;
+}
+
+/*? estilos para las cards*/
+.encabezado {
+    text-align: center;
+    color: #009c7a;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    width: 20%;
+    height: 1000px;
+    margin: 3rem 0;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    background-color: #f2eeee;
+    transform: translateY(-5px);
+}
+
+.card_section1 {
+    text-align: center;
+}
+
+.card_section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.card_section2 h2 {
+    text-align: center;
+    background-color: #009c7a;
+    color: #fff;
+    height: 40px;
+    width: 100%;
+}
+
+.card_section2 p {
+    padding: 2rem 0;
+    color: #57392e;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #0abf94;
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+    padding: 12px 24px;
+    border: none;
+    /* Hacemos el botón más redondeado */
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    /* Quitamos el borde al hacer clic */
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+
+    transition: all .3s ease-in;
+}
+
+/* Efecto de sombra al pasar el cursor */
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 1;
+    transition: all 0.3s;
+
+}
+
+button:hover {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    background-color: #045043;
+    transition: all .3s ease-out;
+}
+
+button:hover::before {
+
+    transform: scale(3);
+    /* Agrandamos el efecto de sombra al pasar el cursor */
+    opacity: 0;
+    /* Hacemos que la sombra desaparezca */
+}
+
+.perfilPic {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+}
+
+.list ul {
+    color: #57392e;
+    font-size: 15px;
+    margin: 0 2rem;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.list span {
+    color: blue;
+}
+
+.b {
+    height: 700px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/fonfoAfil.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 460px;
+}
+
+.respon {
+    width: auto;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.respon h2 {
+    text-align: center;
+    color: #009c7a;
+}
+
+.respon span {
+    color: #57392e;
+}
+
+.infor p {
+    text-align: left;
+    color: #57392e;
+    text-align: center;
+    padding: 2rem 6rem;
+    font-size: 18px;
+}

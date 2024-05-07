@@ -1,0 +1,94 @@
+footer{
+    height: 400px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #ebfef7;
+}
+.email {
+    width: auto;
+    text-align: right;
+    color: #57392E;
+    padding-top: 2rem;
+}
+
+.cont {
+    height: 400px;
+    width: auto;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+
+.loFi {
+    width: 190px;
+    height: 70px;
+}
+
+.loFi img {
+    width: auto;
+    height: 100%;
+    position: relative;
+}
+.infof{
+    width: 700px;
+    height: 70px;
+}
+.infoE {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+    height: 70px;
+}
+
+.infoE h3 {
+    font-size: 15px;
+    padding-bottom: 1rem;
+    color: #57392E;
+}
+
+
+.infoE span {
+    font-size: 14px;
+    color: #57392E;
+}
+
+/*? EStilos para las redes sociales*/
+.redS {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ex {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.redS h3 {
+    color: #57392E;
+    font-size: 15px;
+}
+
+.redS img {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.redS img:hover {
+    transition: all .3s;
+    filter: drop-shadow(0 0 10px rgba(173, 255, 47, 1));
+}
+
+.final p {
+    color: #57392E;
+    font-size: 15px;
+}

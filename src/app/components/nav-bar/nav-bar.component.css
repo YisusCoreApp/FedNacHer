@@ -1,0 +1,133 @@
+/* Estilos básicos para la barra de navegación */
+
+.title {
+  background-color: #a4f6d8;
+  height: 300px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 85px;
+  color: #045043;
+  font-weight: bolder;
+  padding: 0 4.5em;
+  line-height: .7;
+}
+
+.herb {
+  color: #57392e;
+}
+
+
+/* Define la animación */
+@keyframes fadeAndSlide {
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  50% {
+    opacity: 0.7;
+    transform: translateY(-5px);
+  }
+}
+
+/* Aplica la animación al logo */
+.logo {
+  width: 200px;
+  /* Ajusta el tamaño del logo según sea necesario */
+  animation: fadeAndSlide 4s ease-in-out infinite;
+  /* Aplica la animación "fadeAndSlide" de forma continua */
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 8px 10px -6px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  color: #57392e;
+  /* Cambio de color de texto */
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: color 0.3s, box-shadow 0.3s;
+  /* Añadida transición para el cambio de color de texto y sombra */
+  position: relative;
+  /* Necesario para el efecto de iluminación */
+}
+
+nav a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #d0fbe9;
+  /* Cambio de color de fondo para iluminación */
+  transition: 0.5s;
+  /* Añadida transición para la altura */
+  z-index: -1;
+  /* Asegura que esté detrás del texto */
+}
+
+nav a:hover::before {
+  height: 100%;
+  /* Hace que la luz se expanda hacia arriba */
+}
+
+nav a:hover {
+  color: #57392e;
+  /* Cambio de color de texto al pasar el cursor */
+  box-shadow: 1px 2px 9px 1px #d0fbe9;
+  /* Añadida sombra al pasar el cursor */
+}
+
+
+/* Estilos para los elementos desplegables */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #57392e;
+  opacity: 0.87;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #c9e784;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: background-color 0.3s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

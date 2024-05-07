@@ -1,0 +1,149 @@
+.parrafo {
+    height: 400px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #6aebc4;
+    margin: 0 0 3rem 0;
+}
+
+.parrafo img {
+    width: 250;
+    height: 250px;
+    margin: 2rem 3rem;
+}
+
+.infoP {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: auto;
+}
+
+.infoP h3 {
+    text-align: center;
+    color: #57392E;
+}
+
+.infoP button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+button {
+    background-color: #57392E;
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    /* Hacemos el botón más redondeado */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* Convertimos el texto a mayúsculas */
+    outline: none;
+    /* Quitamos el borde al hacer clic */
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+/* Efecto de sombra al pasar el cursor */
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+button:hover::before {
+    transform: scale(3);
+    /* Agrandamos el efecto de sombra al pasar el cursor */
+    opacity: 0;
+    /* Hacemos que la sombra desaparezca */
+}
+
+/* Animación al hacer clic */
+button:active {
+    transform: scale(0.9);
+    /* Reducimos el tamaño del botón al hacer clic */
+}
+.txt {
+    height: 300px;
+    width: 800px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #57392E;
+    font-size: 20px;
+    padding: 3rem 0 0 0;
+}
+/*? estilos de integridad*/
+.contenedor {
+    width: auto;
+    height: 350px;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.informacon {
+    height: 350px;
+    width: 50vw;
+    margin: 0 6rem;
+    padding: 1rem 3rem;
+    text-align: center;
+    color: #57392e;
+}
+.informacon span {
+    color: #00a783;
+}
+.titulo1 {
+    font-size: 130px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 0.75em;
+    margin: 0 5rem 2rem 0;
+}
+.info_1 {
+    font-size: 18px;
+    font-weight: 300;
+    width: auto;
+    padding: 1rem 0;
+    color: #57392e;
+}
+.integridad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    padding: 0 3rem 0 0;
+}
+.integridad img {
+    height: 300px;
+    width: 300px;
+    transition: all 200ms;
+    position: static;
+    margin: 3.5rem 0;
+    border-radius: 1%;
+}
+.titulo4 {
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 0.75em;
+    margin: 0 5rem 2rem 0;
+}
