@@ -22,5 +22,5 @@ export const routes: Routes = [
     {path: 'afiliacion', component: AfiliacionComponent},
     {path: 'formulario', component: FormularioComponent},
     {path: 'componentes', component: AppComponent},
-    {path: '**', redirectTo: 'coponents', pathMatch: 'full'}
+    {path: '**', redirectTo: 'componentes', pathMatch: 'full'}
 ];
