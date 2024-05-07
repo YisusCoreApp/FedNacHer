@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { AppComponent } from './app.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { RecursosComponent } from './components/recursos/recursos.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
@@ -21,6 +20,5 @@ export const routes: Routes = [
     {path: 'servicios', component: ServiciosComponent},
     {path: 'afiliacion', component: AfiliacionComponent},
     {path: 'formulario', component: FormularioComponent},
-    {path: 'componentes', component: AppComponent},
-    {path: '**', redirectTo: 'componentes', pathMatch: 'full'}
+    {path: '**', redirectTo: 'inicio', pathMatch: 'full'}
 ];
