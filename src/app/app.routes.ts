@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { RecursosComponent } from './components/recursos/recursos.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
@@ -8,6 +8,7 @@ import { MvvComponent } from './components/nosotros/mvv/mvv.component';
 import { CodigoEticaComponent } from './components/nosotros/codigo-etica/codigo-etica.component';
 import { EquipoTrabajoComponent } from './components/nosotros/equipo-trabajo/equipo-trabajo.component';
 import { FormularioComponent } from './components/afiliacion/formulario/formulario.component';
+import { NgModule } from '@angular/core';
 
 
 export const routes: Routes = [
@@ -22,3 +23,9 @@ export const routes: Routes = [
     {path: 'formulario', component: FormularioComponent},
     {path: '**', redirectTo: 'inicio', pathMatch: 'full'}
 ];
+
+@NgModule({
+    imports: [RouterModule.forRoot(routes, { useHash: false })], // Asegúrate de usarHash: false
+    exports: [RouterModule]
+  })
+  export class AppRoutingModule { }
