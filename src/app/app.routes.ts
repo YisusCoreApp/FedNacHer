@@ -23,9 +23,3 @@ export const routes: Routes = [
     {path: 'formulario', component: FormularioComponent},
     {path: '**', redirectTo: 'inicio', pathMatch: 'full'}
 ];
-
-@NgModule({
-    imports: [RouterModule.forRoot(routes, { useHash: false })], // Asegúrate de usarHash: false
-    exports: [RouterModule]
-  })
-  export class AppRoutingModule { }
