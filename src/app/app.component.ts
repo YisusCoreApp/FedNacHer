@@ -14,7 +14,7 @@ import { ScrollService } from './services/scroll.service';
                 RouterLink,
                   NavBarComponent,
                     FooterComponent,
-                      FontAwesomeModule],
+                      FontAwesomeModule,],
 })
 export class AppComponent implements OnInit{
   title = 'herbolaria';
