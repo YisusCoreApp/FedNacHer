@@ -1,9 +1,22 @@
+.titt{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+}
+.tituloV{
+    width: 37%;
+}
 .ti {
     font-size: 50px;
     font-weight: bolder;
     text-align: center;
-    margin: 7rem;
     color: #007c65;
+}
+span{
+    color: #57392e;
 }
 .filosofia{
     height: 100%;   
@@ -11,6 +24,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 3rem;
 
 }
 .wrapper {
@@ -21,19 +35,19 @@
     align-items: center;
 }
 
-.wrapper h1 {
+.res h1 {
     color: #57392e;
 }
 
 .img {
-    height: 300px;
+    height: auto;
     width: 900px;
     position: relative;
 }
 
 img {
     height: 300px;
-    width: 900px;
+    width: 100%;
     display: block;
     margin: auto;
     border-radius: 12px;
@@ -45,9 +59,8 @@ img {
     top: 0;
     left: 0;
     position: absolute;
-    background: rgb(163, 247, 217, .6);
-    background: radial-gradient(circle, rgba(163, 247, 217, .3) 0%, 
-    rgba(0, 159, 124, .3) 100%);
+    background: rgb(106,235,197);
+    background: linear-gradient(0deg, rgba(106,235,197,0.4) 0%, rgba(0,124,101,.7) 43%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +77,8 @@ img {
 .content p {
     text-align: center;
     color: aliceblue;
-    font-size: 25px;
+    font-size: 18px;
+    margin: 0 5rem;
 }
 
 .content>* {

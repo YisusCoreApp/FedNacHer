@@ -239,7 +239,6 @@ button:hover::before {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem 0;
 }
 
 .ext{
@@ -252,7 +251,7 @@ button:hover::before {
   background-color: #dfd6d6;
 }
 
-.ruta h3{
+.ruta h3, a{
   color: #007c65;
   font-size: 50px;
   text-align: left;

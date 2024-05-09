@@ -98,20 +98,32 @@
     align-items: center;
     gap: 35px;
     width: 20%;
-    height: 1000px;
+    height: 165vh;
     margin: 3rem 0;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+    transition: all .3s ease-in;
 }
 
 .card:hover {
     background-color: #f2eeee;
     transform: translateY(-5px);
+    transition: all .3s ease-in;
+
 }
 
 .card_section1 {
     text-align: center;
+}
+
+.tit {
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    background-color: #009c7a;
+    color: #fff;
+
 }
 
 .card_section2 {
@@ -121,28 +133,42 @@
     font-size: 18px;
 }
 
-.card_section2 h2 {
+.des {
+    height: auto;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin: .5rem 0 1rem 0;
+}
+
+/* .card_section2 h2 {
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #009c7a;
+    background-color: #009c7a;background-color: #009c7a;
     color: #fff;
     height: 40px;
     width: 100%;
-}
+} */
 
-.card_section2 p {
+/* .card_section2 p {
     padding: 2rem 0;
     color: #57392e;
     font-size: 15px;
     text-align: center;
-}
+} */
 
 .btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 70%;
+}
+
+.btn2 {
+    margin: 125%;
+}
+
+.btn3 {
+    margin: 15%;
 }
 
 button {
@@ -197,6 +223,11 @@ button:hover::before {
 
 .perfilPic {
     border-radius: 12px;
+    width: 100%;
+    height: auto;
+}
+
+.list {
     width: 100%;
     height: auto;
 }

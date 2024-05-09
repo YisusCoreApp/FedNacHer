@@ -51,5 +51,15 @@ Foto de 🇸🇮 Janko Ferlič en Unsplash
 img header:
 Foto de Christian Burri en Unsplash
 
+img mision:
+Foto de JESHOOTS.COM en Unsplash
 
+img mision:
+Foto de Jason Goodman en Unsplash
+
+img vision:
+Foto de Chelsea shapouri en Unsplash
+
+img valores:
+Foto de CoWomen en Unsplash
 
