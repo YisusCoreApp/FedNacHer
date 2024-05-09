@@ -89,14 +89,12 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 35px;
     width: 20%;
     height: 165vh;
     margin: 3rem 0;
@@ -120,10 +118,13 @@
 .tit {
     height: 35px;
     width: 100%;
+    min-height: 60px;
     text-align: center;
     background-color: #009c7a;
     color: #fff;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card_section2 {
@@ -134,11 +135,14 @@
 }
 
 .des {
-    height: auto;
+    height: 200px;
     width: 100%;
     font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     text-align: center;
-    margin: .5rem 0 1rem 0;
 }
 
 /* .card_section2 h2 {
@@ -159,35 +163,26 @@
     text-align: center;
 } */
 
-.btn {
-    margin: 70%;
-}
-
-.btn2 {
-    margin: 125%;
-}
-
-.btn3 {
-    margin: 15%;
+.btn{
+    height: 45px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
 }
 
 button {
     background-color: #0abf94;
-    /* Color de fondo */
     color: white;
-    /* Color del texto */
     padding: 12px 24px;
     border: none;
-    /* Hacemos el botón más redondeado */
     cursor: pointer;
     font-size: 15px;
     font-weight: bold;
-    outline: none;
-    /* Quitamos el borde al hacer clic */
     position: relative;
-    overflow: hidden;
+    margin: 2rem;
     transition: all 0.3s;
-
     transition: all .3s ease-in;
 }
 
@@ -226,21 +221,45 @@ button:hover::before {
     width: 100%;
     height: auto;
 }
+/* .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #57392e;
+    line-height: 20px;
+    margin: 0 2rem;
+    max-height: 500px; /* Establece una altura máxima para el contenedor */
+   /* Agrega barras de desplazamiento cuando sea necesario 
+}
+
+.list ul {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 0; Elimina el relleno predeterminado de la lista 
+    margin: 0;  Elimina el margen predeterminado de la lista 
+    list-style: none; /* Elimina los estilos de viñetas predeterminados 
+} */
 
 .list {
-    width: 100%;
-    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #57392e;
+    line-height: 20px;
+    margin: 0 2rem;
+    width: auto;
+    max-height: 100%;
+    padding: 0 2rem;
 }
 
 .list ul {
     color: #57392e;
     font-size: 15px;
-    margin: 0 2rem;
     line-height: 1.6;
 }
 
 .list span {
-    color: blue;
+    color: #045043;
 }
 
 .b {
