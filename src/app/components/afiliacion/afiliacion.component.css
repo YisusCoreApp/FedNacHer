@@ -205,7 +205,6 @@ button:hover::before {
     color: #57392e;
     font-size: 15px;
     margin: 0 2rem;
-    text-align: justify;
     line-height: 1.6;
 }
 
