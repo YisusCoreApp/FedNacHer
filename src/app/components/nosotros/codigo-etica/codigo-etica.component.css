@@ -24,7 +24,7 @@
 
 .infoP h3 {
     text-align: center;
-    color: #57392E;
+    color: #007c65;
 }
 
 .infoP button {
@@ -108,7 +108,7 @@ button:active {
     color: #57392e;
 }
 .informacon span {
-    color: #00a783;
+    color: #007c65;
 }
 .titulo1 {
     font-size: 130px;

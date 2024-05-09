@@ -4,15 +4,15 @@
     text-align: center;
 }
 .title {
-    font-size: 130px;
+    font-size: 50px;
     font-weight: bolder;
     text-align: center;
     line-height: 0.75em;
-    margin: 100px 6px;    
     color: #57392e;
+    margin-top: 5rem;
 }
 span{
-    color: #a4f6d8;
+    color: #007c65;
 }
 .inf {
     font-size: 18px;
