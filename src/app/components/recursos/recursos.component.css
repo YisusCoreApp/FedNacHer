@@ -167,10 +167,16 @@ ul {
 
 }
 
+.resp h1 {
+    color: #007c65;
+}
+
 .resp p {
     padding: 1rem 6rem;
     line-height: 22px;
     text-align: center;
+    color: #57392e;
+    font-size: 18px;
 }
 
 /*? Todos los estilos para el aside*/
@@ -250,9 +256,9 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
- button {
+button {
     background-color: #0abf94;
     /* Color de fondo */
     color: white;
@@ -260,6 +266,7 @@ ul {
     margin: 2rem 0;
     padding: 12px 24px;
     border: none;
+    font-weight: bolder;
     /* Hacemos el botón más redondeado */
     cursor: pointer;
     font-size: 15px;
@@ -286,14 +293,16 @@ button::before {
     z-index: 1;
     transition: all 0.3s;
 }
-button:hover{
+
+button:hover {
     padding: 12px 24px;
     border: none;
     border-radius: 30px;
     background-color: #045043;
     transition: all .3s ease-out;
-  }
- button:hover::before {
+}
+
+button:hover::before {
     transform: scale(3);
     /* Agrandamos el efecto de sombra al pasar el cursor */
     opacity: 0;
@@ -330,6 +339,7 @@ button:hover{
     text-align: left;
     width: 340px;
     height: 700px;
+    color: #57392e;
 }
 
 .in {
