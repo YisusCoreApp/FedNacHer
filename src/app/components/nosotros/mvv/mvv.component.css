@@ -60,7 +60,7 @@ img {
     left: 0;
     position: absolute;
     background: rgb(106,235,197);
-    background: linear-gradient(0deg, rgba(106,235,197,0.4) 0%, rgba(0,124,101,.7) 43%);
+    background: linear-gradient(0deg, rgba(106,235,197,0.6) 0%, rgba(0,124,101,.8) 43%);
     display: flex;
     justify-content: center;
     align-items: center;

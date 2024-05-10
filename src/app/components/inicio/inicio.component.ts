@@ -20,4 +20,5 @@ export class InicioComponent {
   reditecToServicios(){
     this.router.navigate(['/servicios'])
   }
+  
 }
