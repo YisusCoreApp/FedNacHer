@@ -81,6 +81,10 @@
 
 /*? estilos para las cards*/
 
+.encabezado{
+    text-align: center;
+    margin-bottom: 5rem;
+}
 .afiliacion {
     display: flex;
     align-items: center;
