@@ -28,7 +28,7 @@
 
 .unirte h2 {
     text-align: center;
-    color: #009c7a;
+    color: #007c65;
     padding: 2rem 0;
 }
 
@@ -65,7 +65,7 @@
 
 .afiliarse h2 {
     text-align: center;
-    color: #009c7a;
+    color: #007c65;
     padding: 2rem 0;
 }
 
@@ -84,6 +84,7 @@
 .encabezado{
     text-align: center;
     margin-bottom: 5rem;
+    color: #007c65;
 }
 .afiliacion {
     display: flex;
@@ -96,7 +97,7 @@
     padding-bottom: 2rem;
 }
 .title h2{
-    color: #009c7a;
+    color: #007c65;
 }
 
 .title{
@@ -111,7 +112,7 @@
 }
 
 .afil h2{
-    color: #009c7a;
+    color: #007c65;
 }
 
 .servicio {
@@ -203,7 +204,7 @@ button:hover {
     padding: 12px 24px;
     border: none;
     border-radius: 30px;
-    background-color: #045043;
+    background-color: #007c65;
     transition: all .3s ease-out;
 }
 
@@ -239,7 +240,7 @@ button:hover::before {
 
 .respon h2 {
     text-align: center;
-    color: #009c7a;
+    color: #007c65;
 }
 
 .respon span {

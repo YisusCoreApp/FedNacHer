@@ -1,16 +1,16 @@
-
 .informacion {
     height: 350px;
     width: auto;
 }
 
-.recursos{
+.recursos {
     width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
 }
+
 .rec {
     display: flex;
     flex-direction: column;
@@ -24,16 +24,18 @@
 .rec h3 {
     text-align: center;
     padding-bottom: 2rem;
-    color: #009c7a;
+    color: #007c65;
 }
+
 .foto {
     height: 300px;
     width: 30%;
     border: none;
     display: flex;
-    padding-left: 5rem;    
+    padding-left: 5rem;
 }
-.foto img{
+
+.foto img {
     height: auto;
     width: 500px;
 }
@@ -69,7 +71,7 @@ ul {
 }
 
 .mn h2 {
-    color: #009c7a;
+    color: #007c65;
 }
 
 .leyes {
@@ -91,14 +93,15 @@ ul {
 }
 
 .leyes b {
-    color: #009c7a;
+    color: #007c65;
 }
+
 .productosH {
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
     height: 1100px;
     width: 100%;
-    margin: 2rem 0 ;
+    margin: 2rem 0;
     line-height: 35px;
     background-color: #edf0f1;
 }
@@ -112,7 +115,7 @@ ul {
 }
 
 .productosH b {
-    color: #009c7a;
+    color: #007c65;
 }
 
 .beneficios {
@@ -120,7 +123,7 @@ ul {
     box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
     height: 390px;
     width: 100%;
-    margin: 2rem 0 ;
+    margin: 2rem 0;
     line-height: 35px;
     background-color: #edf0f1;
 }
@@ -134,12 +137,13 @@ ul {
 }
 
 .beneficios b {
-    color: #009c7a;
+    color: #007c65;
 }
 
-.tph{
-    padding: 2rem 0  2rem 0;
+.tph {
+    padding: 2rem 0 2rem 0;
 }
+
 .t {
     height: 120px;
     width: auto;
@@ -148,9 +152,11 @@ ul {
     align-items: center;
     margin-top: 2rem;
 }
+
 .t p {
     padding: 2rem 6rem;
 }
+
 .resp {
     height: 250px;
     width: auto;
@@ -160,6 +166,7 @@ ul {
     margin: 2rem 0;
 
 }
+
 .resp p {
     padding: 1rem 6rem;
     line-height: 22px;
@@ -171,9 +178,10 @@ ul {
 .aside {
     padding-top: 40rem;
     position: relative;
-    
+
 }
-.conte::before{
+
+.conte::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -198,7 +206,8 @@ ul {
 
 .tl1 {
     font-size: 18px;
-    color: #009c7a;
+    color: #007c65;
+    font-weight: bolder;
     padding: 2rem 0;
 }
 
@@ -206,28 +215,44 @@ ul {
     font-size: 18px;
     padding: 0 3rem;
 }
-.tl2{
+
+.tl2 {
     font-size: 18px;
-    color: #009c7a;
+    color: #007c65;
+    font-weight: bolder;
 }
-.txt2    {
-    font-size: 18px;
-}
-.tl3{
-    font-size: 18px;
-    color: #009c7a;
-}
-.txt3{
+
+.txt2 {
     font-size: 18px;
 }
-.tl4{
+
+.tl3 {
     font-size: 18px;
-    color: #009c7a;
+    color: #007c65;
+    font-weight: bolder;
 }
-.txt4{
+
+.txt3 {
     font-size: 18px;
 }
-.alertas button {
+
+.tl4 {
+    font-size: 18px;
+    color: #007c65;
+    font-weight: bolder;
+}
+
+.txt4 {
+    font-size: 18px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ button {
     background-color: #0abf94;
     /* Color de fondo */
     color: white;
@@ -235,23 +260,22 @@ ul {
     margin: 2rem 0;
     padding: 12px 24px;
     border: none;
-    border-radius: 30px;
     /* Hacemos el botón más redondeado */
     cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-size: 15px;
     /* Convertimos el texto a mayúsculas */
     outline: none;
     /* Quitamos el borde al hacer clic */
     position: relative;
     overflow: hidden;
+
     transition: all 0.3s;
+    transition: all .3s ease-in;
 }
 
 
 /* Efecto de sombra al pasar el cursor */
-.alertas button::before {
+button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -262,19 +286,21 @@ ul {
     z-index: 1;
     transition: all 0.3s;
 }
-
-.alertas button:hover::before {
+button:hover{
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    background-color: #045043;
+    transition: all .3s ease-out;
+  }
+ button:hover::before {
     transform: scale(3);
     /* Agrandamos el efecto de sombra al pasar el cursor */
     opacity: 0;
     /* Hacemos que la sombra desaparezca */
 }
 
-/* Animación al hacer clic */
-.alertas button:active {
-    transform: scale(0.9);
-    /* Reducimos el tamaño del botón al hacer clic */
-}
+
 
 .articles {
     display: flex;
@@ -283,31 +309,35 @@ ul {
     width: 400px;
     height: 500px;
     text-align: center;
-    
+
 }
-.articles p{
+
+.articles p {
     padding-top: 1rem;
 }
-.investigacion{
+
+.investigacion {
     display: flex;
     flex-direction: column;
     text-align: left;
     width: 350px;
     line-height: 20px;
 }
-.libros{
+
+.libros {
     display: flex;
     flex-direction: column;
     text-align: left;
     width: 340px;
     height: 700px;
 }
-.in{
+
+.in {
     height: 200px;
     width: 350px;
 }
 
-.txt4{
+.txt4 {
     display: flex;
     flex-direction: column;
     text-align: left;
