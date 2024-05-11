@@ -11,7 +11,7 @@
   display: flex;
   padding: 0;
   width: 300%;
-  animation: slide 20s infinite  ease-in-out;
+  animation: slide 15s infinite  ease-in-out;
 }
 
 .slider-frame li {
@@ -77,19 +77,21 @@
   height: 400px;
   width: auto;
   display: flex;
+  height: 500px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  margin-top: 1rem;
   background-color: #dfd6d6;
 }
 
 .somos{
   height: 300px;
-  width: 90%;
+  width: auto;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  margin: 5rem;
 }
 .img{
   width: 20%;
