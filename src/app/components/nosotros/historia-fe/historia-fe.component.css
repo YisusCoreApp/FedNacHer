@@ -207,8 +207,8 @@
     width: auto;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1023px) {
-    .container {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* .container {
         height: 100%;
         width: 150vw;
         display: flex;
@@ -263,11 +263,11 @@
         width: 200px;
         height: 200px;
         border-radius: 50%;
-    }
+    } */
 
     /*?---------------------------*/
 
-    .contenedor2 {
+    /* .contenedor2 {
         height: 450px;
         width: 100%;
         display: flex;
@@ -313,9 +313,9 @@
         width: 200px;
         height: 200px;
         border-radius: 50%;
-    }
+    } */
     /*?---------------------------*/
-    .contenedor3 {
+    /* .contenedor3 {
         height: 450px;
         width: 100%;
         display: flex;
@@ -360,12 +360,12 @@
         width: 200px;
         height: 200px;
         border-radius: 50%;
-    }
+    } */
 
         /*?---------------------------*/
 
 
-        .contenedor4 {
+        /* .contenedor4 {
             height: 450px;
             width: 100%;
             display: flex;
@@ -411,5 +411,5 @@
             width: 200px;
             height: 200px;
             border-radius: 50%;
-        }
-}
+        }*/
+} 

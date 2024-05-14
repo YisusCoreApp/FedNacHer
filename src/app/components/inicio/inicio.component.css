@@ -272,19 +272,19 @@ a {
   padding-top: 2rem;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
   /* Estilos para tabletas en orientación horizontal */
 
 /*Carrusel de imagenes*/
-.slider-frame {
+/* .slider-frame {
   position: relative;
   width: 148vw;
   max-width: 148vw;
   overflow: hidden;
-}
+} */
 
   /*?Estilos de que somos*/
-  .contenido {
+  /* .contenido {
     height: 500px;
     width: 148vw;
     background-color: transparent;
@@ -305,10 +305,10 @@ a {
     height: 100%;
     width: auto;
     text-align: center;
-  }
+  } */
 
   /*? EStilos de invitacion a afiliarte*/
-  .unete{
+  /* .unete{
     height: 100%;
     width: 148vw;
     background-color: #d0fbe9;
@@ -321,11 +321,11 @@ a {
   .invitacion:hover{
     transition: none;
     background-color: transparent;
-  }
+  } */
 
   /*?Estilos para el aside*/
 
-  .externo{
+  /* .externo{
    width: 148vw;
    hyphens: 100%;
   }
@@ -337,5 +337,5 @@ a {
     flex-direction: column;
     align-items: center;
     background-color: transparent;
-  }
+  } */
 }

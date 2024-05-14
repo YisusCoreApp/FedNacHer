@@ -143,9 +143,9 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
-  .title {
+  /* .title {
     height: 400px;
     width: 148vw;
     display: flex;
@@ -154,7 +154,6 @@
     position: relative;
     font-weight: bolder;
     position: relative;
-    /* Asegura que el pseudo-elemento esté posicionado correctamente */
   }
 
   .title::before {
@@ -165,14 +164,10 @@
     width: 100%;
     height: 100%;
     background-image: url('/assets/header.jpg');
-    /* Reemplaza 'tu-imagen.jpg' con tu ruta de imagen */
     opacity: 0.5;
-    /* Ajusta la opacidad según lo necesites */
     z-index: -1;
-    /* Asegura que esté detrás del texto */
   }
 
-  /* Asegúrate de que el texto esté sobre el pseudo-elemento */
   .title>* {
     position: relative;
     z-index: 1;
@@ -214,14 +209,11 @@
   nav a {
     display: block;
     color: #57392e;
-    /* Cambio de color de texto */
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
     transition: color 0.3s, box-shadow 0.3s;
-    /* Añadida transición para el cambio de color de texto y sombra */
     position: relative;
-    /* Necesario para el efecto de iluminación */
   }
 
   nav a::before {
@@ -232,27 +224,18 @@
     width: 100%;
     height: 0;
     background-color: #007c65;
-    /* Cambio de color de fondo para iluminación */
     transition: 0.5s;
-    /* Añadida transición para la altura */
     z-index: -1;
-    /* Asegura que esté detrás del texto */
   }
 
   nav a:hover::before {
     height: 100%;
-    /* Hace que la luz se expanda hacia arriba */
   }
 
   nav a:hover {
     color: #fff;
-    /* Cambio de color de texto al pasar el cursor */
-    /* box-shadow: 1px 2px 9px 1px #d0fbe9; */
-    /* Añadida sombra al pasar el cursor */
   }
 
-
-  /* Estilos para los elementos desplegables */
   .dropdown {
     position: relative;
     display: inline-block;
@@ -284,12 +267,11 @@
 
 @media screen and (orientratio:landscape) and (max-width: 769px) {}
 
-/*? EStilos para celular*/
 @media screen and (max-width: 768px) {
   .logo {
     height: 200px;
     width: 100px;
     width: auto;
     background-color: yellow;
-  }
+  } */
 }
