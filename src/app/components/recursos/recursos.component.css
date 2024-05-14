@@ -470,7 +470,17 @@ button:hover::before {
         height: auto;
         hyphens: auto;
         text-align: center;
-        font-size: 18px;
+        font-size: 15px;
+    }
+
+    button{
+        background-color: #045043;
+        color: #fff;
+    }
+
+    button:hover{
+        background-color: #edf0f1;
+        color: #045043;
     }
 
 }
