@@ -316,6 +316,13 @@ a {
     width: 100%;
     text-align: center;
   }
+  button:hover {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    background-color: #dfd6d6;
+    transition: all .3s ease-out;
+  }
 
   /*? EStilos de invitacion a afiliarte*/
   .unete{
