@@ -112,14 +112,14 @@ footer{
     .loFi {
         width: auto;
         height: 50px;
-        position: absolute;
+        margin-top: 9rem;
+        /* position: absolute;
         top: 0;
-        left: 0;
+        left: 0; */
     }
     .infof{
         width: auto;
         height: 70px;
-        margin-top: 15rem;
     }
     .infof span{
         text-align: center
