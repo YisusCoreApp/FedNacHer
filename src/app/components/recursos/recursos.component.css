@@ -46,7 +46,6 @@
 }
 
 
-
 .container {
     display: flex;
     justify-content: space-between;
@@ -352,4 +351,94 @@ button:hover::before {
     flex-direction: column;
     text-align: left;
     line-height: 1.5rem;
+}
+
+/*? A1qui va el responsive para tabletas*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .informacion {
+        height: 350px;
+        width: auto;
+    }
+
+    .recursos {
+        height: 100%;
+        width: auto;
+        padding: 0 4rem;
+        background-color: #045043;
+        margin-top: initial;
+    }
+
+    .rec {
+        width: auto;
+        color: #fff;
+    }
+
+    .rec h3 {
+        color: #fff;
+    }
+
+    .foto {
+        height: 100%;
+        width: auto;
+        display: flex;
+        align-items: center;
+        padding: initial;
+    }
+
+    .foto img {
+        width: auto;
+        height: 20vh;
+    }
+
+    /*?Estilos para los contenedores*/
+
+    .container {
+        hyphens: auto;
+    }
+
+    .mn {
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .leyes, .productosH, .beneficios{
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
+        height: 100%;
+        width: auto;
+        hyphens: auto;
+    }
+
+    .leyes, .productosH, .beneficios h2 {
+        padding: initial;
+    }
+
+    .leyes, .productosH, .beneficios ul{
+        margin: 0 .5rem;
+    }
+
+    .leyes b {
+        color: #007c65;
+    }
+
+    .t {
+        height: 150px;
+        width: auto;
+    }
+
+    .t p {
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .aside {
+        height: 325vh;
+        width: 700px;
+        margin: initial;
+        position: relative;
+    }
+
+
 }

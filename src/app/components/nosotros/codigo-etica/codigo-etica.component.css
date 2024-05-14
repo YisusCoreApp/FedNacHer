@@ -177,10 +177,11 @@ button:hover::before {
         width: auto;
         height: 450px;
         background-color: transparent;
+        position: relative;
     }
 
     .im {
-        height: 350px;
+        height: 450px;
         width: auto;
         position: relative;
         opacity: .3;
@@ -201,6 +202,9 @@ button:hover::before {
     }
 
     button{
+        position: absolute;
+        bottom: 0;
+
         background-color: #045043;
     }
     button:hover{
@@ -219,6 +223,7 @@ button:hover::before {
 
     .informacon {
         padding: 0 1rem;
+        width: auto;
         background-color: #045043;
         border-top-left-radius: 12px;
         border-bottom-left-radius: 12px;
