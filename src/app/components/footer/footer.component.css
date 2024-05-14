@@ -99,17 +99,31 @@ footer{
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
-    /* footer{
-        height: 100%;
-        width: 100%;
+
+    .cont{
+        width: auto;
         display: flex;
         flex-direction: column;
-        background-color: #007c65;
+        align-items: center;
+        margin: unset;
+        position: relative;
+
     }
     .loFi {
-        width: 190px;
+        width: auto;
         height: 50px;
-    } */
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .infof{
+        width: auto;
+        height: 70px;
+        margin-top: 15rem;
+    }
+    .infof span{
+        text-align: center
+    };
     
 
 
