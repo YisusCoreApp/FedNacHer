@@ -170,3 +170,29 @@ button:hover::before {
     font: 18px;
     font-weight: bolder;
 }
+
+/*? Estilos responsive*/
+@media screen and (min-width: 769px) and (max-width: 1023px){
+    .parrafo{
+        width: 148vw;
+        height: 350px;
+    }
+    .imagen{
+        width: 65%;
+        background-color: purple;
+    }
+    .im{
+        height: 75%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+    .infoP{
+        width: 80%;
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
