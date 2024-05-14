@@ -227,4 +227,8 @@ button:hover::before {
     .informacon>p {
         color: #fff;
     }
+    .integridad img:hover {
+        transform: initial;
+    
+    }
 }
