@@ -1,4 +1,3 @@
-
 .parrafo {
     width: auto;
     height: 720px;
@@ -165,34 +164,67 @@ button:hover::before {
     transform: rotate(360deg);
 
 }
-.titulo1{
+
+.titulo1 {
     color: #045043;
     font: 18px;
     font-weight: bolder;
 }
 
 /*? Estilos responsive*/
-@media screen and (min-width: 768px) and (max-width: 1024px){
-    /* .parrafo{
-        width: 148vw;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .parrafo {
+        width: auto;
+        height: 450px;
+        background-color: transparent;
+    }
+
+    .im {
         height: 350px;
+        width: auto;
+        position: relative;
+        opacity: .3;
+        background-color: transparent;
+        /* Asegura que el pseudo-elemento esté posicionado correctamente */
     }
-    .imagen{
-        width: 65%;
-        background-color: purple;
-    }
-    .im{
-        height: 75%;
+
+    .infoP {
+        height: 100%;
         width: auto;
         display: flex;
-        flex-direction: column;
-        margin-top: 5rem;
+        position: absolute;
+        z-index: 1;
     }
-    .infoP{
-        width: 80%;
-        background-color: yellow;
-        display: flex;
-        flex-direction: column;
-    } */
 
+    .txt {
+        line-height: 1;
+    }
+
+    button{
+        background-color: #045043;
+    }
+    button:hover{
+        
+    background-color: #dfd6d6;
+    color: #045043;
+    }
+    /*?Estilos para los codigos de etica*/
+
+    .contenedor {
+        margin-top: 7rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, .8);
+    }
+
+
+    .informacon {
+        padding: 0 1rem;
+        background-color: #045043;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+
+    .informacon>p {
+        color: #fff;
+    }
 }
