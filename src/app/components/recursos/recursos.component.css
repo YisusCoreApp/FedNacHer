@@ -470,7 +470,7 @@ button:hover::before {
         height: auto;
         hyphens: auto;
         text-align: center;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     button{
