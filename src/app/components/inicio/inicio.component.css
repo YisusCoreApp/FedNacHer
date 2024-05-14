@@ -321,6 +321,7 @@ a {
     border: none;
     border-radius: 30px;
     background-color: #dfd6d6;
+    color: #045043;
     transition: all .3s ease-out;
   }
 
