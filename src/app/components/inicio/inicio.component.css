@@ -321,8 +321,7 @@ a {
   .unete{
     height: 100%;
     width: auto;
-    background-color: #549e42;
-    color: #57392E;
+    background-color: #045043;
   }
   .invitacion{
     box-shadow: none;
@@ -332,12 +331,18 @@ a {
   .invitacion:hover{
     transition: none;
     background-color: transparent;
-  } 
+  }
+  .txt2{
+    color: #fff;
+  }
 
   /*?Estilos para el aside*/
 
    .externo{
    width: auto;
+  }
+  .externo > p {
+    font-weight: bolder;
   }
   .ruta h3{
     text-align: center;
