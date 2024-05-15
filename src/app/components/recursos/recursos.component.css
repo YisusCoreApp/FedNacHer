@@ -405,7 +405,7 @@ button:hover::before {
         margin-top: 2rem;
     }
 
-    .mn>h2 {
+    .mn * h1{
         text-align: center;
     }
 
