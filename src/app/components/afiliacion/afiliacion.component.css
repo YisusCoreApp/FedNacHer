@@ -277,7 +277,8 @@ button:hover::before {
         margin: 10rem 0 0 0;
         border-radius: initial;
         background-color: #fff7ed;
-        opacity: 1;
+        opacity: .8;
+        z-index: 1;
     }
 
     .nosotros::after {
@@ -293,7 +294,8 @@ button:hover::before {
         left: 0;
         opacity: .9;
         border-radius: initial;
-        mask-image: linear-gradient(#fef6f2 15%, transparent);
+        mask-image: linear-gradient(#fef6f2 35%, transparent);
+        z-index: 1;
 
     }
 
@@ -302,6 +304,9 @@ button:hover::before {
         width: auto;
         height: auto;
         margin: 2rem 0;
+    }
+    .afiliarse span{
+        color: #fff;
     }
     
     .comoA{
