@@ -214,7 +214,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: lawngreen;
     }
 
     .container * span {
@@ -226,10 +225,11 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         background-color: transparent;
         margin: initial;
         margin-top: 2rem;
-        background-color: antiquewhite;
     }
 
     .informacon {
@@ -258,7 +258,6 @@
     .origenes {
         width: auto;
         height: 100%;
-        background-color: saddlebrown;
     }
 
     .origenes img {
@@ -275,7 +274,7 @@
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
-        /* background-color: transparent; */
+        background-color: transparent;
 
     }
 
@@ -306,7 +305,6 @@
     .crecimiento {
         width: 200px;
         height: 200px;
-        background-color: yellow;
     }
 
     .crecimiento img {
@@ -322,7 +320,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        /* background-color: transparent; */
+        background-color: transparent;
         margin: initial;
         margin-top: 2rem;
     }
@@ -353,7 +351,6 @@
     .logros {
         width: auto;
         height: 100%;
-        background-color: palegoldenrod;
     }
 
     .logros img {
@@ -369,7 +366,7 @@
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
-        /* background-color: transparent; */
+        background-color: transparent;
 
     }
 
@@ -401,7 +398,6 @@
         width: 200px;
         height: 200px;
         
-        background-color: rebeccapurple;
     }
 
     .principal img {
