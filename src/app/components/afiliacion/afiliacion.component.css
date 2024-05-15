@@ -81,11 +81,12 @@
 
 /*? estilos para las cards*/
 
-.encabezado{
+.encabezado {
     text-align: center;
     margin-bottom: 5rem;
     color: #007c65;
 }
+
 .afiliacion {
     display: flex;
     align-items: center;
@@ -96,14 +97,16 @@
     text-align: center;
     padding-bottom: 2rem;
 }
-.title h2{
+
+.title h2 {
     color: #007c65;
 }
 
-.title{
+.title {
     padding: 2rem 0 0 0;
 }
-.afil{
+
+.afil {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -111,7 +114,7 @@
     width: 100%;
 }
 
-.afil h2{
+.afil h2 {
     color: #007c65;
 }
 
@@ -134,19 +137,19 @@
     height: auto;
 }
 
-.contenido1{
-    margin-top:  2rem;
+.contenido1 {
+    margin-top: 2rem;
     height: 100%;
     width: auto;
 }
 
-.contenido1 p{
+.contenido1 p {
     color: #57392e;
-    padding: 1rem 2rem ;
+    padding: 1rem 2rem;
     font-size: 18px;
 }
 
-.list1{
+.list1 {
     display: flex;
     justify-content: center;
     height: 400px;
@@ -154,7 +157,7 @@
     padding: 4rem 3rem;
 }
 
-.list1	li{
+.list1 li {
     color: #57392e;
     font-weight: 400px;
     font-size: 18px;
@@ -162,7 +165,8 @@
     padding-bottom: .8rem;
 
 }
-.btn{
+
+.btn {
     height: 45px;
     width: auto;
     display: flex;
@@ -243,7 +247,7 @@ button:hover::before {
     color: #007c65;
 }
 
-.respon span {
+.af span {
     color: #57392e;
 }
 
@@ -253,4 +257,108 @@ button:hover::before {
     text-align: center;
     padding: 2rem 6rem;
     font-size: 18px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .n {
+        width: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: honeydew;
+        align-items: center;
+        position: relative;
+        margin: initial;
+    }
+
+    .nosotros {
+        width: 100%;
+        height: 100%;
+        margin: 10rem 0 0 0;
+        border-radius: initial;
+        background-color: #fff7ed;
+        opacity: 1;
+    }
+
+    .nosotros::after {
+        position: relative;
+        opacity: .1;
+    }
+
+    .n img {
+        width: 100%;
+        height: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: .9;
+        border-radius: initial;
+        mask-image: linear-gradient(#fef6f2 15%, transparent);
+
+    }
+
+
+    .a{
+        width: auto;
+        height: auto;
+        margin: 2rem 0;
+    }
+    
+    .comoA{
+        width: auto;
+        height: 350px;
+        background-color: #045043;
+        display: flex;
+        flex-direction: column;
+        margin: 3rem 0;
+    }
+    .comoA h2, .info p{
+        text-align: center;
+        color: #fff;
+    }
+
+    /*?Planes de afiliacion*/
+
+    .afiliacion{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .afil {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    .servicio {
+        height: auto;
+        width: auto;
+        margin: 3rem 2rem 0 2rem;
+    }
+    .btn{
+        height: 200px;
+        width: auto;
+    }
+
+    .b{
+        height: 100%;
+        width: auto;
+        position: relative;
+        z-index: -1;
+    }
+
+    .b::after{
+        content: "";
+        background-image: url(/assets/fonfoAfil.png);
+        background-position: 1rem 15rem;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: .6;
+    }
+
 }
