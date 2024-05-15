@@ -368,6 +368,7 @@ button:hover::before {
         padding: 0 4rem;
         background-color: #045043;
         margin-top: initial;
+        background-color: salmon;
     }
 
     .rec {
@@ -395,11 +396,12 @@ button:hover::before {
     /*?Estilos para los contenedores*/
 
     .container {
-        width: 100%;
+        width: auto;
+      
     }
 
     .mn {
-        width: 80%;
+        width: max-content;
         height: auto;
         margin-top: 2rem;
     }
@@ -445,32 +447,28 @@ button:hover::before {
 
     .aside {
         height: 100%;
-        width: 40%;
+        width: auto;
         margin: initial;
         position: relative;
     }
-    
+
     .conte {
-        height: 100%;
+        height: 50%;
+        width: min-content;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
     .conte::before {
-        content: "";
-        width: 100%;
-        height: 89%;
-        background-image: none;
-        opacity: .2;
-        filter: blur(1.8px);
-        z-index: -1
+        background-image: none  ;
     }
     .conte *{
         height: auto;
+        width: auto;
         hyphens: auto;
         text-align: center;
-        font-size: 13px;
+        font-size: 18px;
     }
 
     button{
