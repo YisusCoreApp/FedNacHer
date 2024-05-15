@@ -8,16 +8,20 @@
     text-align: center;
     padding-bottom: 2rem;
 }
-.title h2{
+
+.title h2 {
     color: #007c65;
 }
-.title h3{
+
+.title h3 {
     color: #57392e;
 }
-.title{
+
+.title {
     padding: 2rem 0;
 }
-.asesorias{
+
+.asesorias {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -25,10 +29,11 @@
     width: 100%;
 }
 
-.asesorias h2{
+.asesorias h2 {
     color: #007c65;
 }
-.asesorias p{
+
+.asesorias p {
     color: #57392e;
 }
 
@@ -50,6 +55,7 @@
     width: 100%;
     height: auto;
 }
+
 .servicio1 {
     width: 600px;
     height: 100%;
@@ -68,13 +74,14 @@
     width: 100%;
     height: auto;
 }
-.contenido1{
-    margin-top:  2rem;
+
+.contenido1 {
+    margin-top: 2rem;
     height: 100%;
     width: auto;
 }
 
-.list1{
+.list1 {
     text-align: left;
     display: flex;
     align-items: center;
@@ -82,13 +89,14 @@
     color: #57392e;
     line-height: 20px;
 }
-.contenido4{
-    margin-top:  2rem;
+
+.contenido4 {
+    margin-top: 2rem;
     height: 100%;
     width: auto;
 }
 
-.list4{
+.list4 {
     text-align: left;
     display: flex;
     align-items: center;
@@ -98,13 +106,13 @@
     padding: 1rem 0 1rem 0;
 }
 
-.contenido5{
-    margin-top:  2rem;
+.contenido5 {
+    margin-top: 2rem;
     height: 100%;
     width: auto;
 }
 
-.list5{
+.list5 {
     text-align: left;
     display: flex;
     align-items: center;
@@ -115,56 +123,64 @@
 }
 
 /*? estilos para beneficios*/
-.beneficios{
+.beneficios {
     display: flex;
     justify-content: center;
     background-color: #dfd6d6;
 }
-.ben{
+
+.ben {
     height: 800%;
     width: auto;
 }
-.ben img{
-    width:100%;
+
+.ben img {
+    width: 100%;
     height: 100%;
     border: none;
     display: flex;
 }
-.titulo{
+
+.titulo {
     text-align: center;
     color: #57392e;
     padding-top: 2rem;
 }
-.info{
+
+.info {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.b{
+
+.b {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 70%;
     height: 15%;
     border-radius: 12px;
-    margin: 1rem  0;
+    margin: 1rem 0;
     transition: transform 0.3s ease;
 }
-.b b{
+
+.b b {
     color: #007c65;
 }
-.b p{
+
+.b p {
     color: #57392e;
     font-size: 18px;
 }
-.b img{
+
+.b img {
     width: auto;
     height: 40px;
     width: 50px;
     padding-left: .5rem;
 }
 
-.b:hover{
+.b:hover {
     transform: translateX(-5px);
     background-color: #a4f6d8;
     transition: all .4s;
@@ -182,16 +198,20 @@
     text-align: center;
     padding-bottom: 2rem;
 }
-.title0 h2{
+
+.title0 h2 {
     color: #007c65;
 }
-.title0 h3{
+
+.title0 h3 {
     color: #57392e;
 }
-.title0{
+
+.title0 {
     padding: 2rem 0;
 }
-.asesorias0{
+
+.asesorias0 {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -199,10 +219,11 @@
     width: 100%;
 }
 
-.asesorias0 h2{
+.asesorias0 h2 {
     color: #007c65;
 }
-.asesorias0 p{
+
+.asesorias0 p {
     color: #57392e;
 }
 
@@ -226,14 +247,14 @@
     height: auto;
 }
 
-.servicio0 .contenido0{
+.servicio0 .contenido0 {
     padding: 20px;
 }
 
 
 /*? Estilos para la clase eventos*/
 
-.eventos{
+.eventos {
     width: auto;
     height: auto;
     text-align: center;
@@ -245,30 +266,108 @@
 }
 
 
-.conten img{
+.conten img {
     filter: saturate(100%);
 }
-.conten{
+
+.conten {
     height: 427;
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  #dfd6d6;
+    background-color: #dfd6d6;
 }
-.contenedores{
+
+.contenedores {
     width: auto;
     height: 427px;
 }
 
-.contenedor h3{
+.contenedor h3 {
     color: #007c65;
     text-align: center;
     font-weight: bolder;
-    padding: 2rem ;
+    padding: 2rem;
 }
-.contenedor p{
-    color:#57392e;
+
+.contenedor p {
+    color: #57392e;
     font-size: 18px;
     padding: 1rem 3rem;
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    .services {
+        height: 100%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .asesorias {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicio,
+    .servicio1 {
+        width: auto;
+        margin: 2rem 0 2rem 0;
+
+    }
+
+    .beneficios {
+        background-color: initial;
+        position: relative;
+    }
+
+    .titulo {
+        color: #007c65;
+        background-color: transparent 3px black;
+        ;
+    }
+
+    .b {
+        background-color: #f2eeee;
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .b:hover {
+        background-color: #f5dc88;
+    }
+
+    .ben {
+        height: auto;
+        width: auto;
+
+    }
+
+    .ben img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: .4;
+        z-index: -1;
+    }
+
+    .eventos{
+        width: auto;
+        height: 100%;
+        margin: 2rem 0;
+    }
+    .eventos h2{
+        width: 100%;
+        color: #fff;
+        background-color: #007c65;
+    }
+
+    .conten{
+        width: auto;
+        height: 100%;
+    }
+
 }
