@@ -322,11 +322,11 @@ button:hover::before {
         color: #fff;
     }
 
-    .btn{
+    .button{
         background-color: #045043;
         color: #fff;
     }
-    .btn:hover{
+    .button:hover{
         background-color:  #e8e9d8;
         color: #045043;
     }
