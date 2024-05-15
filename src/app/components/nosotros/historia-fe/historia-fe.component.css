@@ -301,6 +301,7 @@
         height: 100%;
         font-size: 15px;
         padding: 2rem 3rem;
+        background-color: yellow;
     }
 
     .crecimiento {
@@ -347,6 +348,7 @@
         height: 100%;
         font-size: 15px;
         padding: 2rem 3rem;
+        background-color: paleturquoise;
     }
 
     .logros {
@@ -393,6 +395,7 @@
         height: 100%;
         font-size: 15px;
         padding: 2rem 3rem;
+        background-color: pink;
     }
 
     .principal {
