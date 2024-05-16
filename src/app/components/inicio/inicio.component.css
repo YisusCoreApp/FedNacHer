@@ -272,15 +272,15 @@ a {
   padding-top: 2rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   /* Estilos para tabletas en orientación horizontal */
 
-/*Carrusel de imagenes*/
-.slider-frame {
-  position: relative;
-  width: auto;
-  overflow: hidden;
-}
+  /*Carrusel de imagenes*/
+  .slider-frame {
+    position: relative;
+    width: auto;
+    overflow: hidden;
+  }
 
   /*?Estilos de que somos*/
   .contenido {
@@ -289,13 +289,15 @@ a {
     background-color: transparent;
 
   }
-  .somos{
+
+  .somos {
     display: flex;
     flex-direction: column;
     height: 100%;
     width: auto;
   }
-  .img{
+
+  .img {
     height: auto;
     width: 100%;
     display: flex;
@@ -303,19 +305,23 @@ a {
     justify-content: center;
     margin-bottom: 3rem;
   }
+
   .img img {
     width: 150px;
     height: 150px;
   }
-  .sInfo{
+
+  .sInfo {
     height: 100%;
     width: auto;
     text-align: center;
-  } 
-  .sInfo h3{
+  }
+
+  .sInfo h3 {
     width: 100%;
     text-align: center;
   }
+
   button:hover {
     padding: 12px 24px;
     border: none;
@@ -326,39 +332,57 @@ a {
   }
 
   /*? EStilos de invitacion a afiliarte*/
-  .unete{
+  .unete {
     height: 100%;
     width: auto;
     background-color: #045043;
   }
-  .invitacion{
+
+  .invitacion {
     box-shadow: none;
     width: auto;
     transition: none;
   }
-  .invitacion:hover{
+
+  .invitacion:hover {
     transition: none;
     background-color: transparent;
   }
-  .txt2{
+
+  .txt2 {
     color: #fff;
   }
 
   /*?Estilos para el aside*/
 
-   .externo{
-   width: auto;
+  .externo {
+    width: auto;
   }
-  .externo > p {
+
+  .externo>p {
     font-weight: bolder;
   }
-  .ruta h3{
+
+  .ruta h3 {
     text-align: center;
   }
-  .ext{
+
+  .ext {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: transparent;
   }
+}
+
+@media screen and (max-width: 768px) {
+
+.planta{
+  height: 30px;
+  width: 10px;
+}
+.planta img{
+  width: 10px;
+  height: 10px  ;
+}
 }

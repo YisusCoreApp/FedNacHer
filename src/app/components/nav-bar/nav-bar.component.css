@@ -1,5 +1,5 @@
 /* Estilos básicos para la barra de navegación */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
   .title {
     height: 400px;
@@ -43,13 +43,14 @@
     font-weight: bolder;
   }
 
+  strong{
+    font-size: xx-large;
+  }
 
   /* Aplica la animación al logo */
   .logo {
-    width: 200px;
-    /* Ajusta el tamaño del logo según sea necesario */
-    /* animation: fadeAndSlide 4s ease-in-out infinite; */
-    /* Aplica la animación "fadeAndSlide" de forma continua */
+    height: 100%;
+    width: auto;
   }
 
   nav {
@@ -265,14 +266,78 @@
   }
 }
 
-/*
-@media screen and (orientratio:landscape) and (max-width: 769px) {}
 
-@media screen and (max-width: 768px) {
-  .logo {
-    height: 200px;
-    width: 100px;
+@media screen and (max-width: 767px) {
+  .title {
+    height: 400px;
     width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: bolder;
+    padding: 0 4.5em;
+    position: relative;
+    background-color: red;
+    /* Asegura que el pseudo-elemento esté posicionado correctamente */
+  }
+
+  .title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100%;
+    background-image: url('/assets/header.jpg');
+    /* Reemplaza 'tu-imagen.jpg' con tu ruta de imagen */
+    opacity: 0.2;
+    /* Ajusta la opacidad según lo necesites */
+    z-index: -1;
+    /* Asegura que esté detrás del3texto */
+  }
+
+  .title>* {
+    position: relative;
+    z-index: 1;
+  }
+
+  .text {
+    height: 30%;
+    width: 350px;
+    text-align: center;
+    color: #57392e;
+    font-weight: bolder;
+    margin: initial;
+    background-color: salmon;
+  }
+
+  strong{
+    font-size: 20px;
+    text-align: center;
+  }
+  .logo{
+    width: auto;
+    height: 40%;
     background-color: yellow;
-  } 
-}*/
+  }
+
+
+  /* ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+  }
+  ul.active {
+    display: flex;
+  }
+  li {
+    padding: 10px 0;
+    text-align: center;
+  }  */
+}
