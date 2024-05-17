@@ -1,8 +1,8 @@
 /* Estilos básicos para la barra de navegación */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+
 
   .title {
-    height: 400px;
+    height: 500px;
     width: auto;
     display: flex;
     align-items: center;
@@ -43,14 +43,20 @@
     font-weight: bolder;
   }
 
-  strong{
-    font-size: xx-large;
-  }
+
 
   /* Aplica la animación al logo */
   .logo {
-    height: 100%;
-    width: auto;
+    height:100%;
+    width: 20%;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+  }
+  .logo img{
+    height: 40vh;
+    width: 15vw;
   }
 
   nav {
@@ -142,7 +148,7 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-}
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
@@ -174,6 +180,10 @@
     z-index: 1;
   }
 
+  strong{
+    font-size: 30px;
+  }
+
   .text {
     height: 20%;
     font-size: 40px;
@@ -186,12 +196,14 @@
     margin: 0 0 0 2rem;
   }
 
-  .logo {
-    height: 15rem;
-    width: 30em;
-    margin: 0 2rem 2rem 0;
+  .logo{
+    height: 100%;
+    width: 50vw;
   }
-
+  .logo img{
+    height: 100%;
+    width: 100%;
+  }
 
   nav {
     position: sticky;
@@ -267,9 +279,9 @@
 }
 
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 767px) {
   .title {
-    height: 350px;
+    height: 400px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -279,6 +291,7 @@
     font-weight: bolder;
     padding: 0 4.5em;
     position: relative;
+    background-color: red;
     /* Asegura que el pseudo-elemento esté posicionado correctamente */
   }
 
@@ -287,7 +300,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: auto;
     height: 100%;
     background-image: url('/assets/header.jpg');
     /* Reemplaza 'tu-imagen.jpg' con tu ruta de imagen */
@@ -303,12 +316,12 @@
   }
 
   .text {
-    height: 30%;
+    height: 10%;
     width: 350px;
-    text-align: center;
     color: #57392e;
     font-weight: bolder;
     margin: initial;
+    background-color: salmon;
   }
 
   strong{
@@ -318,10 +331,11 @@
   .logo{
     width: auto;
     height: 40%;
+    background-color: yellow;
   }
 
 
-  /* ul {
+   ul {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -336,5 +350,5 @@
   li {
     padding: 10px 0;
     text-align: center;
-  }  */
+  }  
 }
