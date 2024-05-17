@@ -267,9 +267,9 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 740px) {
   .title {
-    height: 400px;
+    height: 350px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -279,7 +279,6 @@
     font-weight: bolder;
     padding: 0 4.5em;
     position: relative;
-    background-color: red;
     /* Asegura que el pseudo-elemento esté posicionado correctamente */
   }
 
@@ -288,7 +287,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: auto;
+    width: 100%;
     height: 100%;
     background-image: url('/assets/header.jpg');
     /* Reemplaza 'tu-imagen.jpg' con tu ruta de imagen */
@@ -310,7 +309,6 @@
     color: #57392e;
     font-weight: bolder;
     margin: initial;
-    background-color: salmon;
   }
 
   strong{
@@ -320,7 +318,6 @@
   .logo{
     width: auto;
     height: 40%;
-    background-color: yellow;
   }
 
 
