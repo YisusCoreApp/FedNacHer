@@ -1,6 +1,8 @@
 <!-- <router-outlet></router-outlet> -->
-<div class="title">
-  <p class="text">
+<div class="navegador">
+
+  <div class="title">
+    <p class="text">
     <strong>
 
       Federación Nacional de la Industria Herbolaria y
@@ -8,17 +10,17 @@
     </strong>
   </p>
   <div class="logo">
-    <img src="assets/federacion.png" alt="">
+    <img  src="assets/federacion.png" alt="">
   </div>
 </div>
 
-
 <nav>
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">&#9776;</label>
   <ul>
     <li><a routerLink="/inicio">Inicio</a></li>
     <li class="dropdown"> <a>¿Quienes Somos?</a>
       <div class="dropdown-content">
-
         <a routerLink="/historia">Historia FENIHMANT</a>
         <a routerLink="/mvv">Misión, Visión y Valores</a>
         <a routerLink="/codigoE">Codigo de Ética</a>
@@ -35,3 +37,5 @@
     <li><a routerLink="/afiliacion">Afiliate</a></li>
   </ul>
 </nav>
+
+  </div>

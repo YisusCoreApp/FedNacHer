@@ -1,154 +1,150 @@
 /* Estilos básicos para la barra de navegación */
 
 
-  .title {
-    height: 500px;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    font-weight: bolder;
-    padding: 0 4.5em;
-    position: relative;
-    /* Asegura que el pseudo-elemento esté posicionado correctamente */
-  }
+.title {
+  height: 500px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-weight: bolder;
+  padding: 0 4.5em;
+  position: relative;
+  /* Asegura que el pseudo-elemento esté posicionado correctamente */
+}
 
-  .title::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/assets/header.jpg');
-    /* Reemplaza 'tu-imagen.jpg' con tu ruta de imagen */
-    opacity: 0.5;
-    /* Ajusta la opacidad según lo necesites */
-    z-index: -1;
-    /* Asegura que esté detrás del texto */
-  }
+.title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/assets/header.jpg');
+  /* Reemplaza 'tu-imagen.jpg' con tu ruta de imagen */
+  opacity: 0.5;
+  /* Ajusta la opacidad según lo necesites */
+  z-index: -1;
+  /* Asegura que esté detrás del texto */
+}
 
-  /* Asegúrate de que el texto esté sobre el pseudo-elemento */
-  .title>* {
-    position: relative;
-    z-index: 1;
-  }
+/* Asegúrate de que el texto esté sobre el pseudo-elemento */
+.title>* {
+  position: relative;
+  z-index: 1;
+}
 
-  .text {
-    height: 80%;
-    width: 820px;
-    font-size: 58px;
-    color: #57392e;
-    font-weight: bolder;
-  }
-
-
-
-  /* Aplica la animación al logo */
-  .logo {
-    height:100%;
-    width: 20%;
-    margin: 2rem 0;
-    display: flex;
-    justify-content: center;
-    padding: 3rem 0;
-  }
-  .logo img{
-    height: 40vh;
-    width: 15vw;
-  }
-
-  nav {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    box-shadow: 0px 8px 10px -6px rgba(0, 0, 0, 0.2);
-    z-index: 2;
-    font-weight: bolder;
-  }
-
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  nav li {
-    display: inline-block;
-  }
-
-  nav a {
-    display: block;
-    color: #57392e;
-    /* Cambio de color de texto */
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    transition: color 0.3s, box-shadow 0.3s;
-    /* Añadida transición para el cambio de color de texto y sombra */
-    position: relative;
-    /* Necesario para el efecto de iluminación */
-  }
-
-  nav a::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0;
-    background-color: #007c65;
-    /* Cambio de color de fondo para iluminación */
-    transition: 0.5s;
-    /* Añadida transición para la altura */
-    z-index: -1;
-    /* Asegura que esté detrás del texto */
-  }
-
-  nav a:hover::before {
-    height: 100%;
-    /* Hace que la luz se expanda hacia arriba */
-  }
-
-  nav a:hover {
-    color: #fff;
-    /* Cambio de color de texto al pasar el cursor */
-    /* box-shadow: 1px 2px 9px 1px #d0fbe9; */
-    /* Añadida sombra al pasar el cursor */
-  }
+.text {
+  height: 80%;
+  width: 820px;
+  font-size: 58px;
+  color: #57392e;
+  font-weight: bolder;
+}
 
 
-  /* Estilos para los elementos desplegables */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #57392e;
-    opacity: 0.87;
-    min-width: 160px;
-    z-index: 1;
-  }
+/* Aplica la animación al logo */
+.logo {
+  height: 100%;
+  width: 20%;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+}
 
-  .dropdown-content a {
-    color: #fff;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    transition: background-color 0.3s;
-  }
+.logo img {
+  height: 40vh;
+  width: 15vw;
+}
 
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 8px 10px -6px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  font-weight: bolder;
+}
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  color: #57392e;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: color 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+nav a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #007c65;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+nav a:hover::before {
+  height: 100%;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #57392e;
+  opacity: 0.87;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: background-color 1s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.menu-icon {
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
@@ -180,7 +176,7 @@
     z-index: 1;
   }
 
-  strong{
+  strong {
     font-size: 30px;
   }
 
@@ -196,13 +192,22 @@
     margin: 0 0 0 2rem;
   }
 
-  .logo{
+  .logo {
     height: 100%;
     width: 50vw;
   }
-  .logo img{
+
+  .logo img {
     height: 100%;
     width: 100%;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  #menu-toggle {
+    display: none;
   }
 
   nav {
@@ -279,19 +284,19 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
+
+  .navegador {
+    position: relative;
+  }
+
   .title {
     height: 400px;
     width: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: relative;
-    font-weight: bolder;
-    padding: 0 4.5em;
-    position: relative;
-    background-color: red;
+    padding: initial;
     /* Asegura que el pseudo-elemento esté posicionado correctamente */
   }
 
@@ -300,11 +305,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: auto;
+    width: 100%;
     height: 100%;
     background-image: url('/assets/header.jpg');
     /* Reemplaza 'tu-imagen.jpg' con tu ruta de imagen */
-    opacity: 0.2;
+    opacity: 0.5;
     /* Ajusta la opacidad según lo necesites */
     z-index: -1;
     /* Asegura que esté detrás del3texto */
@@ -316,39 +321,69 @@
   }
 
   .text {
-    height: 10%;
-    width: 350px;
-    color: #57392e;
-    font-weight: bolder;
-    margin: initial;
-    background-color: salmon;
-  }
-
-  strong{
-    font-size: 20px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    font-size: x-large;
   }
-  .logo{
+
+  .logo {
+    width: 30%;
+    height: 30%;
+    padding: initial;
+  }
+
+  .logo img {
+    height: auto;
+    width: 100%;
+  }
+
+  nav {
+    height: auto;
     width: auto;
-    height: 40%;
-    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(10, 191, 149);
+    background: radial-gradient(circle, rgba(10, 191, 149, 1) 0%, rgba(0, 124, 101, 1) 100%);
   }
 
-
-   ul {
+  nav ul {
     display: none;
     flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
     width: 100%;
-    background-color: #f9f9f9;
+    text-align: left;
   }
-  ul.active {
+
+
+  nav li {
+    display: block;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 14px 20px;
+    text-align: left;
+    width: 20%;
+    background-color: transparent;
+  }
+  input[type="checkbox"]:checked ~ ul {
     display: flex;
-  }
-  li {
-    padding: 10px 0;
-    text-align: center;
-  }  
+    max-height: 100vh;
+}
+
+.dropdown-content {
+    position: relative;
+    background-color: #57392e;
+    min-width: 100%;
+}
+
+
+
+
 }
