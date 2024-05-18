@@ -375,14 +375,156 @@ a {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
 
-.planta{
-  height: 30px;
-  width: 10px;
-}
-.planta img{
-  width: 10px;
-  height: 10px  ;
-}
+  .slider-frame {
+    width: auto;
+    height: auto;
+    margin: initial;
+    background-color: salmon;
+  }
+  .slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 58px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Fondo semi-transparente */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    /* Ajusta el estilo del texto según necesites */
+  }
+
+  .slider-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* Para mantener la proporción de la imagen */
+  }
+  .slider-frame ul {
+    height: auto;
+  }
+
+  .slider-frame li {
+    width: 100%;
+  }
+
+  .slider-text {
+    font-size: 5vw;
+    hyphens: manual;
+    width: 85%
+  }
+
+  .contenido {
+    height: 450px;
+    width: 100%;
+    background-color: #045043;
+  }
+  .somos{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .sInfo{
+    height: 100%;
+    width: auto;
+  }
+  .sInfo h3{
+    font-size: 2rem;
+    color: #fff;
+  }
+
+ .somos .txt{
+    margin: 1rem 0;
+    text-align: center;
+    hyphens: manual;
+    color: #fff;
+  }
+
+  .img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img img{
+    width: 100px;
+    height: 100px;
+  }
+
+  /*?Unete  a nosotros*/
+
+  .unete {
+    height: 100%;
+    width: auto;
+  }
+
+  .invitacion {
+    box-shadow: none;
+    width: auto;
+    transition: none;
+  }
+
+  .invitacion:hover {
+    transition: none;
+    background-color: transparent;
+  }
+
+  .txt2 {
+    color: #57392E;
+  }
+
+  button{
+    width: 300px;
+    border-radius: 12px;
+
+  }
+    /*?Estilos para el aside*/
+
+    .externo {
+      width: auto;
+      margin: 3rem 0;
+    }
+
+    .externo p {
+      font-weight: bolder;
+    }
+
+    .ext h3{
+      text-align: center;
+      font-size: initial;
+    }
+    .ruta{
+      height: 80%;
+    }
+    .ruta a{
+      font-size: 25px;
+    }
+    .ruta p{
+      text-align: center;
+    }
+    .ext {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      background-color: transparent;
+    }
+
+
+  .planta {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  /* .planta img {
+    width: 50%;
+    height: 50%;
+  } */
 }
