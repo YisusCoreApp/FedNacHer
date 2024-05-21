@@ -227,14 +227,13 @@
     }
 
     .contenedor {
-        height: auto;
+        height: 100%;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: transparent;
-        margin: initial;
+        /* background-color: transparent; */
         margin-top: 2rem;
     }
 
@@ -246,31 +245,36 @@
     .titulo1 {
         width: 100%;
         height: 100%;
-        background-color: #007c65;
+        background-color: #c2590c;
         font-size: 30px;
         color: #fff;
         border-radius: 12px;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-left: 3rem;
     }
 
     .info_1 {
         width: auto;
         height: 100%;
         font-size: 15px;
-        padding: 2rem 3rem;
+        /* padding: 2rem 3rem; */
     }
 
     .origenes {
-        width: auto;
+        width: 100%;
         height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0;
     }
 
     .origenes img {
-        width: 200px;
+        width: 50vw;
         height: 200px;
-        border-radius: 50%;
+        border-radius: 4%;
     }
 
 
@@ -278,19 +282,19 @@
     /*?---------------------------*/
 
     .contenedor2 {
-        height: auto;
+        height: 100%;
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        background-color: transparent;
         margin: initial;
+        margin-top: 2rem;
 
     }
 
     .informacon2 {
         width: 100%;
-        height: 50%;
+        height: 100%;
     }
     .informacon2 span {
         color: #fff;
@@ -300,32 +304,35 @@
     .titulo2 {
         width: 100%;
         height: 100%;
-        background-color: #007c65;
+        background-color: #386f1c;
         font-size: 30px;
         color: #fff;
         border-radius: 12px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 2rem;
     }
 
     .info_2 {
         width: auto;
         height: 100%;
         font-size: 15px;
-        padding: 2rem 3rem;
+        padding-left: 1.5rem;
     }
 
     .crecimiento {
-        width: auto;
+        width: 100%;
         height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0;
     }
 
     .crecimiento img {
-        width: 200px;
+        width: 50vw;
         height: 200px;
-        border-radius: 50%;
+        border-radius: 4%;
     }
 
     /*?---------------------------*/
@@ -337,14 +344,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: transparent;
         margin: initial;
         margin-top: 2rem;
     }
 
     .informacon3 {
         width: 100%;
-        height: 50%;
+        height: auto;
     }
     .informacon3 span {
         color: #fff;
@@ -353,7 +359,7 @@
     .titulo3 {
         width: 100%;
         height: 100%;
-        background-color: #007c65;
+        background-color: #386f1c;
         font-size: 30px;
         color: #fff;
         border-radius: 12px;
@@ -362,22 +368,25 @@
         justify-content: center;
     }
 
-    .info_3 {
+    .listaLogros {
         width: auto;
         height: 100%;
         font-size: 15px;
-        padding: 2rem 3rem;
     }
 
     .logros {
-        width: auto;
+        width: 100%;
         height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0;
     }
 
     .logros img {
-        width: 200px;
+        width: 50vw;
         height: 200px;
-        border-radius: 50%;
+        border-radius: 4%;
     }
 
     /*?---------------------------*/
@@ -390,7 +399,6 @@
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        background-color: transparent;
         margin: initial;
         margin: 2rem 0;
 
@@ -407,7 +415,7 @@
     .titulo4 {
         width: 100%;
         height: 100%;
-        background-color: #007c65;
+        background-color: #c2590c;
         font-size: 30px;
         color: #fff;
         border-radius: 12px;
@@ -424,15 +432,15 @@
     }
 
     .principal {
-        width: auto;
+        width: 100%;
         height: 100%;
-
+        padding: 2rem 0;
     }
 
     .principal img {
         width: 300px;
         height: 250px;
-
+        
     }
 }
 
