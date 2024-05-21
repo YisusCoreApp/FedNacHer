@@ -35,7 +35,7 @@
     width: auto;
     color: #57392e;
     hyphens: manual;
-    padding-left: 3rem;
+    padding: 2rem 0 0 3rem;
 
 }
 
@@ -66,7 +66,6 @@
     flex-direction: column;
     align-items: center;
     height: 380px;
-    /* margin: 0 5rem; */
 }
 
 .informacon2 span {
@@ -85,6 +84,7 @@
     hyphens: manual;
     width: auto;
     color: #57392e;
+    padding-top: 2rem;
     margin: 0 2rem 0 0;
 }
 
@@ -132,15 +132,17 @@
     color: #007c65;
 }
 
-.info_3 {
-    font-size: 18px;
-    text-align: center;
-    width: auto;
-    color: #57392e;
+.listaLogros ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
 }
-
 .listaLogros li{
     padding-bottom: 2rem;
+    height: auto;
+    width: auto;
 }
 
 .logros {
@@ -162,7 +164,7 @@
     position: relative;
     background-color: #feeec7;
     /* background: #f2eeee; */
-    /* margin: 2rem; */
+    margin: 0 0 4rem 0;
 }
 
 .informacon4 {
@@ -192,6 +194,8 @@
     text-align: center;
     width: auto;
     color: #57392e;
+    padding-top: 2rem;
+
 }
 
 .principal {
