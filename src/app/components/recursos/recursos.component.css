@@ -409,13 +409,14 @@ button:hover::before {
         text-align: center;
     }
 
+  
     .leyes,
     .productosH,
     .beneficios {
         border-radius: 12px;
         box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
         height: 100%;
-        width: auto;
+        /* width: auto; */
         hyphens: auto;
     }
 
@@ -465,13 +466,13 @@ button:hover::before {
         background-image: none;
     }
 
-    .conte * {
+    /* .conte * {
         height: auto;
         width: auto;
         hyphens: auto;
         text-align: center;
         font-size: 18px;
-    }
+    } */
 
     button {
         background-color: #045043;

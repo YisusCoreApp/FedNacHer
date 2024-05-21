@@ -84,8 +84,7 @@
     hyphens: manual;
     width: auto;
     color: #57392e;
-    padding-top: 2rem;
-    margin: 0 2rem 0 0;
+    padding: 2rem 2rem;
 }
 
 .crecimiento {
@@ -95,7 +94,7 @@
 
 .crecimiento img {
     height: 100%;
-    width: 95%;
+    width: 100%;
 }
 
 /*?EStilos para el contenedor de logros*/

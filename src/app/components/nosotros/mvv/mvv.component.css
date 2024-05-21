@@ -134,6 +134,11 @@ img {
         align-items: center;
         margin-top: 3rem;
     }
+
+    .content ul{
+        width: 70%;
+        padding:  0 2rem;
+    }
     .img {
         height: auto;
         width: 500px;
