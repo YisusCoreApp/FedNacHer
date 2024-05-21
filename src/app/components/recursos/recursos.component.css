@@ -408,7 +408,6 @@ button:hover::before {
     .mn * h1{
         text-align: center;
     }
-
   
     .leyes,
     .productosH,
@@ -447,33 +446,59 @@ button:hover::before {
     }
 
     .aside {
-        height: 100%;
-        width: auto;
-        margin: initial;
-        position: relative;
+        height: 60%;
+        width: 40%;
+        margin: 50rem 0;
+        /* margin: initial;*/
+        padding: initial; 
     }
 
     .conte {
-        height: 50%;
+        height: 100%;
         width: min-content;
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: center; 
+    }
+    /* .alertas{
+        background-color: aliceblue;
+        width: 100%;
+        height: auto;
+    }
+    .txt1{
+        padding: 0 .5rem;
+        hyphens: manual;
+    }
+    .articles{
+        display: flex;
+        flex-direction: column;
+
+        background-color: red;
     }
 
+    .investigacion{
+        width: auto;
+        height: 100%;
+        display: initial;
+        background-color: silver;
+    }*/
+    .txt2{
+        width: 100%;
+        position: lative;
+    } 
     .conte::before {
         background-image: none;
     }
 
-    /* .conte * {
+    .conte * {
         height: auto;
         width: auto;
         hyphens: auto;
-        text-align: center;
+        text-align: center; 
         font-size: 18px;
-    } */
-
+    } 
+   
     button {
         background-color: #045043;
         color: #fff;
