@@ -5,7 +5,8 @@
     justify-content: center;
     /* position: relative; */
     /* margin: 2rem; */
-    background: #FDD48A;
+    /* background: #FDD48A; */
+    background-color: #aef055;
 }
 
 .informacon {
@@ -55,7 +56,8 @@
     height: 700px;
     display: flex;
     align-items: center;
-    background-color: #83D350;
+    background-color: #25e4bc ;
+    /* background-color: #83D350; */
     /* position: relative; */
     /* margin: 2rem; */
 }
@@ -104,7 +106,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: #c6eea8;
+    background-color: #e0ffc3;
+    /* background-color: #c6eea8; */
     /* background: #f2eeee; */
     /* margin: 2rem; */
 }
@@ -131,14 +134,15 @@
     color: #007c65;
 }
 
-.listaLogros ul{
+.listaLogros ul {
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     padding: 2rem;
 }
-.listaLogros li{
+
+.listaLogros li {
     padding-bottom: 2rem;
     height: auto;
     width: auto;
@@ -161,7 +165,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: #feeec7;
+    background-color: #3f8978;
+    /* background-color: #feeec7; */
     /* background: #f2eeee; */
     margin: 0 0 4rem 0;
 }
@@ -172,27 +177,31 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #57392e;
+    /* color: #57392e; */
     height: 380px;
+    color: #fff;
     margin: 0 5rem;
 }
 
 .informacon4 span {
-    color: #57392e;
+    /* color: #57392e; */
+color: #fff;
 }
 
 .titulo4 {
     font-size: 70px;
     font-weight: bolder;
     text-align: center;
-    color: #007c65;
+    color: #fff;
+    /* color: #007c65; */
 }
 
 .info_4 {
     font-size: 18px;
     text-align: center;
     width: auto;
-    color: #57392e;
+    /* color: #57392e; */
+    color: #fff;
     padding-top: 2rem;
 
 }
@@ -208,7 +217,7 @@
 .principal img {
     height: 80%;
     width: auto;
-    padding: 0 3rem ;
+    padding: 0 3rem;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -261,6 +270,7 @@
         /* padding: 2rem 3rem; */
     }
 
+
     .origenes {
         width: 100%;
         height: 100%;
@@ -295,6 +305,7 @@
         width: 100%;
         height: 100%;
     }
+
     .informacon2 span {
         color: #fff;
         margin-left: 4px;
@@ -351,10 +362,12 @@
         width: 100%;
         height: auto;
     }
+
     .informacon3 span {
         color: #fff;
         margin-right: 4px;
     }
+
     .titulo3 {
         width: 100%;
         height: 100%;
@@ -402,10 +415,12 @@
         /* margin: 2rem 0; */
 
     }
+
     .informacon4 span {
         color: #fff;
         margin-left: 4px;
     }
+
     .informacon4 {
         width: 100%;
         height: 50%;
@@ -443,29 +458,26 @@
     }
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px){
+@media screen and (max-width: 767px) and (min-width: 320px) {
     .container {
         height: 100%;
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 100%;
     }
 
     .container span {
         color: #fff;
-        margin-right: 4px;
+        margin-right: 1px;
     }
 
     .contenedor {
         height: auto;
-        width: 90%;
+        width: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: initial;
-        margin-top: 2rem;
+        background-color: initial;
     }
 
     .informacon {
@@ -475,47 +487,50 @@
     }
 
     .titulo1 {
-        width: 100%;
-        height: 100%;
-        background-color: #007c65;
         font-size: 20px;
+        width: 100%;
+        margin-left: 3rem;
+        background-color: #5BA199;
         color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .info_1 {
         width: auto;
         height: 100%;
         font-size: 13px;
-        padding: 2rem 3rem;
-        text-align: start;
-        padding: 1rem 1rem;
-
+        text-align: left;
     }
 
     .origenes {
-        width: auto;
+        width: 100%;
         height: 100%;
+        margin: 1rem 0 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .origenes img {
-        width: 90vw;
+        width: 200px;
         height: 200px;
+        border-top-left-radius: 75%;
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 75%;
+
     }
 
     /*?s Contenedor 2*/
 
     .contenedor2 {
         height: auto;
-        width: 90%;
+        width: auto;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
         margin: initial;
-        margin-top: 2rem;
+        background-color: initial;
     }
 
     .informacon2 {
@@ -528,49 +543,52 @@
         color: #fff;
         margin-left: 4px;
     }
+
     .titulo2 {
-        width: 100%;
-        height: 100%;
-        background-color: #007c65;
         font-size: 20px;
+        width: 100%;
+        background-color: #BBC6C8;
         color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .info_2 {
         width: auto;
         height: 100%;
         font-size: 13px;
-        padding: 2rem 3rem;
-        text-align: start;
-        padding: 1rem 1rem;
+        text-align: left;
+        padding: 2rem 1.5rem 0 1.5rem;
     }
 
     .crecimiento {
-        width: auto;
+        width: 100%;
         height: 100%;
+        margin: 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .crecimiento img {
-        width: 90vw;
+        width: 200px;
         height: 200px;
+        border-top-left-radius:10%;
+        border-top-right-radius: 75%;
+        border-bottom-left-radius: 75%;
+        border-bottom-right-radius: 10%;
     }
 
     /*?Contenedor 3*/
 
     .contenedor3 {
         height: auto;
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: initial;
-        margin-top: 2rem;
         padding-bottom: 2rem;
-        margin-bottom: 2rem;
+        background-color: initial;
     }
 
     .informacon3 {
@@ -583,24 +601,19 @@
         color: #fff;
         margin-right: 4px;
     }
+
     .titulo3 {
-        width: 100%;
-        height: 100%;
-        background-color: #007c65;
         font-size: 20px;
+        width: 100%;
+        background-color: #E5E3E4;
         color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
-    .info_3 {
+    .listaLogros {
         width: auto;
         height: 100%;
         font-size: 13px;
-        padding: 2rem 3rem;
-        text-align: start;
-        padding: 1rem 1rem;
+        text-align: left;
     }
 
     .logros {
@@ -609,20 +622,25 @@
     }
 
     .logros img {
-        width: 90vw;
+        width: 200px;
         height: 200px;
+        border-top-left-radius: 75%;
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 75%;
     }
 
     /*?Contenedor 4*/
     .contenedor4 {
         height: auto;
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
         margin: initial;
         margin-bottom: 2rem;
+        background-color: initial;
     }
 
     .informacon4 {
@@ -635,10 +653,11 @@
         color: #fff;
         margin-left: 4px;
     }
+
     .titulo4 {
         width: 100%;
         height: 100%;
-        background-color: #007c65;
+        background-color: #DDBEAA;
         font-size: 20px;
         color: #fff;
         display: flex;
@@ -650,19 +669,22 @@
         width: auto;
         height: 100%;
         font-size: 13px;
-        padding: 2rem 3rem;
         text-align: start;
-        padding: 1rem 1rem;
+        padding: 2rem 1.5rem 0 1.5rem;
     }
 
     .principal {
-        width: auto;
+        width: 100%;
         height: 100%;
-        margin-bottom: 1rem;
+        margin: 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .principal img {
-        width: 50vw;
-        height: 100px;
+        width: 200px;
+        height: 200px;
+
     }
 }
