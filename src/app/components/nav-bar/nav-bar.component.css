@@ -111,12 +111,15 @@ nav a:hover::before {
 nav a:hover {
   color: #fff;
 }
+/*?Ocultamos el checbox*/
+#menu, label{
+  display: none;
+}
 
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -288,12 +291,13 @@ nav a:hover {
 @media screen and (max-width: 767px) and (min-width: 320px) {
 
   .title {
-    height: 135px;
+    height: 100px;
     width: auto;
-    /* position: relative; */
-    /* padding: initial; */
+    position: relative; 
+    /* padding: initial;
     background-color: transparent;
     /* Asegura que el pseudo-elemento esté posicionado correctamente */
+
   }
   .title::before {
     content: "";
@@ -323,14 +327,12 @@ nav a:hover {
     flex-direction: column;
     text-align: center;
     font-size: 10px;
-    background-color: bisque;
   }
 
   .logo {
     width: 35%;
     height: 35%;
     padding: initial;
-    background-color: salmon;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -341,56 +343,81 @@ nav a:hover {
     width: 50px;
   }
 
-  nav{
-    box-shadow: none;
-    position: fixed;
-    background-color: transparent;
-    height: auto;
-  }
-
-  nav:hover{
-    background-color: tan;
+  nav {
+    width: auto;
     position: absolute;
-  }
-  nav ul {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    text-align: left;
-  }
-
-
-  nav li {
-    display: block;
-    margin: 0;
-    padding: 10px;
-    list-style: none;
-  }
-
-
-  .menu-icon {
-    display: block;
-    font-size: 30px;
-    cursor: pointer;
-    text-align: left;
-    width: 12vw;
-    padding-left: .5rem;
     background-color: transparent;
+    margin: .5rem;
   }
 
+  ul {
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+  }
+  
 
-  input[type="checkbox"]:checked ~ ul {
+  input:checked ~ ul {
+    display: block;
+  }
+
+  input {
+    display: none;
+  }
+
+  label {
     display: flex;
-    max-height: 100vh;
-}
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    top: 0;
+    color: white;
+  }
 
-.dropdown-content {
-    position: relative;
-    background-color: #57392e;
-    min-width: 100%;
-}
+  li {
+    display: block;
+    width: 100%;
+    color: #fff;
+    background: #007c65;
+    margin: 0;
+  }
 
+  li::after{
+    content: "";
+    opacity: .3;
+  }
 
+  li a {
+    display: block;
+    padding: 10px;
+    color: #57392e;
+    text-decoration: none;
+    width: 100%;
+  }
 
+  .dropdown-content {
+    display: none;
+    background-color: lightgrey;
+  }
 
+  .dropdown:hover .dropdown-content {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .dropdown-content a {
+    padding: 10px;
+    color: #57392e;
+    text-decoration: none;
+    display: block;
+  }
+  
 }

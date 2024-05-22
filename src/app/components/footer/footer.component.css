@@ -134,14 +134,15 @@ footer{
         align-items: center;
         justify-content: center;
         margin: unset;
+        position: relative;
 
     }
     .loFi {
         width: auto;
         height: 50px;
-        /* position: absolute;
+        position: absolute;
         top: 0;
-        left: 0; */
+        left: 0;
     }
     .infof{
         width: 70%;
