@@ -60,6 +60,7 @@
   width: 15vw;
 }
 
+
 nav {
   position: sticky;
   top: 0;
@@ -286,20 +287,14 @@ nav a:hover {
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
 
-  .navegador {
-    position: relative;
-  }
-
   .title {
-    height: 400px;
+    height: 135px;
     width: auto;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding: initial;
+    /* position: relative; */
+    /* padding: initial; */
+    background-color: transparent;
     /* Asegura que el pseudo-elemento esté posicionado correctamente */
   }
-
   .title::before {
     content: "";
     position: absolute;
@@ -308,11 +303,12 @@ nav a:hover {
     width: 100%;
     height: 100%;
     background-image: url('/assets/header.jpg');
+
     /* Reemplaza 'tu-imagen.jpg' con tu ruta de imagen */
     opacity: 0.5;
     /* Ajusta la opacidad según lo necesites */
     z-index: -1;
-    /* Asegura que esté detrás del3texto */
+    /* Asegura que esté detrás del texto */
   }
 
   .title>* {
@@ -322,36 +318,40 @@ nav a:hover {
 
   .text {
     width: 100%;
-    height: 50%;
+    height: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     text-align: center;
-    font-size: x-large;
+    font-size: 10px;
+    background-color: bisque;
   }
 
   .logo {
-    width: 30%;
-    height: 30%;
+    width: 35%;
+    height: 35%;
     padding: initial;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .logo img {
-    height: auto;
-    width: 100%;
+    height: 50px;
+    width: 50px;
   }
 
-  nav {
+  nav{
+    box-shadow: none;
+    position: fixed;
+    background-color: transparent;
     height: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgb(10, 191, 149);
-    background: radial-gradient(circle, rgba(10, 191, 149, 1) 0%, rgba(0, 124, 101, 1) 100%);
   }
 
+  nav:hover{
+    background-color: tan;
+    position: absolute;
+  }
   nav ul {
     display: none;
     flex-direction: column;
@@ -362,16 +362,23 @@ nav a:hover {
 
   nav li {
     display: block;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
   }
+
 
   .menu-icon {
     display: block;
     font-size: 30px;
     cursor: pointer;
-    padding: 14px 20px;
     text-align: left;
-    width: auto;
+    width: 12vw;
+    padding-left: .5rem;
+    background-color: transparent;
   }
+
+
   input[type="checkbox"]:checked ~ ul {
     display: flex;
     max-height: 100vh;
