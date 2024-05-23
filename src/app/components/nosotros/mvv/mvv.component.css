@@ -100,57 +100,6 @@ img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .titt {
-        height: 200px;
-        width: auto;
-        background-color: #007c65;
-    }
-
-    .tituloV {
-        height: 60px;
-        width: 100%;
-        text-align: center;
-    }
-
-    .ti {
-        color: #fff;
-    }
-
-    .ti span {
-        color: #fff;
-    }
-
-    .filosofia {
-        height: 100%;
-        width: auto;
-    }
-
-    .wrapper {
-        width: auto;
-        height: 350px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-top: 3rem;
-    }
-
-    .content ul{
-        width: 70%;
-        padding:  0 2rem;
-    }
-    .img {
-        height: auto;
-        width: 500px;
-        position: relative;
-    }
     
-    img {
-        height: 300px;
-        width: 100%;
-        display: block;
-        margin: auto;
-        border-radius: 12px;
-    }
 
 }
