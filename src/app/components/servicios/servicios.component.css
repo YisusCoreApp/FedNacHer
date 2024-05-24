@@ -381,6 +381,10 @@
         flex-direction: column;
     }
 
+    .title h2, h3{
+        font-size: 18px;
+    }
+
     .asesorias {
         display: flex;
         width: 80%;
@@ -410,6 +414,7 @@
     }
 
     .contenido4 h2 {
+        text-align: center;
         font-size: 16px;
     }
 
