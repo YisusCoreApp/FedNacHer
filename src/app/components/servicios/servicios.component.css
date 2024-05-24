@@ -354,20 +354,179 @@
         z-index: -1;
     }
 
-    .eventos{
+    .eventos {
         width: auto;
         height: 100%;
         margin: 2rem 0;
     }
-    .eventos h2{
+
+    .eventos h2 {
         width: 100%;
         color: #fff;
         background-color: #007c65;
     }
 
-    .conten{
+    .conten {
         width: auto;
         height: 100%;
     }
 
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .services {
+        height: 100%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .asesorias {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .contenido1,
+    .contenido4 {
+        padding: 0 2rem;
+        font-size: 13px;
+
+    }
+
+    .contenido1 h2 {
+        font-size: 16px;
+    }
+
+    .contenido1 ol {
+        padding: 1rem;
+        text-align: left;
+    }
+
+    .contenido1 ul {
+        width: 100%;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    .contenido4 h2 {
+        font-size: 16px;
+    }
+
+    .contenido4 ol {
+        padding: 1rem;
+        text-align: left;
+    }
+
+    .contenido4 {
+        width: auto;
+        margin: initial;
+        text-align: left;
+    }
+
+    .list5 ol {
+        width: 100%;
+    }
+
+    .servicio,
+    .servicio1 {
+        width: auto;
+        margin: 2rem 0 2rem 0;
+
+    }
+
+    /*-----------------------------------------------*/
+    .beneficios {
+        background-color: initial;
+        position: relative;
+    }
+
+    .titulo {
+        color: #007c65;
+        background-color: transparent;
+        font-size: 12px;
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    .b {
+        background-color: #f2eeee;
+        width: 90%;
+        opacity: 1;
+        z-index: 1;
+    }
+    .in{
+        padding: 1rem .5em;
+    }
+    .in p{
+        font-size: 13px;
+    }
+    .b:hover {
+        transform: translateY(-5px);
+        background-color: #f5dc88;
+    }
+
+    .ben {
+        height: auto;
+        width: auto;
+
+    }
+
+    .ben img {
+        display: none;
+    }
+
+    .services0{
+        height: auto;
+        width: auto;
+    }
+    .title0{
+        padding: initial;
+        font-size: 16px;
+    }
+    .asesorias0{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 100%;
+    }
+    .servicio0{
+        width: 80%;
+        height: auto;
+    }
+    .servicio0 h2{
+        font-size: 16px;
+    }
+
+    /*-----------------------------------------*/
+
+    .eventos {
+        width: auto;
+        height: 100%;
+        margin: initial;
+    }
+
+    .eventos h2 {
+        width: 100%;
+        color: #fff;
+        background-color: #007c65;
+    }
+
+    .conten {
+        width: auto;
+        height: 100%;
+        position: relative;
+        z-index: 2;
+    }
+    .conten img{
+        width: 20px;
+        height: 20px;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: 100%;
+        z-index: -1;
+        opacity: .33;
+        position: absolute;
+    }
 }

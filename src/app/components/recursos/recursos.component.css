@@ -551,6 +551,7 @@ button:hover::before {
         align-items: center;
         justify-content: center;
     }
+
     .foto img {
         height: 70%;
         width: 70%;
@@ -685,76 +686,87 @@ button:hover::before {
         border-radius: 50px;
     }
 
-    .articles{
+    .articles {
         height: auto;
         width: auto;
     }
 
-    .investigacion{
+    .investigacion {
         width: 100%;
         height: 180px;
     }
-    
-    .tl2{
+
+    .tl2 {
         width: 100%;
         font-size: 20px;
         padding: 0.5rem 0;
         text-align: center;
     }
-    .txt2{
+
+    .txt2 {
         font-size: 13px;
         padding: 1rem;
     }
-    .txt2 a{
+
+    .txt2 a {
         line-height: 1.5rem;
     }
-    .none{
+
+    .none {
         display: none;
     }
 
-    .libros{
+    .libros {
         width: auto;
         height: auto;
     }
-    .tl3{
+
+    .tl3 {
         width: 100%;
         font-size: 20px;
         padding: 0.5rem 0;
         text-align: center;
     }
-    .txt3{
+
+    .txt3 {
         padding: 1rem;
         height: auto;
         width: auto;
     }
-    .txt3 b{
+
+    .txt3 b {
         font-size: 18px;
     }
+
     .txt3 {
         font-size: 16px;
     }
-    .conte::before{
+
+    .conte::before {
         display: none;
         background-image: none;
     }
-    .interes{
+
+    .interes {
         width: 100%;
         height: 150%;
         /* padding: initial;
         margin: initial; */
     }
 
-    .tl4{
+    .tl4 {
         width: 100%;
         font-size: 20px;
         padding: 0.5rem 0;
         text-align: center;
     }
-    .in{
+
+    .in {
         width: auto;
         height: auto;
     }
-    .txt4{
+
+    .txt4 {
         font-size: 13px;
         padding: 1rem;
         margin: initial;
@@ -762,31 +774,34 @@ button:hover::before {
         text-align: center;
     }
 
-    .resp{
+    .resp {
         width: auto;
         height: auto;
         margin: initial;
     }
-    .resp h1{
+
+    .resp h1 {
         width: 100%;
         font-size: 20px;
         padding: 0.5rem 0;
         text-align: center;
         margin: initial;
     }
-.resp p{
-    padding: initial;
-    font-size: 13px;
-    padding: 1rem;
-    text-align: initial;
-}
+
+    .resp p {
+        padding: initial;
+        font-size: 13px;
+        padding: 1rem;
+        text-align: initial;
+    }
+
     .like {
         width: auto;
     }
+
     .clam {
         width: 100%;
         font-size: 13px;
         text-align: center;
     }
-
 }
