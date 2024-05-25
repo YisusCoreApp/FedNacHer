@@ -1,9 +1,12 @@
 footer{
-    height: 100%;
+    height: 10em;
     width: auto;
     display: flex;
     flex-direction: column;
-    background-color: #007c65;
+    align-items: center;
+    justify-content: center;
+    background-color: #6f7f68;
+    /* background-color: #007c65; */
 }
 /* .email {
     width: auto;
@@ -14,17 +17,17 @@ footer{
 } */
 
 .cont {
-    height: 400px;
+    height: auto;
     width: auto;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: space-evenly;
     margin: 3rem;
 }
 
 .loFi {
-    width: 190px;
-    height: 70px;
+    width: 15em;
+    height: 4.3em;
     margin: 1rem 1rem;
 }
 
@@ -42,8 +45,8 @@ footer{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 700px;
-    height: 70px;
+    width: 100%;
+    height: auto;
 }
 
 .infoE h3 {

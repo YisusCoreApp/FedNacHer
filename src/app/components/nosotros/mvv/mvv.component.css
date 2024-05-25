@@ -81,8 +81,8 @@
     content: "";
     top: 0;
     left: 0;
-    height: 100%;
-    width: 80%;
+    height: 80%;
+    width: 75%;
     position: absolute;
     background-image: url('/assets/mision.png');
     background-size: contain;
@@ -114,7 +114,7 @@
 .img1 {
     height: 450px;
     width: 250px;
-    background-color: #d3e2f2;
+    background-color: #eceeea;
 }
 
 .im1 {
@@ -135,7 +135,7 @@
 .img2 {
     height: 450px;
     width: 250px;
-    background-color: #ffe0e8;
+    background-color: #d3e2f2;
 }
 
 .im2 {
@@ -149,9 +149,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1;
-    margin: 4rem 0 0 13rem;
+    margin: 4rem 0 0 7rem;
     /* filter: brightness(2); */
-    filter: brightness(2) drop-shadow(12px 12px 10px #000);
+    filter: drop-shadow(12px 12px 10px #000);
 }
 
 
