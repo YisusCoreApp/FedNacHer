@@ -45,10 +45,10 @@
     height: 300px;
 }
 
-.informacion p {
-    margin: 3rem 0;
+.informacion ul {
+    /* margin: 3rem 0; */
     height: 200px;
-    text-align: center;
+    /* text-align: center; */
 
 }
 
