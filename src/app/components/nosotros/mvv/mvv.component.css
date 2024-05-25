@@ -1,3 +1,271 @@
+.titt{
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.ti{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.filosofia{
+    width: auto;
+    height: 100%;
+}
+.wrapper{
+    width: auto;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3rem;
+    /* background-color: #edfec9; */
+}
+.content h1{
+    margin: 6rem 0 4rem 0;
+}
+
+.informacion{
+    height: 300px;
+}
+
+.informacion p{
+    margin: 3rem 0 ;
+    height: 200px;
+    text-align: center;
+
+}
+.ima{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.img{
+    height: 450px;
+    width: 250px;
+    background-color: #c1f85e;
+    
+}
+/*
+.im{
+    display: flex;
+    align-content: center;
+    justify-content: center;background-color: yellow;
+    height: 100%;
+    width: 100%;
+} */
+
+.im{
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    background-image: url('/assets/mision.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-left: 6rem;
+    filter: drop-shadow(16px 15px 15px #000);
+}
+
+.wrapper1{
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3rem;
+    /* background-color: #edfec9; */
+}
+.img1{
+    height: 450px;
+    width: 250px;
+    background-color:#d3e2f2;
+}
+.im1{
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    background-image: url('/assets/vision.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin: 6rem 4rem;
+    filter: drop-shadow(16px 15px 15px #000);
+}
+
+.img2{
+    height: 450px;
+    width: 250px;
+    background-color: #ffe0e8;
+}
+.im2{
+    content: "";
+    top: 0;
+    left: 0;
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    background-image: url('/assets/valores.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin: 4rem 0 0 13rem;
+    filter: drop-shadow(16px 15px 15px #000);
+    filter: brightness(2);
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .titt {
+        height: 200px;
+        width: auto;
+        background-color: #007c65;
+    }
+
+    .tituloV {
+        height: 60px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ti {
+        color: #fff;
+    }
+
+    .ti span {
+        color: #fff;
+    }
+
+    .filosofia {
+        height: 100%;
+        width: auto;
+    }
+
+    .wrapper {
+        width: auto;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 3rem;
+    }
+
+    .content ul{
+        width: 70%;
+        padding:  0 2rem;
+    }
+    .img {
+        height: auto;
+        width: 500px;
+        position: relative;
+    }
+
+    img {
+        height: 300px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        border-radius: 12px;
+    }
+
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .titt{
+        width: 100%;
+        height: 80px;
+    }
+    .tituloV{
+        width: 100%;
+    }
+
+    .tituloV p, span{
+        font-size: 20px;
+        color: #007c65;
+    }
+    .filosofia{
+        height: 100%;
+        width: auto;
+    }
+    .wrapper {
+        width: 100%;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper h1{
+        font-size: 20px;
+    }
+    .content {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background: rgb(106, 235, 197);
+        background: linear-gradient(0deg, rgba(106, 235, 197, 0.6) 0%, rgba(0, 124, 101, .8) 43%);
+        display: flex;
+        opacity: 0;
+        transition: 0.6s;
+        border-radius: 12px;
+    }
+    .content p{
+        padding: .5rem .5rem;
+        margin: initial;
+        font-size: 13px;
+    }
+
+    .content ul{
+        width:auto;
+        font-size: 13px;
+        padding: 0 1.5rem;
+    }
+    .img {
+        height: 200px;
+        width: 200px;
+        position: relative;
+    }
+
+    img {
+        height: 200px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        border-radius: 12px;
+    }
+}
+/*
+
+
 .titt {
     width: 80%;
     height: 200px;
@@ -144,7 +412,7 @@ img {
         width: 500px;
         position: relative;
     }
-    
+
     img {
         height: 300px;
         width: 100%;
@@ -198,7 +466,7 @@ img {
         margin: initial;
         font-size: 13px;
     }
-    
+
     .content ul{
         width:auto;
         font-size: 13px;
@@ -209,7 +477,7 @@ img {
         width: 200px;
         position: relative;
     }
-    
+
     img {
         height: 200px;
         width: 100%;
@@ -217,4 +485,4 @@ img {
         margin: auto;
         border-radius: 12px;
     }
-}
+} */
