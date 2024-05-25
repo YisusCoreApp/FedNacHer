@@ -30,6 +30,7 @@
   top: 50%;
   left: 50%;
   font-size: 58px;
+  color: #57392E;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.7);
   /* Fondo semi-transparente */
@@ -38,6 +39,12 @@
   font-weight: bold;
   /* Ajusta el estilo del texto según necesites */
 }
+
+.slider-text a{
+  color: #57392E;
+  font-weight: bold;
+}
+
 
 .slider-frame img {
   display: block;
@@ -377,25 +384,12 @@ a {
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
 
-  .slider-frame {
-    width: auto;
-    height: auto;
-    margin: initial;
-    background-color: salmon;
-  }
-  .slider-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 58px;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.7);
-    /* Fondo semi-transparente */
-    padding: 10px 20px;
-    border-radius: 5px;
+  .slider-text a{
+    font-size: 18px;
+    color: #57392E;
     font-weight: bold;
-    /* Ajusta el estilo del texto según necesites */
   }
+  
 
   .slider-frame img {
     display: block;
