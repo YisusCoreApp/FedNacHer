@@ -1,3 +1,58 @@
+.servicios{
+    background-color: sandybrown;
+    width: auto;
+    height: 100%;
+}
+.titulos{
+    width: auto;
+    height: auto;
+    background-color: lightblue;
+    text-align: center;
+}
+.secciones{
+    width: auto;
+    height: auto;
+    background-color: olive;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.seccion1{
+    margin-top: 5rem;
+    width: 30%;
+    height: auto;
+    background-color: lightgreen;
+
+}
+.imagen{
+    width: 100%;
+    height: 10%;
+    /* background-color: rebeccapurple; */
+}
+.imagen > img{
+    width: 100%;
+    height: 100%;
+}
+
+.listas{
+    width: auto;
+    height: 100%;
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.l1{
+    width: 80%;
+    height: 100%;
+    background-color: forestgreen;
+}
+
+
+/* 
 .services {
     display: flex;
     align-items: center;
@@ -38,7 +93,7 @@
 }
 
 .servicio {
-    height: auto;
+    height: 100%;
     width: 600px;
     background-color: #fff;
     border-radius: 10px;
@@ -121,8 +176,7 @@
     line-height: 23px;
     padding: 1rem 0 5.3rem 0;
 }
-
-/*? estilos para beneficios*/
+*/
 .beneficios {
     display: flex;
     justify-content: center;
@@ -186,7 +240,6 @@
     transition: all .4s;
 }
 
-/*?EStilos para otras cards*/
 
 .services0 {
     display: flex;
@@ -252,7 +305,6 @@
 }
 
 
-/*? Estilos para la clase eventos*/
 
 .eventos {
     width: auto;
@@ -295,7 +347,7 @@
     color: #57392e;
     font-size: 18px;
     padding: 1rem 3rem;
-}
+} 
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
     .services {

@@ -36,26 +36,39 @@
 .unirte span {
     color: #57392e;
 }
-
+.info p{
+    /* text-align: center; */
+    padding: 0 2rem 2rem 2rem;
+}
 .info ul {
     text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
     color: #57392e;
-    margin: 0 4rem;
-    line-height: 60px;
+    padding: 0 4rem;
+    line-height: 2rem;
 }
 
 /*? estilos para como afiliarse*/
 
 .a {
-    height: 350px;
+    height: 50px;
     width: auto;
     display: flex;
+    flex-direction: column  ;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0;
+    margin: 2rem 0 0 0;
+    background-color: #e5e5e7;
 }
-
-.comoA {
+a
+.paraAfiliarse{
+    width: 100%;
+    padding: 0 5rem;
+    /* margin-top: 3rem; */
+    text-align: center;
+}
+/* .comoA {
     width: 600px;
     height: 350px;
     display: flex;
@@ -78,13 +91,13 @@
     text-align: left;
     color: #57392e;
     margin: 0 4rem;
-}
+} */
 
 /*? estilos para las cards*/
 
 .encabezado {
     text-align: center;
-    margin-bottom: 5rem;
+    margin: 3rem;
     color: #007c65;
 }
 
@@ -120,8 +133,8 @@
 }
 
 .servicio {
-    height: 75rem;
-    width: 400px;
+    height: auto;
+    width: 30%;
     background-color: #fff;
     border-radius: 12px;
     overflow: hidden;
@@ -146,29 +159,33 @@
 
 .contenido1 p {
     color: #57392e;
-    padding: 1rem 2rem;
+    height: 10em;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 .5rem;
     font-size: 18px;
 }
 
 .list1 {
     display: flex;
-    justify-content: center;
-    height: 400px;
+    /* justify-content: center; */
+    height: auto;
     width: auto;
     padding: 4rem 3rem;
 }
 
 .list1 li {
     color: #57392e;
-    font-weight: 400px;
+    /* font-weight: 400px; */
     font-size: 18px;
     text-align: left;
-    padding-bottom: .8rem;
+    
 
 }
 
 .btn {
-    height: 45px;
+    height: auto;
     width: auto;
     display: flex;
     flex-direction: column;
