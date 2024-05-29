@@ -1,54 +1,80 @@
-.servicios{
-    background-color: sandybrown;
-    width: auto;
-    height: 100%;
-}
-.titulos{
-    width: auto;
+.container{
+    background-color: #f1f1f1;
     height: auto;
-    background-color: lightblue;
-    text-align: center;
-}
-.secciones{
-    width: auto;
-    height: auto;
-    background-color: olive;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.seccion1{
-    margin-top: 5rem;
-    width: 30%;
-    height: auto;
-    background-color: lightgreen;
-
-}
-.imagen{
     width: 100%;
-    height: 10%;
+}
+
+.title{
     /* background-color: rebeccapurple; */
-}
-.imagen > img{
     width: 100%;
-    height: 100%;
-}
-
-.listas{
-    width: auto;
-    height: 100%;
-    background-color: violet;
+    height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 3rem;
 }
-
-.l1{
-    width: 80%;
+.title h2{
+    color: #007c65;
+}
+.title h3{
+    color: #57392e;
+}
+.cards{
+    /* background-color: palegreen; */
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin: 2rem 2rem ; */
+    padding: 3rem 0;
+}
+.card1{
+    width: 20%;
     height: 100%;
-    background-color: forestgreen;
+    /* border: 2px solid blue; */
+    border-radius: 5px;
+    box-shadow: 0 5px 20px 2px rgb(216,216,216);
+    /* background-color: lightsalmon; */
+    position: relative;
+    margin: 0 1rem;
+}
+.cuerpo{
+    width: auto;
+    height: 100%;
+    /* background-color: palegreen; */
+
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+    /* background-color: salmon; */
+    border-start-start-radius: 10px ;
+    border-start-end-radius: 10px;
+}
+img{
+    width: 95%;
+    /* height: 5%; */
+}
+.line{
+    width: 80%;
+    margin: 0 2rem;
+    border-bottom: 1px solid #6f7f68;
+}
+.text{
+    /* background-color: khaki; */
+    width: auto;
+    height: 100%;
+    border-end-end-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    font-size: 15px;
+}
+.text ol{
+    padding: 1rem 3rem;
+}
+.text ul{
+    padding: 1rem 3rem;
 }
 
 

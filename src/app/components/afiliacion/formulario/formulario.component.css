@@ -1,0 +1,146 @@
+.formulario {
+    /* background-color: silver; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.solicitud {
+    height: auto;
+    width: 80%;
+    /* background-color: palegoldenrod; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gracias{
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+}
+.texto p{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+.texto h2{
+    width: 100%;
+    text-align: center;
+}
+
+form {
+    height: auto;
+    width: 80%;
+    background-color: rgb(242, 242, 242);
+    align-items: center;
+    border-radius: 10px;
+    margin: 3rem;
+    box-shadow: 0px 10px 25px 1px black;
+    /* border: .1px solid black; */
+    z-index: 1;
+}
+
+/* .img{
+    width: 100%;
+    height: 100%;
+    background-color: tan;
+    
+}
+
+.imagen{
+    margin: 3rem 4rem;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: violet;
+
+}
+.imagen::before{
+    content: "";
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 50%;
+    margin: 0 10rem;
+    position: absolute;
+    background-color: lawngreen;
+    background-image: url('/assets/federacion.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: .3;
+    z-index: -1;
+} */
+label {
+    font-size: 20px;
+    /* margin: 2rem; */
+    line-height: 3rem;
+    margin: 0 2rem;
+}
+.txtA{
+   text-align: center;
+}
+input {
+    width: 90%;
+    border-radius: 5px;
+    height: 2rem;
+    padding-left: .5rem;
+    margin: 0 1.5em;
+    /* margin: .5rem 0 0 5rem; */
+    /* background-color: lightgrey; */
+    color: green;
+    border: .2px solid rgb(216, 216, 216);
+}
+
+textarea {
+    height: 150px;
+    width: 90%;
+    padding: .5rem 1rem;
+    margin: 0 1.2rem;
+    resize: none;
+    border: .1px solid rgb(216, 216, 216);
+    /* margin: 1rem 0 0 5rem; */
+}
+
+.btn {
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button{
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    cursor: pointer;
+    position: relative; 
+    height: 60px;
+    transition: all 0.1s ease-in;
+    border-radius: 5px;
+}
+.btn i{
+    margin-right: 5px;
+}
+.btn button:hover{
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.1s ease-out;
+    border-radius: 18px;
+}

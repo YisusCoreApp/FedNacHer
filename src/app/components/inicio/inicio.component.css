@@ -83,44 +83,49 @@
   height: 400px;
   width: 100%;
   display: flex;
-  height: 500px;
+  /* height: 500px; */
   width: auto;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
-  background-color: #dfd6d6;
+  /* background-color: #eceeea; */
+  /* background-color: #dfd6d6; */
 }
 
 .somos {
-  height: 300px;
+  height: 100%;
   width: auto;
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
-  margin: 5rem;
+  /* margin: 5rem; */
 }
 
 .img {
-  width: 20%;
-  height: 300px;
+  width: 50%;
+  height: 100%;
+  /* margin-top: 10rem; */
 }
 
 .img img {
   height: 100%;
   width: 100%;
-  border-radius: 100%;
+  /* border-radius: 100%; */
+  margin-top: 3rem;
 }
 
 .sInfo {
-  height: 300px;
-  width: 80%;
+  height: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 4rem 3rem 0 3rem;
 }
 
 .sInfo h3 {
-  color: #007c65;
+  color: #045043;
   font-size: 50px;
   font-weight: bolder;
   padding-left: 3rem;
@@ -129,6 +134,7 @@
 .txt {
   font-size: 18px;
   color: #57392E;
+  margin-top: 3rem;
   padding-top: 4rem;
 }
 
@@ -198,85 +204,151 @@ button:hover::before {
 
 /*Aqui va la segunda seccion y el aside*/
 .unete {
-  height: 700px;
+  height: 100%;
   width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 2rem 0;
+  margin: 5rem 0;
+  background-color: #eceeea;
+  
+  /* background-color: palegoldenrod; */
 }
 
 .invitacion {
-  width: 450px;
-  height: 600px;
+  width: auto;
+  height: 500px;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
-  justify-content: center;
-  border-radius: 12px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, .2);
-  transition: all .7s ease-in;
+  justify-content: space-evenly;
+  /* background-color: pink; */
+  /* border-radius: 12px; */
+  /* box-shadow: 0 4px 14px rgba(0, 0, 0, .2); */
+  /* transition: all .7s ease-in; */
 }
 
-.invitacion:hover {
+/* .invitacion:hover {
   transition: all .5s ease-out;
   background-color: #dfd6d6;
   border: none;
-}
+} */
 
 .txt2 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: lightslategray; */
+}
+
+.ti{
+  width: 100%;
+  height: auto;
+  font-size: 50px;
+  /* background-color: turquoise; */
+  text-align: right;
+  margin: 5rem 0 0 0;
+  padding: 3rem 3rem  0 0;
+
+  color: #045043;
+}
+.parrafo{
+  height: 100%;
+  width: auto;
   font-size: 18px;
+  /* background-color: tomato; */
+  text-align: right;
+  padding: 3rem 3rem ;
   color: #57392E;
-  text-align: center;
-  padding: 1rem 2rem;
+}
+.parrafo p{
+  margin-bottom: 3rem;
 }
 
 .combo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
-  height: 250px;
-  margin-top: 2rem;
+  justify-self: center;
+  /* justify-content: center; */
+  width:40%;
+  height: 100%;
+  /* background-color: peru; */
 }
 
 .combo img {
-  width: 200px;
-  height: 200px;
-  padding-bottom: 1rem;
+  margin-top: 6rem;
+  width: 50%;
+  height: 60%;
+  mask-image: linear-gradient(black 80%,
+  transparent);
 }
 
 /*?Estilos del aside*/
+.interes p{
+  font-size: 30px;
+  font-weight: bolder;
+  padding-left: 4rem;
+  color: #045043;
+  margin-top: 5rem;
+}
 .externo {
   height: 500px;
   width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* background-color: #f2f9f9; */
+  position: relative;
 }
 
 .ext {
-  height: 500px;
+  height: 90%;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  margin-top: 2rem;
-  background-color: #dfd6d6;
+  position: relative;
+  /*  */
+  /* background-color: red; */
+  /* background-color: #dfd6d6; */
+}
+.planta{
+  /* top: -40%; */
+  position: relative;
+  height: 100%;
+  width: 15%;
+  background-color: #eceeea;
+  border-radius: 100%;
+  border: none;
+}
+.planta img{
+  /* top: -25%; */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  /* z-index: 1; */
+}
+
+.ruta{
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .ruta h3,
 a {
-  color: #007c65;
+  color: #045043;
   font-size: 50px;
-  text-align: left;
+  text-align: center;
   font-weight: bolder;
+  margin-top: 3rem;
 }
 
 .ruta p {
+  margin-top: 3rem;
   font-size: 18px;
   color: #57392E;
-  padding-top: 2rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
