@@ -337,6 +337,7 @@ button:hover::before {
 .ruta h3,
 a {
   color: #045043;
+  text-decoration: none;
   font-size: 50px;
   text-align: center;
   font-weight: bolder;
