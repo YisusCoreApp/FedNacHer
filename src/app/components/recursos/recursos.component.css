@@ -253,8 +253,6 @@ ul {
     box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
     width: 70%;
     padding: 1rem 1rem;
-    /* background-color: ; */
-    
 }
 .alertas{
     width: 100%;
@@ -399,16 +397,14 @@ button:hover::before {
 }
 
 .fondo{
-    height: 50%;
+    height: 100%;
     width: 100%;
+    background-color: saddlebrown;
+    margin-top: 3rem;
 }
 .fondo img{
-    margin-top: 239%;
-    height: 32.1%;
     width: 100%;
-    right: 0;
     position: absolute;
-    z-index: -1;
 }
 /*? Sitio de interes*/
 .interes{
