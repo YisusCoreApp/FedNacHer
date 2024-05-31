@@ -4,10 +4,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 4rem;
-    background-color: #dfe4dd;
+    /* margin-bottom: 4rem; */
+    background-color: #c1f85e;
+    /* background-color: #dfe4dd; */
 }
+.filosofia{
+    background-color: #f1f1f1;
+    padding-top: 2rem;
 
+}
 .ti {
     font-size: 30px;
     text-align: center;
@@ -114,7 +119,8 @@
 .img1 {
     height: 450px;
     width: 250px;
-    background-color: #eceeea;
+    background-color: #c7cdc2;
+    /* background-color: #eceeea; */
 }
 
 .im1 {

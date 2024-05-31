@@ -8,3 +8,11 @@
 	text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, b *{
+	color: #388E3C;
+}
+
+ul, li, p, a *{
+	color: #795548;
+
+}

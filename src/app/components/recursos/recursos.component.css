@@ -1,8 +1,11 @@
-
+body{
+    background-color: #f1f1f1;
+    
+}
 .informacion {
     height: 350px;
     width: auto;
-    background-color: #cdd1c9;
+    /* background-color: #cdd1c9; */
 }
 
 .recursos {
@@ -25,7 +28,6 @@
 .rec h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: #045043;
     font-size: 20px;
 }
 
@@ -44,7 +46,6 @@
 .rec p {
     font-size: 18px;
     text-align: center;
-    color:  #57392e;
     font-weight: bold;
 }
 
@@ -74,14 +75,7 @@
     margin: 0 2rem;
 }
 
-.mn h1,
-ul {
-    color: #57392e;
-}
 
-.mn h2 {
-    color: #007c65;
-}
 
 .leyes {
     /* border: 5px solid #467b83; */
@@ -91,7 +85,7 @@ ul {
     width: 100%;
     margin: 2rem 0;
     line-height: 35px;
-    
+    background: white;
 }
 
 .ley{
@@ -101,7 +95,6 @@ ul {
 }
 .ley h2 {
     padding: 1rem 0 0 3rem;
-    color: #045043;
 }
 
 .leyes ul {
@@ -125,7 +118,6 @@ ul {
     height: 50%;
 }
 .reglas h2 {
-    color: #045043;
     padding: 1rem 0 0 3rem;
 }
 
@@ -146,11 +138,10 @@ ul {
     padding-bottom: 2rem;
     line-height: 35px;
     box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
-
+    background: white;  
 }
 
 .productosH h2 {
-    color: #045043;
     padding: 1rem 0 0 3rem;
 }
 
@@ -171,9 +162,6 @@ ul {
     margin-top: 2rem;
 }
 
-.t h1{
-    color: #045043;
-}
 
 .t p {
     width: 95%;
@@ -190,12 +178,13 @@ ul {
     line-height: 35px;
     padding-bottom: 2rem;
     box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
+    background: white;
+
 
 }
 
 .beneficios h2 {
     font-size: 18px;
-    color: #045043;
     padding: 2rem 0 0 3rem;
 }
 
@@ -207,7 +196,7 @@ ul {
 
 .beneficios b {
     font-size: 18px;
-    color: #045043;
+    color: #388E3C;
 }
 
 /* .tph {
@@ -253,6 +242,8 @@ ul {
     box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
     width: 70%;
     padding: 1rem 1rem;
+    background-color: #fff;
+    /* background-color: #c1f85e; */
 }
 .alertas{
     width: 100%;
@@ -266,7 +257,7 @@ ul {
 .tl1{
     width: auto;
     height: 10%;
-    color: #045043;
+    /* color: #045043; */
     text-align: center;
     font-size: 20px;
     font-weight: bolder;
@@ -298,7 +289,6 @@ ul {
 .tl2{
     width: auto;
     height: 10%;
-    color: #045043;
     /* text-align: center; */
     font-size: 20px;
     font-weight: bolder;
@@ -307,12 +297,11 @@ ul {
     align-items: center;
 }
 .lis ul{
-    color: #57392e;
     hyphens: manual;
     padding: 0 1rem;
     font-size: 16px;
     text-decoration: none;
-    color: #57392e;
+    /* color: #57392e; */
 
 }
 .btn {
@@ -373,7 +362,6 @@ button:hover::before {
 .tl3{
     width: auto;
     height: 10%;
-    color: #045043;
     font-size: 18px;
     font-weight: bolder;
     display: flex;
@@ -416,7 +404,7 @@ button:hover::before {
 .sit{
     width: auto;
     height: 10%;
-    color: #045043;
+    /* color: #045043; */
     font-size: 18px;
     font-weight: bolder;
     display: flex;
@@ -433,9 +421,13 @@ button:hover::before {
 
 .resp p{
     font-weight: 600;
+    color: #795548;
 }
 
+.resp h1{
+    color: #388E3C;
 
+}
 /*? A1qui va el responsive para tabletas*/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
