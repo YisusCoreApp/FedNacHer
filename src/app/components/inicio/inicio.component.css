@@ -364,10 +364,21 @@
       background-color: transparent;
     }
 
-
     .ti{
       margin: initial;
     }
+    
+    .combo {
+      display: flex;
+
+    }
+    .combo img{
+      height: 50%;
+    }
+ 
+     .ruta{
+      margin: 0 0 1rem 0;
+     }
   }
 
   @media screen and (max-width: 767px) and (min-width: 320px) {
