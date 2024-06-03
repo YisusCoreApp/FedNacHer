@@ -78,7 +78,7 @@
     height: 80%;
     width: 75%;
     position: absolute;
-    background-image: url('/assets/mision.png');
+    background-image: url('/assets/Quienes Somos/Mvv/mision.png');
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1;
@@ -119,7 +119,7 @@
     height: 100%;
     width: 80%;
     position: absolute;
-    background-image: url('/assets/vision.png');
+    background-image: url('/assets/Quienes Somos/Mvv/vision.png');
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1;
@@ -140,7 +140,7 @@
     height: 70%;
     width: 70%;
     position: absolute;
-    background-image: url('/assets/valores.png');
+    background-image: url('/assets/Quienes Somos/Mvv/valores.png');
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1;
