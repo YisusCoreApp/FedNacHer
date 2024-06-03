@@ -15,10 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: #fff8e7; */
 
-    /* background-color: #e8e9d8; */
-    /* margin: 0 2rem; */
 }
 
 .pina {
@@ -35,73 +32,37 @@
 }
 
 .unirte h2 {
-    width: 100%;
     text-align: center;
-    /* color: #007c65; */
-    /* padding: 2rem 0; */
+
 }
 
 
 .info p {
     text-align: center;
     padding: 2rem 2rem;
-    color: #795548;
-    font-weight: 600;
 }
 
 .info ul {
     text-align: left;
-    font-size: 20px;
-    font-weight: bolder;
-    color: #57392e;
     padding: 0 5rem;
     line-height: 2rem;
-    /* background-color: skyblue; */
 }
 
 /*? estilos para como afiliarse*/
 
 .paraAfiliarse {
-    height: 50px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem 0 0 0;
-}
-
-a .paraAfiliarse {
+    height: 6rem;
     width: 100%;
-    padding: 0 5rem;
-    /* margin-top: 3rem; */
-    text-align: center;
-}
-
-/* .comoA {
-    width: 600px;
-    height: 350px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.afiliarse h2 {
+.paraAfiliarse p{
+    width: 100%;
+    padding: 0 15rem;
     text-align: center;
-    color: #007c65;
-    padding: 2rem 0;
 }
-
-.afiliarse span {
-    color: #57392e;
-}
-
-.info p {
-    text-align: left;
-    color: #57392e;
-    margin: 0 4rem;
-} */
 
 /*? estilos para las cards*/
 
@@ -122,9 +83,7 @@ a .paraAfiliarse {
     padding-bottom: 2rem;
 }
 
-.title h2 {
-    color: #007c65;
-}
+
 
 .title {
     padding: 2rem 0 0 0;
@@ -138,9 +97,7 @@ a .paraAfiliarse {
     width: 100%;
 }
 
-.afil h2 {
-    color: #007c65;
-}
+
 
 .servicio {
     height: auto;
@@ -168,27 +125,21 @@ a .paraAfiliarse {
 }
 
 .contenido1 p {
-    color: #57392e;
     height: 10em;
     width: auto;
     display: flex;
     align-items: center;
     padding: 0 .5rem;
-    font-size: 18px;
 }
 
 .list1 {
     display: flex;
-    /* justify-content: center; */
     height: auto;
     width: auto;
     padding: 4rem 3rem;
 }
 
 .list1 li {
-    color: #57392e;
-    /* font-weight: 400px; */
-    font-size: 18px;
     text-align: left;
 
 
@@ -205,7 +156,7 @@ a .paraAfiliarse {
 }
 
 button {
-    background-color: #0abf94;
+    background-color: #4CAF50;
     color: white;
     padding: 12px 24px;
     border: none;
@@ -236,8 +187,10 @@ button:hover {
     padding: 12px 24px;
     border: none;
     border-radius: 30px;
-    background-color: #007c65;
+    background-color: #a7ed2e;
+    box-shadow:  0px 2px 12px #67a907;
     transition: all .3s ease-out;
+    color: #795548;
 }
 
 button:hover::before {
@@ -251,40 +204,37 @@ button:hover::before {
 /*? EStilos para la responsabilidad de la afiliacion*/
 
 .b {
-    height: 700px;
     width: auto;
+    height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/assets/fonfoAfil.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0px 460px;
 }
 
 .respon {
     width: auto;
-    height: 350px;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .respon h2 {
     text-align: center;
-    color: #007c65;
+    margin: 0 0 3rem 0;
 }
 
-.af span {
-    color: #57392e;
+.hero{
+    width: 50%;
+    height: auto;
 }
-
+.hero img{
+    width: 100%;
+    height: 100%;
+    
+}
 .infor p {
-    text-align: left;
-    color: #57392e;
     text-align: center;
-    padding: 2rem 6rem;
-    font-size: 18px;
+    padding: 0 6rem;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {

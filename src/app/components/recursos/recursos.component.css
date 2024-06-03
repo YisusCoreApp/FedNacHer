@@ -25,10 +25,9 @@ body{
     width: 60%;
 }
 
-.rec h3 {
+.rec h2 {
     text-align: center;
-    margin-bottom: 2rem;
-    font-size: 20px;
+    /* margin-bottom: 2rem; */
 }
 
 .foto {
@@ -44,9 +43,8 @@ body{
 }
 
 .rec p {
-    font-size: 18px;
+    padding-top: 2rem;
     text-align: center;
-    font-weight: bold;
 }
 
 /*! estilos para el body*/
@@ -93,7 +91,7 @@ body{
     height: 50%;
     position: relative;
 }
-.ley h2 {
+.ley h3 {
     padding: 1rem 0 0 3rem;
 }
 
@@ -110,8 +108,8 @@ body{
     /* background-color: cadetblue; */
     height: auto;
     width: 50%;
-    top: 0;
-    right: -8rem;
+    top: 7rem;
+    right: -7rem;
     /* margin-top: 5rem; */
     position: absolute;
 }
@@ -119,7 +117,7 @@ body{
     width: auto;
     height: 50%;
 }
-.reglas h2 {
+.reglas h3 {
     padding: 1rem 0 0 3rem;
 }
 
@@ -143,7 +141,7 @@ body{
     background: white;  
 }
 
-.productosH h2 {
+.productosH h3 {
     padding: 1rem 0 0 3rem;
 }
 
@@ -168,12 +166,9 @@ body{
 .t p {
     width: 95%;
     height: auto;
-    font-size: 18px;
-    /* padding: 2rem 2rem; */
     text-align: center;
 }
 .beneficios {
-    /* border: 5px solid #467b83; */
     border-radius: 12px;
     height: auto;
     width: 100%;
@@ -185,19 +180,15 @@ body{
 
 }
 
-.beneficios h2 {
-    font-size: 18px;
+.beneficios h3 {
     padding: 2rem 0 0 3rem;
 }
 
 .beneficios ul {
-    font-size: 16px;
     padding: 0 3rem;
-    color: #57392e;
 }
 
 .beneficios b {
-    font-size: 18px;
     color: #388E3C;
 }
 
@@ -214,16 +205,13 @@ body{
 }
 
 .resp h1 {
-    color: #007c65;
     text-align: center;
 }
 
 .resp p {
     width: 100%;
-    line-height: 22px;
     text-align: center;
     color: #57392e;
-    font-size: 18px;
     padding-top: 1rem ;
 }
 
@@ -231,7 +219,6 @@ body{
 
 .aside{
     width: 30%;
-    /* height: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -245,33 +232,22 @@ body{
     width: 70%;
     padding: 1rem 1rem;
     background-color: #fff;
-    /* background-color: #c1f85e; */
 }
 .alertas{
     width: 100%;
     height: 15%;
     display: flex;
-    flex-direction: column;
-    margin-bottom: 3rem;
-    /* background-color: palegoldenrod; */
-    /* justify-content: center; */
+    flex-direction: column;    
 }
 .tl1{
     width: auto;
     height: 10%;
-    /* color: #045043; */
     text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 .txt1{
     color: #57392e;
     hyphens: manual;
-    padding: 0 .5rem;
-    font-size: 16px;
+    padding: .5rem .5rem 0 .5rem;
 }
 
 
@@ -291,19 +267,14 @@ body{
 .tl2{
     width: auto;
     height: 10%;
-    /* text-align: center; */
-    font-size: 20px;
-    font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .lis ul{
     hyphens: manual;
-    padding: 0 1rem;
-    font-size: 16px;
+    padding: 1rem 1rem 0 1rem;
     text-decoration: none;
-    /* color: #57392e; */
 
 }
 .btn {
@@ -313,7 +284,7 @@ body{
 }
 
 button {
-    background-color: #0abf94;
+    background-color: #4CAF50;
     color: white;
     margin: 2rem 0;
     padding: 12px 24px;
@@ -345,8 +316,10 @@ button:hover {
     padding: 12px 24px;
     border: none;
     border-radius: 30px;
-    background-color: #045043;
-    transition: all 0.3s ease-out;
+    background-color: #a7ed2e;
+    box-shadow:  0px 2px 12px #67a907;
+    transition: all .3s ease-out;
+    color: #795548;
 }
 
 button:hover::before {
@@ -364,71 +337,56 @@ button:hover::before {
 .tl3{
     width: auto;
     height: 10%;
-    font-size: 18px;
-    font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: .5rem;
 }
 .libro1{
     width: auto;
     height: auto;
 }
-.tb{
-    /* padding: 0 0 0 1rem; */
-    color: #57392e;
-}
+
 .infoLib{
     width: auto;
-    color: #57392e;
-
-    /* padding: 0 .5rem; */
     margin-bottom: 1rem;
 }
 
 .fondo{
     height: 100%;
     width: 100%;
-    background-color: saddlebrown;
-    margin-top: 3rem;
+
 }
 .fondo img{
-    width: 100%;
+    width: 90%;
+    height: auto;
     position: absolute;
 }
 /*? Sitio de interes*/
 .interes{
     width: auto;
     height: auto;
-    margin-bottom: 3rem;
 
 }
 .sit{
     width: auto;
     height: 10%;
-    /* color: #045043; */
-    font-size: 18px;
-    font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: .5rem;
 }
 .in ul{
     width: auto;
     padding: 0 1rem;
     margin-bottom: 1rem;
-    color: #57392e;
-    /* text-decoration: none; */
 }
-
-.resp p{
-    font-weight: 600;
-    color: #795548;
-}
-
-.resp h1{
-    color: #388E3C;
-
+.resp{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 /*? A1qui va el responsive para tabletas*/
 

@@ -22,7 +22,6 @@
 .slide-content {
   position: relative;
   text-align: center;
-  /* Centramos el contenido */
 }
 
 .slider-text {
@@ -30,18 +29,18 @@
   top: 50%;
   left: 50%;
   font-size: 58px;
-  color: #57392E;
+  /* color: #57392E; */
+  color: #fff;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.7);
-  /* Fondo semi-transparente */
-  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 5px;
   font-weight: bold;
-  /* Ajusta el estilo del texto según necesites */
 }
 
 .slider-text a {
-  color: #57392E;
+  color: #795548;
+  font-size: 8rem;
+  /* color: #57392E; */
   font-weight: bold;
 }
 
@@ -50,8 +49,9 @@
   display: block;
   width: 100%;
   height: auto;
-  /* Para mantener la proporción de la imagen */
+
 }
+
 
 @keyframes slide {
   0% {
@@ -87,35 +87,28 @@ body {
   height: 400px;
   width: 100%;
   display: flex;
-  /* height: 500px; */
   width: auto;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
-  /* background-color: #eceeea; */
-  /* background-color: #dfd6d6; */
+
 }
 
 .somos {
   height: 100%;
   width: auto;
   display: flex;
-  /* flex-direction: row-; */
   align-items: center;
-  /* margin: 5rem; */
 }
 
 .img {
   width: 50%;
   height: 100%;
-  /* margin-top: 10rem; */
 }
 
 .img img {
   height: 100%;
   width: 100%;
-  /* border-radius: 100%; */
   margin-top: 3rem;
 }
 
@@ -128,28 +121,18 @@ body {
   padding: 4rem 3rem 0 3rem;
 }
 
-.sInfo h3 {
-  /* color: #795548; */
-  color: #388E3C;
-  /* color: #045043; */
-  font-size: 50px;
+.sInfo h2 {
   font-weight: bolder;
   padding-left: 3rem;
 }
 
 .txt {
-  font-size: 18px;
-  color: #795548;
-  /* color: #57392E; */
   margin-top: 3rem;
   padding-top: 4rem;
 }
 
 .contenido p {
-  font-size: 18px;
-  color: #795548;
 
-  /* color: #57392E; */
   padding: 0 3rem;
 
 }
@@ -162,18 +145,13 @@ body {
 
 button {
   background-color: #4CAF50;
-  /* background-color: #0abf94; */
-  /* Color de fondo */
   color: white;
-  /* Color del texto */
   padding: 12px 24px;
   border: none;
-  /* Hacemos el botón más redondeado */
   cursor: pointer;
   font-size: 15px;
   font-weight: bold;
   outline: none;
-  /* Quitamos el borde al hacer clic */
   position: relative;
   overflow: hidden;
   transition: all 0.3s;
@@ -181,7 +159,7 @@ button {
   transition: all .3s ease-in;
 }
 
-/* Efecto de sombra al pasar el cursor */
+/*! Efecto de sombra al pasar el cursor */
 button::before {
   content: '';
   position: absolute;
@@ -199,88 +177,66 @@ button:hover {
   padding: 12px 24px;
   border: none;
   border-radius: 30px;
-  background-color: #045043;
-  box-shadow:  0px 2px 12px #388E3C;
+  background-color: #a7ed2e;
+  box-shadow:  0px 2px 12px #67a907;
   transition: all .3s ease-out;
+  color: #795548;
 }
 
 button:hover::before {
 
   transform: scale(3);
-  /* Agrandamos el efecto de sombra al pasar el cursor */
   opacity: 0;
-  /* Hacemos que la sombra desaparezca */
 }
 
 
-/*Aqui va la segunda seccion y el aside*/
+/*?Aqui va la segunda seccion y el aside*/
 .unete {
   height: 100%;
   width: auto;
-  margin: 5rem 0;
+  margin: 5rem 0 0 0;
   transition: all .3s ease-in;
-  /* background-color: #526f37; */
-  /* background-color: #eceeea; */
-
-  /* background-color: palegoldenrod; */
 }
 
 .unete:hover{
   background-color: #c1f85e;
+  box-shadow: 0px 10px 10px -6px #a7ed2e;
+
 }
 
 .invitacion {
   width: auto;
   height: 500px;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: space-evenly;
-  /* background-color: pink; */
-  /* border-radius: 12px; */
-  /* box-shadow: 0 4px 14px rgba(0, 0, 0, .2); */
-  /* transition: all .7s ease-in; */
+
 }
 
-/* .invitacion:hover {
-  transition: all .5s ease-out;
-  background-color: #dfd6d6;
-  border: none;
-} */
 
 .txt2 {
   width: 60%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  /* background-color: lightslategray; */
 }
 
-.ti {
+.ti{
   width: 100%;
   height: auto;
-  font-size: 50px;
-  /* background-color: turquoise; */
   text-align: right;
   margin: 5rem 0 0 0;
   padding: 3rem 3rem 0 0;
-  color: #388E3C;
 
-  /* color: #fff; */
-  /* color: #045043; */
 }
 
 .parrafo {
   height: 100%;
   width: auto;
   font-size: 18px;
-  /* background-color: tomato; */
   text-align: right;
   padding: 3rem 3rem;
-  color: #795548;
 
-  /* color: #fff; */
-  /* color: #57392E; */
 }
 
 .parrafo p {
@@ -292,10 +248,8 @@ button:hover::before {
   flex-direction: column;
   align-items: center;
   justify-self: center;
-  /* justify-content: center; */
   width: 40%;
   height: 100%;
-  /* background-color: peru; */
 }
 
 .combo img {
@@ -307,85 +261,39 @@ button:hover::before {
 }
 
 /*?Estilos del aside*/
-.interes p {
-  font-size: 30px;
-  font-weight: bolder;
-  padding-left: 4rem;
-  color: #388E3C;
-  
-  /* color: #045043; */
-  margin-top: 5rem;
+.externo {
+  height: auto;
+  width: auto;
+  padding: 3rem 0 3rem 0;
 }
 
-.externo {
-  height: 500px;
+.interes {
   width: auto;
-  /* background-color: #f2f9f9; */
-  position: relative;
+  height: auto;
+  text-align: center;
 }
 
 .ext {
-  height: 90%;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  /*  */
-  /* background-color: red; */
-  /* background-color: #dfd6d6; */
 }
 
 .planta {
-  /* top: -40%; */
-  position: relative;
   height: 100%;
-  width: 15%;
-  /* background-color: #eceeea; */
-  border-radius: 100%;
-  border: none;
 }
-
-.planta img {
-  /* top: -25%; */
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  /* z-index: 1; */
-}
-
 .ruta {
-  width: 50%;
+  width: auto;
   height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.ruta h3,
-a {
-  color: #795548;
-
-  /* color: #045043; */
-  text-decoration: none;
-  font-size: 50px;
   text-align: center;
-  font-weight: bolder;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
-.ruta p {
-  margin-top: 3rem;
-  font-size: 18px;
-  color: #795548;
-  /* color: #57392E; */
-  font-weight: bold;
-  text-align: center;
-}
+  /*! Estilos para tabletas en */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  /* Estilos para tabletas en orientación horizontal */
 
   /*Carrusel de imagenes*/
   .slider-frame {

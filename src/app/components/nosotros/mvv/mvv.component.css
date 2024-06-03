@@ -4,14 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-bottom: 4rem; */
     background-color: #c1f85e;
-    /* background-color: #dfe4dd; */
 }
 .filosofia{
     background-color: #f1f1f1;
     padding-top: 2rem;
-
 }
 .ti {
     font-size: 30px;
@@ -43,6 +40,7 @@
 }
 
 .content h1 {
+    font-size: 2rem;
     margin: 6rem 0 4rem 0;
 }
 
@@ -72,15 +70,6 @@
     background-color: #c1f85e;
 
 }
-
-/*
-.im{
-    display: flex;
-    align-content: center;
-    justify-content: center;background-color: yellow;
-    height: 100%;
-    width: 100%;
-} */
 
 .im {
     content: "";
@@ -162,7 +151,7 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .titt {
+    /* .titt {
         width: auto;
         height: 200px;
         display: flex;
@@ -170,11 +159,11 @@
         justify-content: center;
         margin-bottom: 4rem;
         background-color: #dfe4dd;
-    }
+    } */
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
+/* @media screen and (max-width: 767px) and (min-width: 320px) {
 
-}
+} */
 
     /*
 
