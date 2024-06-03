@@ -1,405 +1,46 @@
-/*Carrusel de imagenes*/
-.slider-frame {
-  position: relative;
-  width: auto;
-  max-width: 100%;
-  overflow: hidden;
-}
-
-.slider-frame ul {
-  display: flex;
-  padding: 0;
-  width: 300%;
-  animation: slide 15s infinite ease-in-out;
-}
-
-.slider-frame li {
-  position: relative;
-  width: 100%;
-  list-style: none;
-}
-
-.slide-content {
-  position: relative;
-  text-align: center;
-}
-
-.slider-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 58px;
-  /* color: #57392E; */
-  color: #fff;
-  transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-.slider-text a {
-  color: #795548;
-  font-size: 8rem;
-  /* color: #57392E; */
-  font-weight: bold;
-}
-
-
-.slider-frame img {
-  display: block;
-  width: 100%;
-  height: auto;
-
-}
-
-
-@keyframes slide {
-  0% {
-    margin-left: 0;
-  }
-
-  20% {
-    margin-left: 0;
-  }
-
-  25% {
-    margin-left: -100%;
-  }
-
-  45% {
-    margin-left: -100%;
-  }
-
-  50% {
-    margin-left: -200%;
-  }
-
-  70% {
-    margin-left: -200%;
-  }
-}
-
-body {
-    background-color: #f1f1f1;
-}
-
-.contenido {
-  height: 400px;
-  width: 100%;
-  display: flex;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.somos {
-  height: 100%;
-  width: auto;
-  display: flex;
-  align-items: center;
-}
-
-.img {
-  width: 50%;
-  height: 100%;
-}
-
-.img img {
-  height: 100%;
-  width: 100%;
-  margin-top: 3rem;
-}
-
-.sInfo {
-  height: 100%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 4rem 3rem 0 3rem;
-}
-
-.sInfo h2 {
-  font-weight: bolder;
-  padding-left: 3rem;
-}
-
-.txt {
-  margin-top: 3rem;
-  padding-top: 4rem;
-}
-
-.contenido p {
-
-  padding: 0 3rem;
-
-}
-
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  font-size: 15px;
-  font-weight: bold;
-  outline: none;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s;
-
-  transition: all .3s ease-in;
-}
-
-/*! Efecto de sombra al pasar el cursor */
-button::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
-  z-index: 1;
-  transition: all 0.3s;
-
-}
-
-button:hover {
-  padding: 12px 24px;
-  border: none;
-  border-radius: 30px;
-  background-color: #a7ed2e;
-  box-shadow:  0px 2px 12px #67a907;
-  transition: all .3s ease-out;
-  color: #795548;
-}
-
-button:hover::before {
-
-  transform: scale(3);
-  opacity: 0;
-}
-
-
-/*?Aqui va la segunda seccion y el aside*/
-.unete {
-  height: 100%;
-  width: auto;
-  margin: 5rem 0 0 0;
-  transition: all .3s ease-in;
-}
-
-.unete:hover{
-  background-color: #c1f85e;
-  box-shadow: 0px 10px 10px -6px #a7ed2e;
-
-}
-
-.invitacion {
-  width: auto;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-
-}
-
-
-.txt2 {
-  width: 60%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.ti{
-  width: 100%;
-  height: auto;
-  text-align: right;
-  margin: 5rem 0 0 0;
-  padding: 3rem 3rem 0 0;
-
-}
-
-.parrafo {
-  height: 100%;
-  width: auto;
-  font-size: 18px;
-  text-align: right;
-  padding: 3rem 3rem;
-
-}
-
-.parrafo p {
-  margin-bottom: 3rem;
-}
-
-.combo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-self: center;
-  width: 40%;
-  height: 100%;
-}
-
-.combo img {
-  margin-top: 6rem;
-  width: 50%;
-  height: 60%;
-  mask-image: linear-gradient(black 80%,
-      transparent);
-}
-
-/*?Estilos del aside*/
-.externo {
-  height: auto;
-  width: auto;
-  padding: 3rem 0 3rem 0;
-}
-
-.interes {
-  width: auto;
-  height: auto;
-  text-align: center;
-}
-
-.ext {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.planta {
-  height: 100%;
-}
-.ruta {
-  width: auto;
-  height: auto;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-  /*! Estilos para tabletas en */
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-
   /*Carrusel de imagenes*/
   .slider-frame {
     position: relative;
     width: auto;
+    max-width: 100%;
     overflow: hidden;
   }
 
-  /*?Estilos de que somos*/
-  .contenido {
-    height: 500px;
-    width: auto;
-    background-color: transparent;
-
-  }
-
-  .somos {
+  .slider-frame ul {
     display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: auto;
+    padding: 0;
+    width: 300%;
+    animation: slide 15s infinite ease-in-out;
   }
 
-  .img {
-    height: auto;
+  .slider-frame li {
+    position: relative;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 3rem;
+    list-style: none;
   }
 
-  .img img {
-    width: 150px;
-    height: 150px;
-  }
-
-  .sInfo {
-    height: 100%;
-    width: auto;
+  .slide-content {
+    position: relative;
     text-align: center;
   }
 
-  .sInfo h3 {
-    width: 100%;
-    text-align: center;
-  }
-
-  button:hover {
-    padding: 12px 24px;
-    border: none;
-    border-radius: 30px;
-    background-color: #dfd6d6;
-    color: #045043;
-    transition: all .3s ease-out;
-  }
-
-  /*? EStilos de invitacion a afiliarte*/
-  .unete {
-    height: 100%;
-    width: auto;
-    background-color: #045043;
-  }
-
-  .invitacion {
-    box-shadow: none;
-    width: auto;
-    transition: none;
-  }
-
-  .invitacion:hover {
-    transition: none;
-    background-color: transparent;
-  }
-
-  .txt2 {
+  .slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 58px;
+    /* color: #57392E; */
     color: #fff;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    font-weight: bold;
   }
-
-  /*?Estilos para el aside*/
-
-  .externo {
-    width: auto;
-  }
-
-  .externo>p {
-    font-weight: bolder;
-  }
-
-  .ruta h3 {
-    text-align: center;
-  }
-
-  .ext {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: transparent;
-  }
-}
-
-@media screen and (max-width: 767px) and (min-width: 320px) {
 
   .slider-text a {
-    font-size: 18px;
-    color: #57392E;
+    color: #795548;
+    font-size: 8rem;
+    /* color: #57392E; */
     font-weight: bold;
   }
 
@@ -408,150 +49,484 @@ button:hover::before {
     display: block;
     width: 100%;
     height: auto;
-    /* Para mantener la proporción de la imagen */
+
   }
 
-  .slider-frame ul {
-    height: auto;
+
+  @keyframes slide {
+    0% {
+      margin-left: 0;
+    }
+
+    20% {
+      margin-left: 0;
+    }
+
+    25% {
+      margin-left: -100%;
+    }
+
+    45% {
+      margin-left: -100%;
+    }
+
+    50% {
+      margin-left: -200%;
+    }
+
+    70% {
+      margin-left: -200%;
+    }
   }
 
-  .slider-frame li {
-    width: 100%;
-  }
-
-  .slider-text {
-    font-size: 5vw;
-    hyphens: manual;
-    width: 85%
+  body {
+    background-color: #f1f1f1;
   }
 
   .contenido {
-    height: 350px;
+    height: 400px;
     width: 100%;
-    background-color: #045043;
+    display: flex;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
 
   .somos {
-    width: 100%;
     height: 100%;
+    width: auto;
     display: flex;
-    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .img img {
+    height: 100%;
+    width: 100%;
+    margin-top: 3rem;
   }
 
   .sInfo {
     height: 100%;
-    width: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 3rem 0 3rem;
   }
 
-  .sInfo h3 {
-    font-size: 2rem;
-    color: #fff;
-    padding: initial;
-    text-align: center;
-    font-size: 20px;
+  .sInfo h2 {
+    font-weight: bolder;
+    padding-left: 3rem;
   }
 
-
-  .somos .txt {
-    font-size: 13px;
-    margin: 1rem 0;
-    color: #fff;
-    hyphens: manual;
+  .txt {
+    margin-top: 3rem;
+    padding-top: 4rem;
   }
 
-  .img {
-    width: 100%;
-    height: auto;
+  .contenido p {
+
+    padding: 0 3rem;
+
+  }
+
+  .btn {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .img img {
-    width: 100px;
-    height: 100px;
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+
+    transition: all .3s ease-in;
   }
 
-  /*?Unete  a nosotros*/
+  /*! Efecto de sombra al pasar el cursor */
+  button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 1;
+    transition: all 0.3s;
 
+  }
+
+  button:hover {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    background-color: #a7ed2e;
+    box-shadow: 0px 2px 12px #67a907;
+    transition: all .3s ease-out;
+    color: #795548;
+  }
+
+  button:hover::before {
+
+    transform: scale(3);
+    opacity: 0;
+  }
+
+
+  /*?Aqui va la segunda seccion y el aside*/
   .unete {
     height: 100%;
     width: auto;
-    margin: initial;
+    margin: 5rem 0 0 0;
+    transition: all .3s ease-in;
+  }
+
+  .unete:hover {
+    background-color: #c1f85e;
+    box-shadow: 0px 10px 10px -6px #a7ed2e;
+
   }
 
   .invitacion {
-    box-shadow: none;
     width: auto;
-    height: 80%;
-    transition: none;
-    margin: 1rem 0;
-    padding: initial;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
   }
 
-  .invitacion:hover {
-    transition: none;
-    background-color: transparent;
-  }
 
   .txt2 {
-    color: #57392E;
-    font-size: 13px;
-    text-align: initial;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
-  button {
-    width: 300px;
-    border-radius: 12px;
+  .ti {
+    width: 100%;
+    height: auto;
+    text-align: right;
+    margin: 5rem 0 0 0;
+    padding: 3rem 3rem 0 0;
 
   }
 
-  /*?Estilos para el aside*/
-
-  .externo {
+  .parrafo {
+    height: 100%;
     width: auto;
-    margin: 3rem 0;
+    font-size: 18px;
+    text-align: right;
+    padding: 3rem 3rem;
+
   }
 
-  .externo p {
-    font-weight: bolder;
+  .parrafo p {
+    margin-bottom: 3rem;
   }
 
-  .ext h3 {
-    text-align: center;
-    font-size: initial;
+  .combo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    width: 40%;
+    height: 100%;
   }
 
-  .ruta {
-    height: 80%;
+  .combo img {
+    margin-top: 6rem;
+    width: 50%;
+    height: 60%;
+    mask-image: linear-gradient(black 80%,
+        transparent);
   }
 
-  .ruta a {
-    font-size: 25px;
+  /*?Estilos del aside*/
+  .externo {
+    height: auto;
+    width: auto;
+    padding: 3rem 0 3rem 0;
   }
 
-  .ruta p {
+  .interes {
+    width: auto;
+    height: auto;
     text-align: center;
   }
 
   .ext {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    background-color: transparent;
-  }
-
-
-  .planta {
     height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-
-    /* .planta img {
-    width: 50%;
-    height: 50%;
-  } */
   }
-}
+
+  .planta {
+    height: 100%;
+  }
+
+  .ruta {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  /*! Estilos para tabletas en */
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /*?Carrusel de imagenes*/
+
+    .slider-text a {
+      color: #795548;
+      font-size: 4rem;
+      /* color: #57392E; */
+      font-weight: bold;
+    }
+
+    /*?Estilos de que somos*/
+    .contenido {
+      height: auto;
+      width: 100%;
+
+    }
+
+    .somos {
+      height: 100%;
+      width: auto;
+    }
+
+    .img {
+      width: 50%;
+    }
+
+    .sInfo {
+      height: 15rem;
+      width: 60%;
+      /* text-align: center; */
+      padding: initial;
+    }
+
+    .sInfo h2 {
+      /* width: 100%; */
+      text-align: center;
+      padding-bottom: 1rem;
+      padding: initial;
+    }
+
+    .txt {
+      margin: initial;
+    }
+
+    /*? EStilos de invitacion a afiliarte*/
+    .unete {
+      height: 100%;
+      width: auto;
+      margin: initial;
+      margin-top: 2rem;
+    }
+
+    .unete:hover {
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    .invitacion {
+      box-shadow: none;
+      width: auto;
+      transition: none;
+
+    }
+
+    .invitacion:hover {
+      transition: none;
+      background-color: transparent;
+    }
+
+
+    .ti{
+      margin: initial;
+    }
+  }
+
+  @media screen and (max-width: 767px) and (min-width: 320px) {
+
+    .slider-text a {
+      font-size: 18px;
+      color: #57392E;
+      font-weight: bold;
+    }
+
+
+    .slider-frame img {
+      display: block;
+      width: 100%;
+      height: auto;
+      /* Para mantener la proporción de la imagen */
+    }
+
+    .slider-frame ul {
+      height: auto;
+    }
+
+    .slider-frame li {
+      width: 100%;
+    }
+
+    .slider-text {
+      font-size: 5vw;
+      hyphens: manual;
+      width: 85%
+    }
+
+    .contenido {
+      height: 350px;
+      width: 100%;
+      background-color: #045043;
+    }
+
+    .somos {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .sInfo {
+      height: 100%;
+      width: auto;
+    }
+
+    .sInfo h3 {
+      font-size: 2rem;
+      color: #fff;
+      padding: initial;
+      text-align: center;
+      font-size: 20px;
+    }
+
+
+    .somos .txt {
+      font-size: 13px;
+      margin: 1rem 0;
+      color: #fff;
+      hyphens: manual;
+    }
+
+    .img {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .img img {
+      width: 100px;
+      height: 100px;
+    }
+
+    /*?Unete  a nosotros*/
+
+    .unete {
+      height: 100%;
+      width: auto;
+      margin: initial;
+    }
+
+    .invitacion {
+      box-shadow: none;
+      width: auto;
+      height: 80%;
+      transition: none;
+      margin: 1rem 0;
+      padding: initial;
+    }
+
+    .invitacion:hover {
+      transition: none;
+      background-color: transparent;
+    }
+
+    .txt2 {
+      color: #57392E;
+      font-size: 13px;
+      text-align: initial;
+    }
+
+    button {
+      width: 300px;
+      border-radius: 12px;
+
+    }
+
+    /*?Estilos para el aside*/
+
+    .externo {
+      width: auto;
+      margin: 3rem 0;
+    }
+
+    .externo p {
+      font-weight: bolder;
+    }
+
+    .ext h3 {
+      text-align: center;
+      font-size: initial;
+    }
+
+    .ruta {
+      height: 80%;
+    }
+
+    .ruta a {
+      font-size: 25px;
+    }
+
+    .ruta p {
+      text-align: center;
+    }
+
+    .ext {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      background-color: transparent;
+    }
+
+
+    .planta {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      /* .planta img {
+      width: 50%;
+      height: 50%;
+    } */
+    }
+  }
