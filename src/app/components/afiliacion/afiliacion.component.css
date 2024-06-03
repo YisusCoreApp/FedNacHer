@@ -1,73 +1,83 @@
 .n {
-    height: 350px;
+    height: 70vh;
     width: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem 0;
-}
+    flex-direction: row-reverse;
+    /* margin: 2rem 0; */
+    background-color: #c1f85e;
 
-.n img {
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
 }
 
 .nosotros {
-    width: 600px;
-    height: 350px;
-    background-color: #e5e5e7;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff8e7; */
+
     /* background-color: #e8e9d8; */
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    /* margin: 0 2rem; */
 }
 
-.nosotros:hover {
-    transform: translateY(-5px);
+.pina {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pina img {
+    width: 70%;
+    height: 100%;
 }
 
 .unirte h2 {
+    width: 100%;
     text-align: center;
-    color: #007c65;
-    padding: 2rem 0;
+    /* color: #007c65; */
+    /* padding: 2rem 0; */
 }
 
-.unirte span {
-    color: #57392e;
+
+.info p {
+    text-align: center;
+    padding: 2rem 2rem;
+    color: #795548;
+    font-weight: 600;
 }
-.info p{
-    /* text-align: center; */
-    padding: 0 2rem 2rem 2rem;
-}
+
 .info ul {
     text-align: left;
     font-size: 20px;
     font-weight: bolder;
     color: #57392e;
-    padding: 0 4rem;
+    padding: 0 5rem;
     line-height: 2rem;
+    /* background-color: skyblue; */
 }
 
 /*? estilos para como afiliarse*/
 
-.a {
+.paraAfiliarse {
     height: 50px;
     width: auto;
     display: flex;
-    flex-direction: column  ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 2rem 0 0 0;
-    background-color: #e5e5e7;
 }
-a
-.paraAfiliarse{
+
+a .paraAfiliarse {
     width: 100%;
     padding: 0 5rem;
     /* margin-top: 3rem; */
     text-align: center;
 }
+
 /* .comoA {
     width: 600px;
     height: 350px;
@@ -180,7 +190,7 @@ a
     /* font-weight: 400px; */
     font-size: 18px;
     text-align: left;
-    
+
 
 }
 
@@ -543,16 +553,20 @@ button:hover::before {
         width: auto;
     }
 
-    .af{
+    .af {
         width: 100%;
     }
-    .af h2, span{
+
+    .af h2,
+    span {
         font-size: 18px;
     }
-    .infor{
+
+    .infor {
         width: auto;
     }
-    .infor p{
+
+    .infor p {
         font-size: 13px;
         padding: 1rem 1rem;
     }
