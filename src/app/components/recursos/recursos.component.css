@@ -405,7 +405,7 @@ button:hover::before {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 2rem;
+    padding:0 0 2rem 0;
 }
 
 /*? A1qui va el responsive para tabletas*/
@@ -536,6 +536,7 @@ button:hover::before {
     .resp {
         width: 100%;
         height: 100%;
+        padding:2rem 2rem;
     }
 
 }
