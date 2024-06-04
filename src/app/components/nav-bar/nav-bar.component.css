@@ -156,37 +156,62 @@ label {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
-
-  .title>* {
-    position: relative;
-    z-index: 1;
-  }
-
-  strong {
-    font-size: 30px;
-  }
-
-  .text {
-    height: 20%;
-    font-size: 40px;
+  .title {
+    height: 100%;
+    width: 100%;
+    padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #57392e;
-    font-weight: bolder;
-    text-align: center;
-    margin: 0 0 0 2rem;
+    /* flex-direction: column; */
+    /* background-color: palegoldenrod; */
+  }
+  .title::before{
+    opacity: .3;
   }
 
-  .logo {
-    height: 80%;
-    width: 70%;
+  .Tprin{
+    height: 100%;
+    width: 50%;
   }
+  .text {
+    height: 100%;
+    width: 100%;
+    /* padding: auto 0; */
+    text-align: left;
+    /* background-color: violet; */
+  }
+  .logo{
+    height: 100%;
+    width: 40%;
+    padding: 0 0 1rem 0;
+    margin: 0;
+  }
+  .logo img{
+    height: 100%;
+    width: 100%;
+  }
+  /* 
 
-  .logo img {
-    height: auto;
-    width: auto;
-  }
+    .text {
+      height: 20%;
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #57392e;
+      font-weight: bolder;
+      text-align: center;
+      background-color: palegreen;
+    }
+
+    .logo {
+      height: 80%;
+      width: 7%;
+    }
+
+    .logo img {
+      height: auto;
+      width: auto;
+    } */
 
   .menu-icon {
     display: none;
@@ -200,62 +225,44 @@ label {
 @media screen and (max-width: 767px) and (min-width: 320px) {
 
   .title {
-    height: 100px;
-    width: auto;
-    position: relative;
-    /* padding: initial;
-    background-color: transparent;
-    /* Asegura que el pseudo-elemento esté posicionado correctamente */
-
-  }
-
-  .title::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
     height: 100%;
-    background-image: url('/assets/header.jpg');
-
-    /* Reemplaza 'tu-imagen.jpg' con tu ruta de imagen */
-    opacity: 0.5;
-    /* Ajusta la opacidad según lo necesites */
-    z-index: -1;
-    /* Asegura que esté detrás del texto */
-  }
-
-  .title>* {
-    position: relative;
-    z-index: 1;
-  }
-
-  .text {
     width: 100%;
-    height: auto;
+    padding: 0;
     display: flex;
     flex-direction: column;
+    /* background-color: palegoldenrod; */
+  }
+  .title::before{
+    opacity: .3;
+  }
+  .Tprin{
+    height: 100%;
+    width: 100%;
+    /* background-color: palegreen; */
+  }
+  .text {
+    height: 100%;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.2rem;
     text-align: center;
-    font-size: 10px;
+    /* background-color: violet; */
   }
-
-  .logo {
-    width: 35%;
-    height: 35%;
-    padding: initial;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .logo{
+    height: 100%;
+    width: 100%;
+    /* background-color: powderblue; */
+    padding: 0 0 1rem 0;
+    margin: 0;
   }
-
-  .logo img {
-    height: 50px;
-    width: 50px;
+  .logo img{
+    height: 15%;
+    width: 15%;
   }
 
   nav {
     width: auto;
-    position: absolute;
+    position: relative;
     background-color: transparent;
   }
 
@@ -267,10 +274,6 @@ label {
     position: fixed;
     width: 100%;
     height: 100%;
-    padding-top: 50px;
-    /* Añadimos padding al inicio del menú para evitar que se solape con el ícono */
-    box-sizing: border-box;
-    /* Incluimos el padding en el ancho total del menú */
   }
 
   input:checked~ul {
@@ -291,8 +294,8 @@ label {
     line-height: 30px;
     font-weight: bold;
     user-select: none;
-    cursor: pointer;
-    top: 10px;
+    cursor: pointer; 
+    top: 10rem;
     left: 10px;
     color: white;
     position: fixed;
@@ -303,10 +306,7 @@ label {
   li {
     display: block;
     width: 100%;
-    padding-bottom: 15vh;
-    /* Añadimos padding para controlar el espacio entre los elementos */
-    box-sizing: border-box;
-    /* Incluimos el padding en el ancho total de los elementos */
+    /* padding-bottom: 15vh; */
     color: #fff;
     background: #007c65;
     margin: 0;
@@ -345,6 +345,6 @@ label {
     text-decoration: none;
     display: block;
     text-align: center;
-  }
+  } 
 
 }
