@@ -243,123 +243,53 @@ button:hover::before {
         height: 100%;
         display: flex;
         flex-direction: column;
-        background-color: honeydew;
         align-items: center;
         position: relative;
         margin: initial;
+        background-color: initial;
+    }
+    .unirte{
+        padding-top: 2rem;
     }
 
-    .nosotros {
-        width: 100%;
+    .afiliacion{
         height: 100%;
-        margin: 10rem 0 0 0;
-        border-radius: initial;
-        background-color: #fff7ed;
-        opacity: .8;
-        z-index: 1;
-    }
-
-    .nosotros::after {
-        position: relative;
-        opacity: .1;
-    }
-
-    .n img {
         width: 100%;
+    }
+
+    .title{
         height: 10rem;
-        position: absolute;
-        top: 0;
-        left: 0;
-        opacity: .9;
-        border-radius: initial;
-        mask-image: linear-gradient(#fef6f2 35%, transparent);
-        z-index: 1;
-
-    }
-
-
-    .a {
-        width: auto;
-        height: auto;
-        margin: 2rem 0;
-    }
-
-    .afiliarse span {
-        color: #fff;
-    }
-
-    .comoA {
-        width: auto;
-        height: 350px;
-        background-color: #045043;
-        display: flex;
-        flex-direction: column;
-        margin: 3rem 0;
-    }
-
-    .comoA h2,
-    .info p {
-        text-align: center;
-        color: #fff;
-    }
-
-    button {
-        background-color: #045043;
-        color: #fff;
-    }
-
-    button:hover {
-        background-color: #e8e9d8;
-        color: #045043;
-    }
-
-    /*?Planes de afiliacion*/
-
-    .afiliacion {
-        height: auto;
         width: auto;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* padding: initial; */
     }
-
-    .afil {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        height: auto;
-    }
-
-    .servicio {
-        height: auto;
-        width: auto;
-        margin: 3rem 2rem 0 2rem;
-    }
-
-    .btn {
-        height: 200px;
-        width: auto;
-    }
-
-    .b {
-        height: 100%;
-        width: auto;
-        position: relative;
-        z-index: -1;
-    }
-
-    .b::after {
-        content: "";
-        background-image: url(/assets/fonfoAfil.png);
-        background-position: 1rem 15rem;
-        position: absolute;
+    .b{
         width: 100%;
         height: 100%;
-        z-index: 1;
-        background-size: contain;
-        background-repeat: no-repeat;
-        opacity: .6;
+        display: flex;
+        flex-direction: column;
     }
-
+    .respon{
+        width: 100%;
+        /* width: 70%; */
+        height: auto;
+    }
+    .infor p{
+        padding: 0 1rem;
+    }
+    .hero{
+        height: 20rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .hero img{
+        height: 100%;
+        width: 25rem;
+    }
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
