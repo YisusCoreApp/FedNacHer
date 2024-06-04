@@ -217,29 +217,28 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .contenedores {
-        height: auto;
+        height: 100%;
         width: auto;
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
         align-items: center;
-        margin: 3rem 1rem;
-        border-radius: 2rem;
-        background: none;
         box-shadow: none;
-
+        border-radius: 10rem;
     }
 
     .titulo {
         text-align: center;
         margin-bottom: initial;
-        padding: 1rem 1rem;
+        padding: unset;
     }
 
     .informacion {
-        padding: 1rem 1rem;
+        width: 25rem;
         font-weight: 500;
         text-align: left;
         overflow: hidden;
+        padding: 2rem 0;
+        text-align: center;
     }
 
     .origenes {
@@ -284,7 +283,7 @@
         height: 80%;
         width: auto;
         /* margin:2rem 0; */
-        border-radius: 100%;
+        /* border-radius: 100%; */
     }
 
     /*?-------------------------*/
