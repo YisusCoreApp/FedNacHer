@@ -175,13 +175,17 @@ label {
   .text {
     height: 100%;
     width: 100%;
-    /* padding: auto 0; */
-    text-align: left;
-    /* background-color: violet; */
+    font-size: 2.5rem;
+    line-height:4.rem;
+    /* padding: 0 0; */
+    margin: 0;
+    text-align: center;
+    background-color: violet;
   }
+
   .logo{
     height: 100%;
-    width: 40%;
+    width: 30%;
     padding: 0 0 1rem 0;
     margin: 0;
   }
