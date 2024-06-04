@@ -1,7 +1,8 @@
-body{
+body {
     background-color: #f1f1f1;
-    
+
 }
+
 .informacion {
     height: 350px;
     width: auto;
@@ -54,15 +55,15 @@ body{
     width: auto;
     height: auto;
 }
-.recur{
+
+.recur {
     width: 70%;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    
 }
+
 .mn {
     display: flex;
     flex-direction: column;
@@ -86,11 +87,12 @@ body{
     background: white;
 }
 
-.ley{
+.ley {
     width: auto;
     height: 50%;
     position: relative;
 }
+
 .ley h3 {
     padding: 1rem 0 0 3rem;
 }
@@ -98,13 +100,14 @@ body{
 .leyes ul {
     padding: 0 3rem;
 }
-.hero{
+
+.hero {
     /* background-color: peru; */
     height: auto;
     width: 100%;
 }
 
-.hero img{
+.hero img {
     /* background-color: cadetblue; */
     height: auto;
     width: 50%;
@@ -113,10 +116,12 @@ body{
     /* margin-top: 5rem; */
     position: absolute;
 }
-.reglas{
+
+.reglas {
     width: auto;
     height: 50%;
 }
+
 .reglas h3 {
     padding: 1rem 0 0 3rem;
 }
@@ -124,6 +129,7 @@ body{
 .reglas ul {
     padding: 0 3rem;
 }
+
 /*
 .leyes b {
     color: #007c65;
@@ -138,7 +144,7 @@ body{
     padding-bottom: 2rem;
     line-height: 35px;
     box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
-    background: white;  
+    background: white;
 }
 
 .productosH h3 {
@@ -168,6 +174,7 @@ body{
     height: auto;
     text-align: center;
 }
+
 .beneficios {
     border-radius: 12px;
     height: auto;
@@ -212,12 +219,12 @@ body{
     width: 100%;
     text-align: center;
     color: #57392e;
-    padding-top: 1rem ;
+    padding-top: 1rem;
 }
 
 /*? Todos los estilos para el aside*/
 
-.aside{
+.aside {
     width: 30%;
     display: flex;
     align-items: center;
@@ -225,7 +232,7 @@ body{
     position: relative;
 }
 
-.conte{
+.conte {
     position: absolute;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
@@ -233,19 +240,21 @@ body{
     padding: 1rem 1rem;
     background-color: #fff;
 }
-.alertas{
+
+.alertas {
     width: 100%;
     height: 15%;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
 }
-.tl1{
+
+.tl1 {
     width: auto;
     height: 10%;
     text-align: center;
 }
-.txt1{
-    color: #57392e;
+
+.txt1 {
     hyphens: manual;
     padding: .5rem .5rem 0 .5rem;
 }
@@ -253,30 +262,32 @@ body{
 
 /*?Articulos*/
 
-.articles{
+.articles {
     width: auto;
     height: auto;
 }
 
-.investigacion{
+.investigacion {
     width: auto;
     height: 10%;
     margin-bottom: 3rem;
 }
 
-.tl2{
+.tl2 {
     width: auto;
     height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.lis ul{
+
+.lis ul {
     hyphens: manual;
     padding: 1rem 1rem 0 1rem;
     text-decoration: none;
 
 }
+
 .btn {
     display: flex;
     align-items: center;
@@ -317,7 +328,7 @@ button:hover {
     border: none;
     border-radius: 30px;
     background-color: #a7ed2e;
-    box-shadow:  0px 2px 12px #67a907;
+    box-shadow: 0px 2px 12px #67a907;
     transition: all .3s ease-out;
     color: #795548;
 }
@@ -328,13 +339,14 @@ button:hover::before {
 }
 
 /*! Libros*/
-.libros{
+.libros {
     width: auto;
     height: auto;
     margin-bottom: 3rem;
 
 }
-.tl3{
+
+.tl3 {
     width: auto;
     height: 10%;
     display: flex;
@@ -342,33 +354,37 @@ button:hover::before {
     align-items: center;
     padding-bottom: .5rem;
 }
-.libro1{
+
+.libro1 {
     width: auto;
     height: auto;
 }
 
-.infoLib{
+.infoLib {
     width: auto;
     margin-bottom: 1rem;
 }
 
-.fondo{
+.fondo {
     height: 100%;
     width: 100%;
 
 }
-.fondo img{
+
+.fondo img {
     width: 90%;
     height: auto;
     position: absolute;
 }
+
 /*? Sitio de interes*/
-.interes{
+.interes {
     width: auto;
     height: auto;
 
 }
-.sit{
+
+.sit {
     width: auto;
     height: 10%;
     display: flex;
@@ -376,182 +392,152 @@ button:hover::before {
     align-items: center;
     padding-bottom: .5rem;
 }
-.in ul{
+
+.in ul {
     width: auto;
     padding: 0 1rem;
     margin-bottom: 1rem;
 }
-.resp{
+
+.resp {
     width: 100%;
-    height: 20rem;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 2rem;
 }
+
 /*? A1qui va el responsive para tabletas*/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        height: 100%;
+    }
+
     .informacion {
-        height: 350px;
+        height: 100%;
         width: auto;
     }
 
     .recursos {
         height: 100%;
-        width: auto;
-        padding: 0 4rem;
-        background-color: #045043;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
         margin-top: initial;
     }
 
     .rec {
-        width: auto;
-        color: #fff;
+        width: 100%;
+        height: 100%;
     }
 
-    .rec h3 {
-        color: #fff;
+    .rec h2 {
+        text-align: center;
+        padding: 1rem 1rem 0 0;
+        /* margin-bottom: 2rem; */
     }
 
     .foto {
+        width: 100%;
         height: 100%;
-        width: auto;
         display: flex;
         align-items: center;
+        justify-content: center;
         padding: initial;
     }
 
     .foto img {
         width: auto;
-        height: 20vh;
+        height: 40vh;
+    }
+
+    .resp {
+        width: 100%;
+        height: 100%;
     }
 
     /*?Estilos para los contenedores*/
 
     .container {
         width: auto;
+        height: 100%;
+        display: flex;
+    }
+
+    .recur {
+        width: 65%;
+        height: 100%;
+        display: flex;
+
     }
 
     .mn {
-        width: max-content;
-        height: auto;
-        margin-top: 2rem;
+        height: 100%;
+        width: 95%;
+        margin: initial;
     }
 
-    .mn * h1 {
+    .leyes {
+        height: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .hero {
+        display: none;
+    }
+
+
+    /*!-------------------------------*/
+
+    .tph h1 {
         text-align: center;
     }
 
-    .leyes,
-    .productosH,
-    .beneficios {
-        border-radius: 12px;
-        box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
-        height: 100%;
-        /* width: auto; */
-        hyphens: auto;
-    }
-
-    .leyes,
-    .productosH,
-    .beneficios h2 {
-        padding: initial;
-    }
-
-    .leyes,
-    .productosH,
-    .beneficios ul {
-        margin: 0 0.5rem;
-    }
-
-    .leyes b {
-        color: #007c65;
-    }
-
+    /*?---------------------------------*/
     .t {
-        height: 200px;
-        width: auto;
+        height: 100%;
+        margin: 1rem 0 0 0;
+    }
+
+    .t h1 {
+        text-align: center;
     }
 
     .t p {
-        padding: 1rem 1rem;
-        text-align: center;
+        padding: 1rem 0;
     }
 
+    /**--------------aside---------------*/
     .aside {
-        height: 60%;
-        width: 40%;
-        margin: 50rem 0;
-        /* margin: initial;*/
-        padding: initial;
+        width: 35%;
     }
 
     .conte {
-        height: 100%;
-        width: min-content;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        position: absolute;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(87, 57, 46, 0.48);
+        width: 90%;
+        background-color: #fff;
+    }
+
+    .alertas p {
+        hyphens: unset;
         text-align: center;
+        padding: unset;
     }
 
-    /* .alertas{
-        background-color: aliceblue;
-        width: 100%;
-        height: auto;
-    }
-    .txt1{
-        padding: 0 .5rem;
-        hyphens: manual;
-    }
-    .articles{
-        display: flex;
-        flex-direction: column;
-
-        background-color: red;
-    }
-
-    .investigacion{
-        width: auto;
-        height: 100%;
-        display: initial;
-        background-color: silver;
-    }*/
-    .txt2 {
-        width: 100%;
-        position: lative;
-    }
-
-    .conte::before {
-        background-image: none;
-    }
-
-    .conte * {
-        height: auto;
-        width: auto;
-        hyphens: auto;
-        text-align: center;
-        font-size: 18px;
-    }
-
-    button {
-        background-color: #045043;
-        color: #fff;
-    }
-
-    button:hover {
-        background-color: #edf0f1;
-        color: #045043;
+    .fondo {
+        display: none;
     }
 
     .resp {
+        width: 100%;
         height: 100%;
-        width: auto;
-        margin: 2rem 0;
-        text-align: center;
-        hyphens: auto;
-        padding: initial;
     }
+
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
