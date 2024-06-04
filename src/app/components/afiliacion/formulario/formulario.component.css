@@ -144,3 +144,21 @@ textarea {
     transition: all 0.1s ease-out;
     border-radius: 18px;
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .formulario{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: darkblue;
+    }
+    .txtA{
+        padding: 0 1rem;
+        margin: initial;
+        font-size: 17px;
+    }
+}
