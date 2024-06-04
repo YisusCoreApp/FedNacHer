@@ -155,9 +155,12 @@ textarea {
         align-items: center;
         justify-content: center;
     }
+    .gracias{
+        padding: 3rem 0 0 0;
+    }
     .txtA{
         padding: 0 1rem;
         margin: initial;
-        font-size: 17px;
+        font-size: 15px;
     }
 }
