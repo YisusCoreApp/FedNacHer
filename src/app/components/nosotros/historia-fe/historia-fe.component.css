@@ -235,7 +235,7 @@
     }
 
     .informacion {
-        width: 25rem;
+        width: 75vw;
         font-weight: 500;
         text-align: left;
         overflow: hidden;
@@ -245,7 +245,7 @@
 
     .origenes {
         height: 50vh;
-        width: auto;
+        width: 100%;
         /* display: initial; */
         display: flex;
         align-items: center;
@@ -253,7 +253,7 @@
     }
 
     .origenes img {
-        height: 80%;
+        height: 100%;
         width: 100%;
         /* margin:2rem 0; */
         /* border-radius: 45%; */
@@ -274,7 +274,7 @@
 
     .des {
         height: 50vh;
-        width: 60%;
+        width: 100%;
         /* display: initial; */
         display: flex;
         align-items: center;
@@ -283,7 +283,7 @@
 
 
     .des img {
-        height: 73%;
+        height: 100%;
         width: 100%;
         /* margin:2rem 0; */
         /* border-radius: 45%; */
@@ -304,14 +304,14 @@
 
     .logros {
         height: 50vh;
-        width: 60%;
+        width: 100%;
         /* display: initial; */
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .logros img {
-        height: 73%;
+        height: 100%;
         width: 100%;
         /* margin:2rem 0; */
         /* border-radius: 45%; */
@@ -333,7 +333,7 @@
 
     .papeIp {
         height: 50vh;
-        width: 60%;
+        width: 100%;
         /* display: initial; */
         display: flex;
         align-items: center;
@@ -341,8 +341,8 @@
     }
 
     .papeIp img {
-        height: 80%;
-        width: auto;
+        height: 100%;
+        width: 100%;
         /* margin:2rem 0; */
         border-radius: 100%;
     }
