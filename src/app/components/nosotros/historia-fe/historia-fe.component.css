@@ -223,13 +223,15 @@
         flex-direction: column-reverse;
         align-items: center;
         box-shadow: none;
-        border-radius: 10rem;
+        border-radius: unset;
+        overflow: hidden;
+        background: none;
     }
 
     .titulo {
         text-align: center;
         margin-bottom: initial;
-        padding: unset;
+        /* padding: unset; */
     }
 
     .informacion {
@@ -238,12 +240,12 @@
         text-align: left;
         overflow: hidden;
         padding: 2rem 0;
-        text-align: center;
+        text-align: justify;
     }
 
     .origenes {
         height: 50vh;
-        width: 60%;
+        width: auto;
         /* display: initial; */
         display: flex;
         align-items: center;
@@ -252,22 +254,22 @@
 
     .origenes img {
         height: 80%;
-        width: auto;
+        width: 100%;
         /* margin:2rem 0; */
-        border-radius: 100%;
+        /* border-radius: 45%; */
     }
 
     /*?-------------------------*/
     .contenedores1 {
-        height: auto;
+        height: 100%;
         width: auto;
         display: flex;
-        flex-direction: row-;
+        flex-direction: column-reverse;
         align-items: center;
-        margin: 3rem 1rem;
-        border-radius: 2rem;
-        background: none;
         box-shadow: none;
+        border-radius: unset;
+        overflow: hidden;
+        background: none;
     }
 
     .des {
@@ -279,25 +281,25 @@
         justify-content: center;
     }
 
+
     .des img {
-        height: 80%;
-        width: auto;
+        height: 73%;
+        width: 100%;
         /* margin:2rem 0; */
-        /* border-radius: 100%; */
+        /* border-radius: 45%; */
     }
 
     /*?-------------------------*/
     .contenedores2 {
-        height: auto;
+        height: 100%;
         width: auto;
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
         align-items: center;
-        margin: 3rem 1rem;
-        border-radius: 2rem;
-        background: none;
         box-shadow: none;
-
+        border-radius: unset;
+        overflow: hidden;
+        background: none;
     }
 
     .logros {
@@ -308,24 +310,25 @@
         align-items: center;
         justify-content: center;
     }
-
     .logros img {
-        height: 80%;
-        width: auto;
+        height: 73%;
+        width: 100%;
         /* margin:2rem 0; */
-        border-radius: 100%;
-    }/*?------------------------*/
+        /* border-radius: 45%; */
+    }
+
+    /*?------------------------*/
 
     .contenedores3 {
-        height: auto;
+        height: 100%;
         width: auto;
         display: flex;
-        flex-direction: row-;
+        flex-direction: column-reverse;
         align-items: center;
-        margin: 3rem 1rem;
-        border-radius: 2rem;
-        background: none;
         box-shadow: none;
+        border-radius: unset;
+        overflow: hidden;
+        background: none;
     }
 
     .papeIp {
