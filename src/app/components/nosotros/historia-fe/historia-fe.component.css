@@ -8,7 +8,6 @@
 
 .t1 {
     text-align: center;
-    font-size: 20px;
     color: #388E3C;
 }
 
@@ -22,26 +21,21 @@
     border-bottom-left-radius: 30rem;
     background: rgb(193, 248, 94);
     background: radial-gradient(circle, rgba(193, 248, 94, 1) 31%, rgba(136, 212, 14, 1) 85%);
-  
     box-shadow: 0 1px 16px #375611;
 }
 
 .titulo {
     margin-bottom: 3rem;
     color: #388E3C;
-    font-size: 20px;
-    
 }
 
 .informacion {
     padding: 0 2rem;
     color: #795548;
     font-weight: 500;
-    color: #795548;
-    font-size: 18px;
     text-align: right;
     overflow: hidden;
-    
+
 }
 
 .informacion p {
@@ -84,7 +78,6 @@
     height: 105%;
     border-radius: .2rem;
     transition: all .2s ease-in;
-
 }
 
 /*?EStilos para el contenedor de crecimiento*/
@@ -158,6 +151,7 @@
 .informacion ul {
     padding: 0 0 0 2rem;
 }
+
 .informacion li {
     padding-bottom: 1rem;
     animation-duration: 1.5s;
@@ -204,14 +198,6 @@
     background: radial-gradient(circle, rgba(193, 248, 94, 1) 31%, rgba(136, 212, 14, 1) 85%);
     border-radius: 30rem;
     box-shadow: 0 1px 16px #375611;
-
-    /* background-color: #3c6f72; */
-    /* box-shadow: 0 4px 16px rgba(49, 138, 172, 1); */
-
-    /* background-color: #6c996c; */
-    /* border-top-right-radius: 8rem; 
-    border-bottom-right-radius: 8rem; */
-
 }
 
 .papelP {
@@ -220,8 +206,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding-left: 7rem; */
-    /* background-color: #fff; */
 }
 
 .papelP img {
@@ -232,240 +216,133 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .container {
-        height: 100%;
+    .contenedores {
+        height: auto;
         width: auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: row-reverse;
         align-items: center;
+        margin: 3rem 1rem;
+        border-radius: 2rem;
+        background: none;
+        box-shadow: none;
+
     }
 
-    .container span {
-        color: #fff;
-        margin-right: 4px;
+    .titulo {
+        text-align: center;
+        margin-bottom: initial;
+        padding: 1rem 1rem;
     }
 
-    .contenedor {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        /* background-color: transparent; */
-        /* margin-top: 2rem; */
+    .informacion {
+        padding: 1rem 1rem;
+        font-weight: 500;
+        text-align: left;
+        overflow: hidden;
     }
-
-    .informacon {
-        width: 100%;
-        height: 50%;
-    }
-
-    .titulo1 {
-        width: 100%;
-        height: 100%;
-        background-color: #c2590c;
-        font-size: 30px;
-        color: #fff;
-        /* border-radius: 12px; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 3rem;
-    }
-
-    .info_1 {
-        width: auto;
-        height: 100%;
-        font-size: 15px;
-        /* padding: 2rem 3rem; */
-    }
-
 
     .origenes {
-        width: 100%;
-        height: 100%;
+        height: 50vh;
+        width: 60%;
+        /* display: initial; */
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 2rem 0;
     }
 
     .origenes img {
-        width: 50vw;
-        height: 200px;
-        border-radius: 4%;
-    }
-
-
-
-    /*?---------------------------*/
-
-    .contenedor2 {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        margin: initial;
-        /* margin-top: 2rem; */
-
-    }
-
-    .informacon2 {
-        width: 100%;
-        height: 100%;
-    }
-
-    .informacon2 span {
-        color: #fff;
-        margin-left: 4px;
-    }
-
-    .titulo2 {
-        width: 100%;
-        height: 100%;
-        background-color: #386f1c;
-        font-size: 30px;
-        color: #fff;
-        /* border-radius: 12px; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .info_2 {
+        height: 80%;
         width: auto;
-        height: 100%;
-        font-size: 15px;
-        padding-left: 1.5rem;
+        /* margin:2rem 0; */
+        border-radius: 100%;
     }
 
-    .crecimiento {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 2rem 0;
-    }
-
-    .crecimiento img {
-        width: 50vw;
-        height: 200px;
-        border-radius: 4%;
-    }
-
-    /*?---------------------------*/
-
-    .contenedor3 {
+    /*?-------------------------*/
+    .contenedores1 {
         height: auto;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: initial;
-        /* margin-top: 2rem; */
-    }
-
-    .informacon3 {
-        width: 100%;
-        height: auto;
-    }
-
-    .informacon3 span {
-        color: #fff;
-        margin-right: 4px;
-    }
-
-    .titulo3 {
-        width: 100%;
-        height: 100%;
-        background-color: #386f1c;
-        font-size: 30px;
-        color: #fff;
-        /* border-radius: 12px; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .listaLogros {
         width: auto;
-        height: 100%;
-        font-size: 15px;
+        display: flex;
+        flex-direction: row-;
+        align-items: center;
+        margin: 3rem 1rem;
+        border-radius: 2rem;
+        background: none;
+        box-shadow: none;
+    }
+
+    .des {
+        height: 50vh;
+        width: 60%;
+        /* display: initial; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .des img {
+        height: 80%;
+        width: auto;
+        /* margin:2rem 0; */
+        border-radius: 100%;
+    }
+
+    /*?-------------------------*/
+    .contenedores2 {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 3rem 1rem;
+        border-radius: 2rem;
+        background: none;
+        box-shadow: none;
+
     }
 
     .logros {
-        width: 100%;
-        height: 100%;
+        height: 50vh;
+        width: 60%;
+        /* display: initial; */
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 2rem 0;
     }
 
     .logros img {
-        width: 50vw;
-        height: 200px;
-        border-radius: 4%;
-    }
-
-    /*?---------------------------*/
-
-
-    .contenedor4 {
-        height: auto;
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        margin: initial;
-        /* margin: 2rem 0; */
-
-    }
-
-    .informacon4 span {
-        color: #fff;
-        margin-left: 4px;
-    }
-
-    .informacon4 {
-        width: 100%;
-        height: 50%;
-    }
-
-    .titulo4 {
-        width: 100%;
-        height: 100%;
-        background-color: #c2590c;
-        font-size: 30px;
-        color: #fff;
-        /* border-radius: 12px; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .info_4 {
+        height: 80%;
         width: auto;
-        height: 100%;
-        font-size: 15px;
-        padding: 2rem 3rem;
+        /* margin:2rem 0; */
+        border-radius: 100%;
+    }/*?------------------------*/
+
+    .contenedores3 {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: row-;
+        align-items: center;
+        margin: 3rem 1rem;
+        border-radius: 2rem;
+        background: none;
+        box-shadow: none;
     }
 
-    .principal {
-        width: 100%;
-        height: 100%;
-        padding: 2rem 0;
+    .papeIp {
+        height: 50vh;
+        width: 60%;
+        /* display: initial; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .principal img {
-        width: 300px;
-        height: 250px;
-
+    .papeIp img {
+        height: 80%;
+        width: auto;
+        /* margin:2rem 0; */
+        border-radius: 100%;
     }
 }
 
