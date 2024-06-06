@@ -14,7 +14,33 @@
     </div>
 </div>
 
+
 <nav>
+  <input type="checkbox" id="menu" [(ngModel)]="menuOpen">
+  <label for="menu" class="menu-icon"> ☰ </label>
+  <ul>
+    <li><a routerLink="/inicio" (click)="closeMenu()">Inicio</a></li>
+    <li class="dropdown">
+      <a (click)="toggleDropdown('whoWeAre')">¿Quienes Somos?</a>
+      <div class="dropdown-content" [class.show]="isDropdownOpen('whoWeAre')">
+        <a routerLink="/historia" (click)="closeMenu()">Historia FENIHMANT</a>
+        <a routerLink="/mvv" (click)="closeMenu()">Misión, Visión y Valores</a>
+        <a routerLink="/codigoE" (click)="closeMenu()">Codigo de Ética</a>
+        <a routerLink="/equipoT" (click)="closeMenu()">Equipo de Trabajo</a>
+      </div>
+    </li>
+    <li><a routerLink="/recursos" (click)="closeMenu()">Recursos</a></li>
+    <li class="dropdown">
+      <a class="dropbtn" (click)="toggleDropdown('services')">Servicios</a>
+      <div class="dropdown-content" [class.show]="isDropdownOpen('services')">
+        <a routerLink="/servicios" (click)="closeMenu()">¿Qué ofrecemos?</a>
+      </div>
+    </li>
+    <li><a routerLink="/afiliacion" (click)="closeMenu()">Afiliate</a></li>
+  </ul>
+</nav>
+
+<!-- <nav>
   <input type="checkbox" id="menu">
   <label for="menu" class="menu-icon"> ☰ </label>
   <ul>
@@ -36,4 +62,4 @@
     </li>
     <li><a routerLink="/afiliacion">Afiliate</a></li>
   </ul>
-</nav>
+</nav> -->
