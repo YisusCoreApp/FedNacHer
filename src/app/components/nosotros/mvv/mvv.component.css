@@ -161,87 +161,103 @@
 
     .wrapper {
         width: auto;
-        height: 100%;
+        height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    .ima {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        /* position: absolute; */
     }
 
-    .img {
-        height: 50vh;
-        width: 80%;
-        background-color: #c1f85e;
+    .content{
+        width: 100%;
     }
-    .im {
-        content: "";
-        top: 0;
-        left: initial;
-        height: 80%;
-        width: 38vw;
-        /* position: absolute; */
-        background-image: url('/assets/Quienes Somos/Mvv/mision.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        z-index: 1;
-        margin-left: initial;
-        filter: drop-shadow(16px 15px 15px #000);
-    }
+/* Contenedor principal que abarca todo el espacio disponible */
+.ima {
+    height: 70vh; /* Ajustado para ocupar la altura de la ventana del navegador */
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* background-color: tomato; */
+}
+
+.img {
+    /* height: auto; */
+    width: 60%;
+}
+
+.im {
+    content: "";
+    top: 0;
+    left: 1rem;
+    height: 80%;
+    width: 85%;
+    /* position: absolute; */
+    background-image: url('/assets/Quienes Somos/Mvv/mision.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: 1;
+    margin-left: initial;
+    /* margin-top: 5rem; */
+    filter: drop-shadow(16px 15px 15px #000);
+}
+
+
 
     /*!-------------------------*/
     .wrapper1 {
         width: auto;
-        height: 100%;
+        height: 80%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     .img1 {
-        height: 50vh;
-        width: 80%;
-        /* background-color: #c1f85e; */
+        /* height: auto; */
+        width: 60%;
     }
+    
     .im1 {
         content: "";
-        top: 0;
+        top: -2rem;
         left: 1rem;
         height: 80%;
-        width: 38vw;
+        width: 85%;
         /* position: absolute; */
         background-image: url('/assets/Quienes Somos/Mvv/vision.png');
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: 30%;
         z-index: 1;
         margin-left: initial;
+        /* margin-top: 5rem; */
         filter: drop-shadow(16px 15px 15px #000);
     }
+    
 
     /*?----------------------------------*/
+
     .img2 {
-        height: 50vh;
-        width: 80%;
-        /* background-color: #c1f85e; */
+        /* height: auto; */
+        width: 60%;
     }
+    
     .im2 {
         content: "";
-        top:0;
+        top: -2rem;
         left: 1rem;
         height: 80%;
-        width: 38vw;
+        width: 85%;
         /* position: absolute; */
         background-image: url('/assets/Quienes Somos/Mvv/valores.png');
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: 50%;
         z-index: 1;
         margin-left: initial;
+        /* margin-top: 5rem; */
         filter: drop-shadow(16px 15px 15px #000);
     }
 }
