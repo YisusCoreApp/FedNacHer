@@ -237,7 +237,7 @@
     width: auto;
     font-size: 18px;
     text-align: right;
-    padding: 3rem 3rem;
+    padding: 2rem 3rem;
 
   }
 
@@ -343,7 +343,7 @@
     }
 
     .txt {
-      margin: initial;
+      margin: 2rem 0 0 0;
     }
 
     /*? EStilos de invitacion a afiliarte*/
