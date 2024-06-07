@@ -121,51 +121,45 @@ footer{
         height: 70px;
         /* background-color: powderblue; */
     }
-    .infoE{
-        /* background-color: pink; */
-    }
+
     .infof span{
         text-align: center;
     }
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
+
+    footer{
+        height: 100%;
+        width: auto;
+    }
+
     .cont{
-        width: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: unset;
-        position: relative;
+    }
+    .loFi{
+        display: none;
+        /* width: auto;
+        margin: initial; */
+    }
 
-    }
-    .loFi {
-        width: auto;
-        height: 50px;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
     .infof{
-        width: 70%;
-        height: 60%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-    }
-
-    .infoE{
         width: 100%;
-        height: 50%;
+        height: 100%;
+        margin: 1rem;
+        padding: 0 3rem;
+        hyphens: manual;
     }
-    .infoE span{
-        padding-top: 3rem;
-        hyphens: auto;
-        font-size: 10px;
-        position: absolute;
+    .redS{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
     }
-
+    .ex{
+        width: 100%;
+        height: 100%;
+    }
 }

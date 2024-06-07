@@ -183,7 +183,7 @@
     }
     .im {
         content: "";
-        top: 7rem;
+        top: 0;
         left: initial;
         height: 80%;
         width: 38vw;
@@ -211,7 +211,7 @@
     }
     .im1 {
         content: "";
-        top: 7rem;
+        top: 0;
         left: 1rem;
         height: 80%;
         width: 38vw;
@@ -232,7 +232,7 @@
     }
     .im2 {
         content: "";
-        top: 7rem;
+        top:0;
         left: 1rem;
         height: 80%;
         width: 38vw;
