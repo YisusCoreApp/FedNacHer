@@ -103,23 +103,23 @@ body {
 
 .hero {
     /* background-color: peru; */
-    height: auto;
-    width: 100%;
+    /* height: 50%; */
+    width: 60%;
 }
 
 .hero img {
     /* background-color: cadetblue; */
-    height: auto;
-    width: 50%;
-    top: 7rem;
-    right: -7rem;
+    height: 150%;
+    width: 40%;
+    top:10rem;
+    right: -6rem;
     /* margin-top: 5rem; */
     position: absolute;
 }
 
 .reglas {
     width: auto;
-    height: 50%;
+    /* height: 50%; */
 }
 
 .reglas h3 {
