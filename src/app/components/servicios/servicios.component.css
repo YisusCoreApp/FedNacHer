@@ -47,6 +47,7 @@ body {
     transition: all .2s ease-in;
 }
 
+
 .card1:hover {
     transform: translateY(-10px);
     background-color: #c1f85e;
@@ -64,6 +65,14 @@ body {
     border-bottom-left-radius: 10px;
     font-size: 15px;
     padding: 1rem 1rem 12rem 3rem;
+}
+.textEsp2 {
+    width: auto;
+    height: 100%;
+    border-end-end-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 15px;
+    padding: 1rem 1rem 13rem 3rem;
 }
 
 .imagen {
