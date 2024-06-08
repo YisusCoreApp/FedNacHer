@@ -84,11 +84,13 @@ nav li {
 
 nav a {
   display: block;
-  color: #57392e;
+  color: #007c65;
+  font-weight: 600;
+  /* color: #57392e; */
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-  transition: color 0.3s, box-shadow 0.3s;
+  transition: color 0.3s, box-shadow 0.9s;
   position: relative;
 }
 
@@ -99,7 +101,8 @@ nav a::before {
   left: 0;
   width: 100%;
   height: 0;
-  background-color: #007c65;
+  background-color: #a7ed2e;
+  /* background-color: #007c65; */
   transition: 0.5s;
   z-index: -1;
 }
@@ -109,7 +112,8 @@ nav a:hover::before {
 }
 
 nav a:hover {
-  color: #fff;
+  color: #57392e;
+  /* color: #fff; */
 }
 
 /*?Ocultamos el checbox*/
@@ -324,14 +328,14 @@ label {
   li a {
     display: block;
     padding: 10px;
-    color: #57392e;
+    color:#fff;
     text-decoration: none;
     width: 100%;
   }
 
   .dropdown-content {
     display: none;
-    background-color: lightgrey;
+    background-color: #a7ed2e;
   }
 
   .dropdown:hover .dropdown-content {
@@ -342,7 +346,8 @@ label {
 
   .dropdown-content a {
     padding: 10px;
-    color: #57392e;
+    color:#57392e ;
+    /* color: #57392e; */
     text-decoration: none;
     display: block;
     text-align: center;
