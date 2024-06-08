@@ -66,6 +66,7 @@ body {
     font-size: 15px;
     padding: 1rem 1rem 12rem 3rem;
 }
+
 .textEsp2 {
     width: auto;
     height: 100%;
@@ -112,6 +113,11 @@ img {
     width: 100%;
     text-align: center;
     margin-top: 3rem;
+}
+
+.tituloB {
+    width: 100%;
+    text-align: center;
 }
 
 .beneficios {
@@ -355,6 +361,12 @@ b {
         margin: 1rem 0;
     }
 
+    .tituloB {
+        width: 100%;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
     .ben {
         height: 100%;
         width: 35%;
@@ -374,11 +386,12 @@ b {
     }
 
     /*!-------capaciotaciones--------*/
-    .services0{
+    .services0 {
         display: flex;
         width: 100%;
         flex-wrap: wrap;
     }
+
     .servicio0 {
         height: 70%;
         width: 400px;
@@ -388,14 +401,16 @@ b {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease;
     }
-    .contenido0{
+
+    .contenido0 {
         height: 10vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     /*?-------Eventos-------------*/
-    .eventos{
+    .eventos {
         width: 100%;
         height: 100%;
         margin-top: initial;
@@ -403,5 +418,113 @@ b {
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
-   
+
+    .cards {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card1 {
+        width: 90%;
+        height: 100%;
+        margin-bottom: 1rem;
+    }
+
+    /*!-------------------------------------------------*/
+    .tituloB {
+        width: 100%;
+        height: 100%;
+    }
+
+    .beneficios {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .contBeneficios {
+        height: 100%;
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .in {
+        margin-bottom: rem;
+    }
+
+    .ben {
+        display: none;
+    }
+
+    .beneficio1,
+    .beneficio2,
+    .beneficio3,
+    .beneficio4,
+    .beneficio5 {
+        height: 100%;
+        /* margin-bottom: 5rem; */
+        /* background: yellow; */
+    }
+
+    .beneficio1 p,
+    .beneficio2 p,
+    .beneficio3 p,
+    .beneficio4 p,
+    .beneficio5 p {
+        margin-top: .2rem;
+    }
+
+    .beneficio1:hover,
+    .beneficio2:hover,
+    .beneficio3:hover,
+    .beneficio4:hover,
+    .beneficio5:hover {
+        background-color: initial;
+    }
+
+    /**''''''''''''''''''''''''''''''''''''''''*/
+    .services0 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .asesorias0 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .servicio0{
+        height: 100%;
+        width: 85%;
+    }
+
+    /*!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+    .eventos{
+        height: 100%;
+        width: 100%;
+    }
+    .conten{
+        height: 100%;
+        width: 100%;
+    }
+    .contenedores{
+        height: 100%;
+        width: 100%;
+        padding: 02rem;
+    }
+
+    .limon{
+        height: 100%;
+        width: 100%;
+    }
+    .limon img{
+        width: 70%;
+        height: 70%;
+    }
 }
