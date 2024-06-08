@@ -32,7 +32,7 @@
 .informacion {
     color: #795548;
     font-weight: 500;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: paleturquoise;
 }
 
