@@ -250,7 +250,6 @@
         width: 75vw;
         font-weight: 500;
         /* text-align: left; */
-        overflow: hidden;
         padding: 2rem 0;
         text-align: justify;
     }
@@ -282,7 +281,6 @@
         align-items: center;
         box-shadow: none;
         border-radius: unset;
-        overflow: hidden;
         background: none;
     }
 
@@ -312,7 +310,6 @@
         align-items: center;
         box-shadow: none;
         border-radius: unset;
-        overflow: hidden;
         background: none;
     }
 
@@ -342,7 +339,6 @@
         align-items: center;
         box-shadow: none;
         border-radius: unset;
-        overflow: hidden;
         background: none;
     }
 
@@ -353,6 +349,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: red;
     }
 
     .papelP img {
