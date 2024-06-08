@@ -37,7 +37,7 @@
 }
 
 .informacion p {
-    padding: 0 .5rem;
+    padding: 0 2rem;
     text-align: justify;
     animation-duration: 1.5s;
     animation-name: slidein;
