@@ -43,6 +43,13 @@
     animation-name: slidein;
 }
 
+.informacion li{
+    margin: 0 1rem;
+    /* text-align: justify; */
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
 
 @keyframes slidein {
     from {
