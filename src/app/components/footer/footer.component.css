@@ -98,7 +98,7 @@ footer{
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
     footer{
-        height: 25vh;
+        height: 50vh;
         width: 100%;
     }
     .cont{
