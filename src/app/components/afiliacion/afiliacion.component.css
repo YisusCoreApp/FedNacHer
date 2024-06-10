@@ -1,16 +1,8 @@
 .n {
-    height: 70vh;
-    width: auto;
-    display: flex;
-    flex-direction: row-reverse;
-    /* margin: 2rem 0; */
-    background-color: #c1f85e;
-
-}
-
-.nosotros {
-    width: 80%;
+    width: 100%;
     height: 100%;
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,8 +10,75 @@
 
 }
 
+.nosotros {
+    height: 70vh;
+    width: 70%;
+    /* background-color: yellow; */
+}
+
+.unirte {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #a7ed2e; */
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+    /* background-color: violet; */
+}
+
+.info p {
+    font-weight: 600;
+    text-align: center;
+    padding: 0 10rem;
+    /* background-color: powderblue; */
+}
+
+.info ul {
+    padding: 2rem 10rem;
+
+    /* padding: 3rem 8rem; */
+}
+
+.info li {
+    font-weight: 600;
+
+}
+
 .pina {
-    width: 40%;
+    height: 100%;
+    width: 100%;
+    background-color: lightpink;
+    position: absolute;
+    z-index: -1;
+    opacity: .4;
+}
+
+.pina img {
+    height: 100%;
+    width: 100%;
+}
+
+/* .n {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.nosotros {
+    width: 0;
+    height: 100%;
+    z-index: 1000;
+    position: relative;
+}
+
+.pina {
+    width: 100vw;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -27,8 +86,10 @@
 }
 
 .pina img {
-    width: 70%;
+    width: 100%;
     height: 100%;
+    position: absolute;
+    z-index: -1;
 }
 
 .unirte h2 {
@@ -46,24 +107,39 @@
     text-align: left;
     padding: 0 5rem;
     line-height: 2rem;
-}
+} */
 
 /*? estilos para como afiliarse*/
 
+/* .procesos {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    margin-top: 25rem;
+} */
+
 .paraAfiliarse {
-    height: 6rem;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5rem;
 }
 
 .paraAfiliarse p {
+    height: 100%;
     width: 100%;
     padding: 0 15rem;
     text-align: center;
 }
 
+.masInfo{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    padding: 3rem 0 0 0;
+}
 /*? estilos para las cards*/
 
 .encabezado {
@@ -204,18 +280,19 @@ button:hover::before {
 /*? EStilos para la responsabilidad de la afiliacion*/
 
 .b {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     display: flex;
 }
 
 .respon {
     width: auto;
-    height: 25rem;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* background-color: purple; */
 }
 
 .respon h2 {
@@ -224,12 +301,13 @@ button:hover::before {
 }
 
 .hero {
-    width: 50%;
-    height: auto;
+    width: 100%;
+    height: 50vh;
+    /* background-color: papayawhip; */
 }
 
 .hero img {
-    width: 100%;
+    width: 50%;
     height: 100%;
 
 }
@@ -297,15 +375,15 @@ button:hover::before {
     }
 
     .hero {
-        height: 20rem;
-        width: 100%;
+        height: 100%;
+        width: 60%;
         display: flex;
         justify-content: center;
     }
 
     .hero img {
         height: 100%;
-        width: 25rem;
+        width: 100%
     }
 }
 
@@ -401,7 +479,8 @@ button:hover::before {
         justify-content: center;
         /* height: auto; */
     }
-    .hero img{
+
+    .hero img {
         width: 80%;
         height: 80%;
     }
