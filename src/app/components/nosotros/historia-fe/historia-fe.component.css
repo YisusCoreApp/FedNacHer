@@ -257,7 +257,7 @@
         text-align: center;
     }
     .origenes {
-        height: 80vh;
+        height: 50%;
         width: 100%;
         /* display: initial; */
         display: flex;
@@ -285,7 +285,8 @@
     }
 
     .des {
-        height: 80vh;
+        height: 50%;
+
         width: 100%;
         /* display: initial; */
         display: flex;
@@ -314,7 +315,7 @@
     }
 
     .logros {
-        height: 80vh;
+        height: 50%;
         width: 100%;
         /* display: initial; */
         display: flex;
