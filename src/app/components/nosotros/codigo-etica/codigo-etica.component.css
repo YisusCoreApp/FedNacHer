@@ -1,86 +1,60 @@
 .parrafo {
-    width: auto;
-    height: 720px;
-    display: flex;
-    justify-content: space-between;
-    background: rgb(229, 229, 227);
-    background: linear-gradient(90deg, rgba(229, 229, 227, 1) 0%, rgba(235, 219, 190, 1) 100%);
-
-}
-
-.imagen {
-    width: 190vw;
-    height: 100%;
-    overflow: hidden;
-}
-
-.im {
-    width: auto;
-    height: 100%;
-    background-image: url('/assets/Quienes Somos/CodigoEtica/codigoE.png');
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-    mask-image: linear-gradient(black 50%,
-            transparent);
-
-}
-
-.imagen::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-
-.infoP {
     height: auto;
     width: 100%;
     display: flex;
+    margin: 5rem 0;
+}
+
+.imagen {
+    height: 100%;
+    width: 40%;
+}
+
+.infoP {
+    height: 28rem;
+    width: 60%;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .infoP h3 {
+    padding: 0 2rem 4rem 2rem;
     text-align: center;
-    padding: 8rem 2rem 3rem 2rem;
-    color: #007c65;
 }
 
-.infoP P {
-    font-size: 18px;
-    text-align: center;
-    margin: 3rem 1rem;
-    color: #57392E;
+.infoP p {
+    padding: 0 2rem 4rem 2rem;
 }
 
 
-.txt {
-    line-height: 1.6;
-    text-align: center;
-    padding-bottom: 5rem;
+.btn {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
-    background-color: #0abf94;
-    /* Color de fondo */
+    background-color: #4CAF50;
     color: white;
-    /* Color del texto */
     padding: 12px 24px;
     border: none;
-    /* Hacemos el botón más redondeado */
     cursor: pointer;
     font-size: 15px;
     font-weight: bold;
-    outline: none;
-    /* Quitamos el borde al hacer clic */
     position: relative;
-    overflow: hidden;
+    margin: 2rem;
     transition: all 0.3s;
-
     transition: all .3s ease-in;
 }
 
@@ -102,8 +76,10 @@ button:hover {
     padding: 12px 24px;
     border: none;
     border-radius: 30px;
-    background-color: #045043;
+    background-color: #a7ed2e;
+    box-shadow: 0px 2px 12px #67a907;
     transition: all .3s ease-out;
+    color: #795548;
 }
 
 button:hover::before {
@@ -112,214 +88,4 @@ button:hover::before {
     /* Agrandamos el efecto de sombra al pasar el cursor */
     opacity: 0;
     /* Hacemos que la sombra desaparezca */
-}
-
-/* .contenedor {
-    height: 200px;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 3rem 8rem;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, .2);
-    transition: all .9s ease-out;
-}
-
-.contenedor:hover {
-    background-color: #dfd6d6;
-    transition: all .3s ease-in;
-    transform: translateY(-9px);
-    columns: #fff;
-}
-
-.informacon {
-    height: 100%;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.info_1 {
-    padding-top: 2rem;
-    color: #57392E;
-    font-size: 18px;
-    text-align: center;
-}
-
-.integridad {
-    height: 100%;
-    width: auto;
-}
-
-.integridad img {
-    height: 100%;
-    width: auto;
-    transition: transform 1s ease;
-}
-
-.integridad img:hover {
-    transform: rotate(360deg);
-
-}
-
-.titulo1 {
-    color: #045043;
-    font: 18px;
-    font-weight: bolder;
-} */
-
-/*? Estilos responsive*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .parrafo {
-        width: auto;
-        height: 450px;
-        background-color: transparent;
-        position: relative;
-    }
-
-    .im {
-        height: 450px;
-        width: auto;
-        position: relative;
-        opacity: .3;
-        background-color: transparent;
-    }
-
-    .infoP {
-        height: 100%;
-        width: auto;
-        display: flex;
-        position: absolute;
-        z-index: 1;
-    }
-
-    .txt {
-        line-height: 1;
-    }
-
-    button {
-        position: absolute;
-        bottom: 0;
-
-        background-color: #045043;
-    }
-
-    button:hover {
-
-        background-color: #dfd6d6;
-        color: #045043;
-    }
-
-    /*?Estilos para los codigos de etica*/
-
-    .contenedor {
-        margin-top: 7rem;
-        border-radius: 12px;
-        box-shadow: 0 4px 14px rgba(0, 0, 0, .8);
-    }
-
-
-    .informacon {
-        padding: 0 1rem;
-        width: auto;
-        background-color: #045043;
-        border-top-left-radius: 12px;
-        border-bottom-left-radius: 12px;
-    }
-
-    .informacon>p {
-        color: #fff;
-    }
-
-    .integridad img:hover {
-        transform: initial;
-
-    }
-
-}
-
-
-@media screen and (max-width: 767px) and (min-width: 320px) {
-    .parrafo {
-        height: 60vh;
-        background: none;
-        width: 100%;
-        box-shadow: 0px 6px 28px -1px rgba(0, 0, 0, .1);
-
-    }
-    .infoP h3{
-        font-size: 12px;
-        padding: 2rem 0;
-    }
-
-    .infoP p{
-        margin: 0 0 3rem 0;
-        width: 100%;
-        color: #fff;
-        padding: 2rem 2rem;
-        background-color: #045043;
-        font-size: 13px;
-    }
-    .imagen{
-        width: unset;
-        background-color: saddlebrown;
-    }
-    .im{
-        background-image: none;
-    }
-    .integridad{
-       display: none;
-    }
-
-    .all{
-        height: 120vh;
-    }
-
-
-    .imgn {
-        width: 100%;
-        height: 300px;
-        overflow: hidden;
-    }
-    /*?Tamano de la imagen*/
-    .imgs {
-        width: auto;
-        height: 700px; 
-        background-image: url('/assets/limones.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    
-    .imgn::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-    .contenedor{
-        width: auto;
-        height: 120px;
-        box-shadow: none;
-        margin: 1rem .5rem;
-        flex-direction: column;
-        /* border-bottom: 3px solid black; */
-    }
-    .contenedor:hover{
-        background-color: initial;
-        transform: none;
-    }
-    .titulo1{
-        font-size: 15px;
-    }
-    .info_1{
-        padding: .5rem ;
-        font-size: 13px;
-    }
-    .informacon{
-        width: auto;
-    }
 }

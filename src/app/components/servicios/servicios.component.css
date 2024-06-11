@@ -37,14 +37,15 @@ body {
 }
 
 .card1 {
-    width: 20%;
-    height: 100%;
+    width: 22%;
+    height: auto;
     border-radius: 5px;
     box-shadow: 0 5px 20px 2px rgb(216, 216, 216);
     position: relative;
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
     background-color: #fff;
     transition: all .2s ease-in;
+    margin: 1rem;
 }
 
 
@@ -501,31 +502,34 @@ b {
         width: 100%;
     }
 
-    .servicio0{
+    .servicio0 {
         height: 100%;
         width: 90%;
     }
 
     /*!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
-    .eventos{
+    .eventos {
         height: 100%;
         width: 100%;
     }
-    .conten{
+
+    .conten {
         height: 100%;
         width: 100%;
     }
-    .contenedores{
+
+    .contenedores {
         height: 100%;
         width: 100%;
         padding: 02rem;
     }
 
-    .limon{
+    .limon {
         height: 100%;
         width: 100%;
     }
-    .limon img{
+
+    .limon img {
         width: 70%;
         height: 70%;
     }
