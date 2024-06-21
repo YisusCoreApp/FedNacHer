@@ -140,17 +140,50 @@
             </div>
         </section>
     </div>
-    <div class="masInfo">
-        <h3>
-            Para mayor información o duda a resolver, llene el formulario.
-        </h3>
-        <div class="btn">
-            <button (click)="reditecToForms()">Ir al formulario</button>
-        </div>
-    </div>
 </main>
 
 
+<div class="requisitosAfiliacion">
+    <h2>Requisitos para Afiliarse</h2>
+    <div class="people">
+        <div class="personasF">
+            <h3>Persona Física </h3>
+            <div class=""></div>
+            <div class="req">
+                <ol>
+                    <li>Credencial de elector.</li>
+                    <li>Comprobante de Domicilio.</li>
+                    <li>RFC.</li>
+                    <li>Aviso de Fundación ante la Secretaria de Salud Estatal o la COFEPRIS.</li>
+                    <li>Una dirección de correo electronico para recibir sus comprobantes de las aportaciones.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="imagenC">
+            <img src="/assets/Afiliate/opDosPlus.jpg" alt="">
+        </div>
+
+        <div class="personasM">
+            <h3>Persona Moral </h3>
+            <div class=""></div>
+            <div class="reqM">
+                <ol>
+                    <li>Credencial de elector del Representante Legal.</li>
+                    <li>Comprobante de Domicilio.</li>
+                    <li>RFC de la empresa y del representante legal.</li>
+                    <li>Copia del Acta constitutiva.</li>
+                    <li>Aviso de Funcionamiento ante La Secretaría de Salud Estatal o la COFEPRIS. </li>
+                    <li>Dirección de correo electrónico para recibir sus notificaciones.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+        <div class="btn">
+            <button (click)="reditecToForms()">Afiliarme</button>
+        </div>
+
+</div>
 
 <div class="b">
     <div class="respon">
@@ -160,9 +193,13 @@
         <div class="infor">
             <p>
                 Los miembros de la FNIHMATN deben cumplir el Código de Ética,
-                apoyar sus Objetivos, Misión, Visión y Valores. Así como participar
+                apoyar sus Objetivos, Misión, Visión y Valores. Así como, participar
+                activamente en las actividades de la FNIHMATN impulsando el crecimiento
+                de la Industria Herbolaria y la Medicina Tradicional.
+                <!-- Los miembros de la FNIHMATN deben cumplir el Código de Ética,
+                apoyar sus Objetivos, Misión, Visión y Valores. Así como, participar
                 activamente en las actividades de la FNIHMATN impulsando al desarrollo
-                de la industria herbolaria y la medicina tradicional.
+                de la industria herbolaria y la medicina tradicional. -->
             </p>
         </div>
     </div>
@@ -172,3 +209,51 @@
 </div>
 
 
+<div class="masInfo">
+    <div class="dudas">
+        <p>
+            Para dudas y mayor información, llenar el siguiente formulario.
+            <!-- Si tiene una duda o simplemente quisiera tener mayor información,
+            llene el siguiente formulario y nosotros nos pondremos en contacto con usted. -->
+        </p>
+    </div>
+
+    <!-- <div class="btn">
+            <button (click)="reditecToForms()">Ir al formulario</button>
+        </div> -->
+    <div class="solicitud">
+        <form action="https://formspree.io/f/meqywdzn" method="POST" id="form">
+
+            <label class="nom" id="nombre">
+                Nombre(s):
+            </label><br>
+            <input type="text" name="nombre" placeholder="Ingresa tu nombre">
+            <br>
+            <label>
+                Apellidos:
+            </label><br>
+            <input type="text" name="apellidos" placeholder="Ingresa tus apellidos">
+            <br>
+            <label>
+                Teléfono:
+            </label><br>
+            <input type="tel" name="telefono" placeholder="Teléfono">
+            <br>
+            <label>
+                Correo:
+            </label><br>
+            <input type="email" name="email" placeholder="Correo">
+            <br>
+            <label class="txtA">
+                ¿Cuál es la duda o información que necesitas?
+                <!-- ¿Por qué te interesa ser parte de nuestra Federación? -->
+            </label><br>
+            <textarea name="message" placeholder="Descipción"></textarea>
+            <br>
+            <!-- your other form fields go here -->
+            <div class="btn">
+                <button type="submit"><i class="fa-solid fa-paper-plane"></i>Enviar</button>
+            </div>
+        </form>
+    </div>
+</div>

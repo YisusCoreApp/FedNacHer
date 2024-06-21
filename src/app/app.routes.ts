@@ -6,8 +6,9 @@ import { AfiliacionComponent } from './components/afiliacion/afiliacion.componen
 import { HistoriaFeComponent } from './components/nosotros/historia-fe/historia-fe.component';
 import { MvvComponent } from './components/nosotros/mvv/mvv.component';
 import { CodigoEticaComponent } from './components/nosotros/codigo-etica/codigo-etica.component';
-import { FormularioComponent } from './components/afiliacion/formulario/formulario.component';
+import { PaypalPaymentComponent } from './paypal-payment/paypal-payment.component';
 import { NgModule } from '@angular/core';
+import { FormComponent } from './components/afiliacion/formulario/formulario.component';
 
 
 export const routes: Routes = [
@@ -18,6 +19,7 @@ export const routes: Routes = [
     {path: 'recursos', component: RecursosComponent},
     {path: 'servicios', component: ServiciosComponent},
     {path: 'afiliacion', component: AfiliacionComponent},
-    {path: 'formulario', component: FormularioComponent},
+    {path: 'pay', component: PaypalPaymentComponent},
+    {path: 'formulario', component: FormComponent},
     {path: '**', redirectTo: 'inicio', pathMatch: 'full'}
 ];

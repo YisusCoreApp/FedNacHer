@@ -39,7 +39,7 @@
     font-weight: 600;
     text-align: center;
     padding: 0 10rem
-    /* background-color: powderblue; */
+        /* background-color: powderblue; */
 }
 
 .info ul {
@@ -142,12 +142,7 @@
     text-align: center;
 }
 
-.masInfo{
-    width: 100%;
-    height: 100%;
-    /* background-color: aqua; */
-    padding: 3rem 0 0 0;
-}
+
 /*? estilos para las cards*/
 
 .encabezado {
@@ -272,7 +267,8 @@ button:hover {
     padding: 12px 24px;
     border: none;
     border-radius: 30px;
-    background-color: #a7ed2e;
+    background-color: #dbfd99;
+    /* background-color: #a7ed2e; */
     box-shadow: 0px 2px 12px #67a907;
     transition: all .3s ease-out;
     color: #795548;
@@ -284,6 +280,65 @@ button:hover::before {
     /* Agrandamos el efecto de sombra al pasar el cursor */
     opacity: 0;
     /* Hacemos que la sombra desaparezca */
+}
+
+/*! Requisitos de afiliacion*/
+.requisitosAfiliacion {
+    width: 100%;
+    height: 100%;
+    /* background-color: #a7ed2e; */
+    position: relative;
+margin-top: 5rem;
+}
+
+.requisitosAfiliacion h2 {
+    text-align: center;
+}
+
+.people {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: papayawhip; */
+    padding: 3rem 0 0 0;
+}
+
+.people h3 {
+    text-align: center;
+}
+
+.personasF,
+.personasM {
+    width: 40%;
+    height: 100%;
+    /* background-color: turquoise; */
+}
+
+.req,
+.reqM {
+    /* background-color: violet; */
+    height: 100%;
+    width: 100%;
+    padding: 1rem 5rem;
+}
+
+.imagenC {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 5px solid #795548;
+    border-radius: 100%;
+}
+
+.imagenC img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    padding: 1rem;
 }
 
 /*? EStilos para la responsabilidad de la afiliacion*/
@@ -299,7 +354,7 @@ button:hover::before {
     height: 50vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: normal;
     justify-content: center;
     /* background-color: purple; */
 }
@@ -311,7 +366,9 @@ button:hover::before {
 
 .hero {
     width: 100%;
-    height: 50vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
     /* background-color: papayawhip; */
 }
 
@@ -324,6 +381,133 @@ button:hover::before {
 .infor p {
     text-align: center;
     padding: 0 6rem;
+}
+
+/*? Formulario*/
+
+.masInfo {
+    width: 100%;
+    height: 100%;
+}
+
+.dudas {
+    height: 100%;
+    width: 100%;
+    padding: 2rem 2rem;
+}
+
+.dudas p {
+    font-weight: 600;
+    text-align: center;
+}
+
+.solicitud {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    height: auto;
+    width: 50%;
+    background-color: rgb(242, 242, 242);
+    margin: 2rem;
+    padding: 3rem 3rem; 
+    border-radius: .5rem;
+}
+
+label {
+    font-size: 16px;
+    line-height: 2rem;
+    margin: 0 2rem;
+}
+
+.txtA {
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    border-radius: 5px;
+    height: 2rem;
+    padding-left: .5rem;
+    margin: 0 1.5em;
+    /* margin: .5rem 0 0 5rem; */
+    /* background-color: lightgrey; */
+    color: green;
+    border: .2px solid rgb(216, 216, 216);
+}
+
+textarea {
+    height: 150px;
+    width: 90%;
+    padding: .5rem 1rem;
+    margin: 0 1.2rem;
+    resize: none;
+    border: .1px solid rgb(216, 216, 216);
+    /* margin: 1rem 0 0 5rem; */
+}
+
+
+
+.btn i {
+    margin-right: 5px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+
+    transition: all .3s ease-in;
+}
+
+/*! Efecto de sombra al pasar el cursor */
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 1;
+    transition: all 0.3s;
+
+}
+
+button:hover {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    background-color: #a7ed2e;
+    box-shadow: 0px 2px 12px #67a907;
+    transition: all .3s ease-out;
+    color: #795548;
+}
+
+button:hover::before {
+
+    transform: scale(3);
+    opacity: 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {

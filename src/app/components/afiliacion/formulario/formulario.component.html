@@ -1,4 +1,141 @@
-<div class="formulario">
+<div class="cedulaAfil">
+    <div class="encabezado">
+        <h3>FEDERACIÓN NACIONAL DE LA INDUSTRIA HERBOLARIA MEDICINA ALTERNATIVA, TRADICIONAL Y NATURISTA A.C. </h3>
+        <div class="dates">
+            <div class="fecha">
+                <!-- <h4 >Fecha: {{fechaActual}}</h4> -->
+            </div>
+            <div class="noCed">
+                <h4 id="noCed">No. Cedula: </h4>
+            </div>
+        </div>
+        <h5>Presente</h5>
+    </div>
+    <div class="contenido">
+        <p>Por éste medio manifiesto respetuosamente mi absoluto consentimiento para afiliarme como miembro de la
+            Federación Nacional De La Industria Herbolaria Medicina Alternativa, Tradicional Y Naturista A.C. (FNIHMATN)
+            La cual fue constituida en beneficio de todas las áreas del sector herbolario naturista de nuestro país:
+            productores (campesinos), recolectores de plantas, fabricantes de productos naturistas, distribuidores,
+            terapeutas y médicos tradicionales. Por lo que me comprometo a cubrir con la cuota anual de Afiliación a
+            partir de ésta fecha.</p>
+    </div>
+    <form #formulario="ngForm" (ngSubmit)="generarPDF(formulario)" novalidate>
+        <label for="textoAdicional" id="textoAdicional">hola buen hombre</label>
+        <br>
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" name="nombre" ngModel required>
+        <div *NgIf="formulario.submitted && formulario.controls['nombre']?.invalid">
+          <small class="error">El nombre es requerido.</small>
+        </div>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input id="apellido" name="apellido" ngModel required>
+        <div *NgIf="formulario.submitted && formulario.controls['apellido']?.invalid">
+          <small class="error">El apellido es requerido.</small>
+        </div>
+        	<br><br><br><br><br>
+        <button type="submit">Generar doc</button>
+      </form>
+      
+
+
+    <!--
+    !!!!!!Este es el bueno
+    <form #formulario="ngForm" (ngSubmit)="generarPDF(formulario)" novalidate>
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" name="nombre" ngModel required>
+      
+        <label for="apellido">Apellido:</label>
+        <input id="apellido" name="apellido" ngModel required>
+      
+        <button type="submit">Generar PDF</button>
+      </form>
+       -->
+
+
+    <!-- <div class="formulario">
+        <form >
+            <label>
+                Nombre Representante Legal (Sin abreviaturas):
+            </label>
+            <input type="text" name="nombreRep" id="nomRep">
+            <br>
+            <label>
+                Nombre de la Marca o Empresa:
+            </label>
+            <input type="text" name="Marca" id="nomMarca">
+            <br>
+            <label>
+                R.F.C:
+            </label>
+            <input type="text" name="RFC" id="RFC">
+            <br>
+            <label>
+                Teléfono:
+            </label>
+            <input type="text" name="nombreRep" id="phone">
+            <br>
+            <label>
+                Correo electrónico:
+            </label>
+            <input type="email" name="nombreRep" id="email">
+            <br>
+            <label>
+                Dirección:
+            </label>
+            <input type="text" name="nombreRep" id="nomRep">
+        </form>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="formulario">
     <div class="gracias">
         <div class="titulo">
             <h1>Hola,</h1>
@@ -35,14 +172,12 @@
             <br>
             <label class="txtA">
                 ¿Cuál es la duda o la información que necesitas?
-                <!-- ¿Por qué te interesa ser parte de nuestra Federación? -->
             </label><br>
             <textarea name="message" placeholder="Descipción"></textarea>
             <br>
-            <!-- your other form fields go here -->
             <div class="btn">
                 <button type="submit"><i class="fa-solid fa-paper-plane"></i>Enviar</button>
             </div>
         </form>
     </div>
-</div>
+</div> -->

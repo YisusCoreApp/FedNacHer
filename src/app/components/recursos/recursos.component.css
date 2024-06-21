@@ -327,7 +327,7 @@ button:hover {
     padding: 12px 24px;
     border: none;
     border-radius: 30px;
-    background-color: #a7ed2e;
+    background-color: #dbfd99;
     box-shadow: 0px 2px 12px #67a907;
     transition: all .3s ease-out;
     color: #795548;
@@ -407,6 +407,7 @@ button:hover::before {
     justify-content: center;
     padding:0 0 2rem 0;
 }
+
 
 /*? A1qui va el responsive para tabletas*/
 
