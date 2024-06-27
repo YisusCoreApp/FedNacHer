@@ -1,45 +1,72 @@
-<div class="cedulaAfil">
-    <div class="encabezado">
-        <h3>FEDERACIÓN NACIONAL DE LA INDUSTRIA HERBOLARIA MEDICINA ALTERNATIVA, TRADICIONAL Y NATURISTA A.C. </h3>
-        <div class="dates">
-            <div class="fecha">
-                <!-- <h4 >Fecha: {{fechaActual}}</h4> -->
-            </div>
-            <div class="noCed">
-                <h4 id="noCed">No. Cedula: </h4>
-            </div>
-        </div>
-        <h5>Presente</h5>
+s
+<h3>FEDERACIÓN NACIONAL DE LA INDUSTRIA HERBOLARIA MEDICINA ALTERNATIVA, TRADICIONAL Y NATURISTA A.C. </h3>
+
+<form #formulario="ngForm" (ngSubmit)="generarPDF(formulario)" novalidate>
+    <label for="texto" id="texto">
+        Por éste medio manifiesto respetuosamente mi absoluto consentimiento para afiliarme como miembro de la
+        Federación Nacional De La Industria Herbolaria Medicina Alternativa, Tradicional Y Naturista A.C. (FNIHMATN)
+        La cual fue constituida en beneficio de todas las áreas del sector herbolario naturista de nuestro país:
+        productores (campesinos), recolectores de plantas, fabricantes de productos naturistas, distribuidores,
+        terapeutas y médicos tradicionales. Por lo que me comprometo a cubrir con la cuota anual de Afiliación a
+        partir de ésta fecha.
+    </label>
+    <br><br>
+
+    <label for="nombreRepresentante">Nombre Representante Legal (sin abreviaturas):</label>
+    <br>
+    <input id="nombreRepresentante" name="nombreRepresentante" ngModel required>
+    <div *NgIf="formulario.submitted && formulario.controls['nombreRepresentante']?.invalid">
+        <small class="error">El nombre del representante legal es requerido.</small>
     </div>
-    <div class="contenido">
-        <p>Por éste medio manifiesto respetuosamente mi absoluto consentimiento para afiliarme como miembro de la
-            Federación Nacional De La Industria Herbolaria Medicina Alternativa, Tradicional Y Naturista A.C. (FNIHMATN)
-            La cual fue constituida en beneficio de todas las áreas del sector herbolario naturista de nuestro país:
-            productores (campesinos), recolectores de plantas, fabricantes de productos naturistas, distribuidores,
-            terapeutas y médicos tradicionales. Por lo que me comprometo a cubrir con la cuota anual de Afiliación a
-            partir de ésta fecha.</p>
+    <br>
+
+    <label for="nombreMarca">Nombre de la marca/empresa:</label>
+    <br>
+    <input id="nombreMarca" name="nombreMarca" ngModel required>
+    <div *NgIf="formulario.submitted && formulario.controls['nombreMarca']?.invalid">
+        <small class="error">El nombre de la marca/empresa es requerido.</small>
     </div>
-    <form #formulario="ngForm" (ngSubmit)="generarPDF(formulario)" novalidate>
-        <label for="textoAdicional" id="textoAdicional">hola buen hombre</label>
-        <br>
-        <label for="nombre">Nombre:</label>
-        <input id="nombre" name="nombre" ngModel required>
-        <div *NgIf="formulario.submitted && formulario.controls['nombre']?.invalid">
-          <small class="error">El nombre es requerido.</small>
-        </div>
-        <br>
-        <label for="apellido">Apellido:</label>
-        <input id="apellido" name="apellido" ngModel required>
-        <div *NgIf="formulario.submitted && formulario.controls['apellido']?.invalid">
-          <small class="error">El apellido es requerido.</small>
-        </div>
-        	<br><br><br><br><br>
-        <button type="submit">Generar doc</button>
-      </form>
-      
+    <br>
+
+    <label for="rfc">R.F.C.:</label>
+    <br>
+    <input id="rfc" name="rfc" ngModel required>
+    <div *NgIf="formulario.submitted && formulario.controls['rfc']?.invalid">
+        <small class="error">El RFC es requerido.</small>
+    </div>
+    <br>
+
+    <label for="telefono">Teléfono:</label>
+    <br>
+    <input id="telefono" name="telefono" ngModel required>
+    <div *NgIf="formulario.submitted && formulario.controls['telefono']?.invalid">
+        <small class="error">El teléfono es requerido.</small>
+    </div>
+    <br>
+
+    <label for="email">Correo electrónico:</label>
+    <br>
+    <input id="email" name="email" type="email" ngModel required>
+    <div *NgIf="formulario.submitted && formulario.controls['email']?.invalid">
+        <small class="error">El correo electrónico es requerido y debe ser válido.</small>
+    </div>
+    <br>
+
+    <label for="direccion">Dirección:</label>
+    <br>
+    <input id="direccion" name="direccion" ngModel required>
+    <div *NgIf="formulario.submitted && formulario.controls['direccion']?.invalid">
+        <small class="error">La dirección es requerida.</small>
+    </div>
+    <br><br>
+
+    <button type="submit">Generar doc</button>
+</form>
 
 
-    <!--
+
+
+<!--
     !!!!!!Este es el bueno
     <form #formulario="ngForm" (ngSubmit)="generarPDF(formulario)" novalidate>
         <label for="nombre">Nombre:</label>
@@ -53,7 +80,7 @@
        -->
 
 
-    <!-- <div class="formulario">
+<!-- <div class="formulario">
         <form >
             <label>
                 Nombre Representante Legal (Sin abreviaturas):
@@ -135,7 +162,7 @@
 
 
 
-    <!-- <div class="formulario">
+<!-- <div class="formulario">
     <div class="gracias">
         <div class="titulo">
             <h1>Hola,</h1>
