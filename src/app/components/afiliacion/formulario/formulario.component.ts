@@ -27,6 +27,7 @@ export class FormComponent implements OnInit {
     if (formulario.valid) {
       const formData = formulario.value;
       const doc = new jsPDF();
+      
 
       // Márgenes
       const margenIzquierdo = 10;

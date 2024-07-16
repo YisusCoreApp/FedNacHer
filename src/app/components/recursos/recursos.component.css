@@ -1,6 +1,6 @@
 body {
     background-color: #f1f1f1;
-
+    padding-top: 5rem;
 }
 
 .informacion {
@@ -101,16 +101,16 @@ body {
     padding: 0 3rem;
 }
 
-.hero {
-    /* background-color: peru; */
-    /* height: 50%; */
-    width: 60%;
-}
+/* .hero {
+    background-color: peru;
+    height: 50%;
+    width: 40%;
+} */
 
 .hero img {
     /* background-color: cadetblue; */
     height: 150%;
-    width: 40%;
+    width: 50%;
     top:10rem;
     right: -6rem;
     /* margin-top: 5rem; */
@@ -206,9 +206,8 @@ body {
 
 
 .resp {
-    height: 30vh;
-    width: auto;
-    margin-top: 1rem;
+    /* background-color: lightseagreen; */
+    margin-top: 5rem;
 }
 
 .resp h1 {

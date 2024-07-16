@@ -263,12 +263,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: palegoldenrod;
+        /* background-color: palegoldenrod; */
     }
 
     .origenes img {
-        height: 80%;
-        width: 50%;
+        height: 100%;
+        width: 100%;
         /* margin:2rem 0; */
         /* border-radius: 45%; */
     }

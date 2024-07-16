@@ -1,183 +1,74 @@
-.cedulaAfil {
-    width: 100%;
-    height: 100%;
-    /* background-color: palevioletred; */
-    padding: 5rem 10rem;
-}
-
-.encabezado {
-    width: 100%;
-    height: 100%;
-    background-color: paleturquoise;
-}
-
-.encabezado h3 {
-    padding: 2rem 10rem ;
-    background-color: salmon;
-    text-align: center;
-}
-
-.dates{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    /* padding: 2rem 0 2rem 4rem; */
-    background-color: lemonchiffon;
-}
-.fecha{
-    width: 50%;
-    padding: 2rem 0 2rem 4rem;
-
-    background-color: tan;
-}
-.noCed{
-    padding: 2rem 0 2rem 4rem;
-    width: 50%;
-    background-color: springgreen;
-}
-.encabezado h5 {
-    padding: 0 0 0 4rem;
-
-    background-color: tomato;
-}
-
-.contenido{
-    padding: 2rem   4rem;
-    text-align: justify;
-    background-color: violet;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .formulario {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
-.solicitud {
-    height: auto;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.gracias {
-    height: auto;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .titulo {
-    width: 100%;
+    /* background-color: fuchsia; */
     text-align: center;
+    padding: 5rem 0 2rem 0;
+    font-weight: 600;
 }
 
-.texto p {
+.text {
+    /* background-color: antiquewhite; */
     width: 100%;
-    height: 150px;
-    text-align: center;
-    padding: 3rem 2rem;
+    text-align: justify;
+    font-weight: 600;
 }
 
-.texto h2 {
+.text h5 {
+    padding: 2rem 12rem;
+}
+
+h5,
+h3 {
+    color: black;
+}
+
+.formulario {
+    height: 100%;
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* background-color: #dcdcdc; */
+    margin-bottom: 3rem;
 }
 
 form {
-    height: auto;
-    width: 80%;
-    background-color: rgb(242, 242, 242);
-    align-items: center;
-    border-radius: 10px;
-    margin: 3rem;
-    box-shadow: 0px 10px 25px 1px black;
-    z-index: 1;
+    height: 100%;
+    width: auto;
+    /* background-color: #f2f2f2; */
+    margin: 5rem 0;
+    padding: 2rem 5rem 5rem 5rem;
+    box-shadow: 0 10px 20px 10px #dcdcdc;
+    border-radius: 1.5rem;
 }
+
 
 label {
+    display: flex;
+    justify-content: left;
     font-size: 20px;
-    line-height: 3rem;
-    margin: 0 2rem;
+    font-weight: 600;
+    color: black;
+    line-height: 2rem;
 }
 
-.txtA {
-    text-align: center;
+.input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 input {
-    width: 90%;
-    border-radius: 5px;
-    height: 2rem;
+    /* margin: 0 5rem; */
+    width: 100%;
+    height: 1.9rem;
     padding-left: .5rem;
-    margin: 0 1.5em;
-    border: .2px solid rgb(216, 216, 216);
-}
-
-textarea {
-    height: 150px;
-    width: 90%;
-    padding: .5rem 1rem;
-    margin: 0 1.2rem;
-    resize: none;
-    border: .1px solid rgb(216, 216, 216);
+    border-radius: .2rem;
 }
 
 
-
-.btn i {
-    margin-right: 5px;
-}
 .btn {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 3rem;
-  }
-
+}
 
 button {
     background-color: #4CAF50;
@@ -193,9 +84,10 @@ button {
     transition: all 0.3s;
 
     transition: all .3s ease-in;
-  }
+}
 
-  button::before {
+/*! Efecto de sombra al pasar el cursor */
+button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -206,87 +98,20 @@ button {
     z-index: 1;
     transition: all 0.3s;
 
-  }
+}
 
-  button:hover {
+button:hover {
     padding: 12px 24px;
     border: none;
     border-radius: 30px;
-    background-color: #a7ed2e;
+    background-color: #dbfd99;
     box-shadow: 0px 2px 12px #67a907;
     transition: all .3s ease-out;
     color: #795548;
-  }
+}
 
-  button:hover::before {
+button:hover::before {
 
     transform: scale(3);
     opacity: 0;
-  }
-
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .formulario {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .gracias {
-        padding: 3rem 0 0 0;
-    }
-
-    .txtA {
-        margin: initial;
-        font-size: 15px;
-    }
 }
-
-@media screen and (max-width: 767px) and (min-width: 320px) {
-    .formulario {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .gracias {
-        width: 100%;
-        padding: 3rem 0 0 0;
-    }
-
-    .txtA {
-        text-align: left;
-        margin: initial;
-        font-size: 13px;
-        padding: 0 .5rem;
-    }
-    .solicitud{
-        height: 100%;
-        width: 100%;
-    }
-
-    form{
-        height: 100%;
-        width: 100%;
-        margin: 2rem 1rem;
-        border: 2px solid gray;
-        box-shadow: none;
-    }
-    textarea {
-        height: 150px;
-        width: 90%;
-        padding: .5rem 1rem;
-        margin: 0 .8rem;
-        resize: none;
-        border: .1px solid rgb(216, 216, 216);
-        /* margin: 1rem 0 0 5rem; 
-    }
-
-      
-} */

@@ -1,70 +1,91 @@
-s
-<h3>FEDERACIÓN NACIONAL DE LA INDUSTRIA HERBOLARIA MEDICINA ALTERNATIVA, TRADICIONAL Y NATURISTA A.C. </h3>
-
-<form #formulario="ngForm" (ngSubmit)="generarPDF(formulario)" novalidate>
-    <label for="texto" id="texto">
-        Por éste medio manifiesto respetuosamente mi absoluto consentimiento para afiliarme como miembro de la
-        Federación Nacional De La Industria Herbolaria Medicina Alternativa, Tradicional Y Naturista A.C. (FNIHMATN)
-        La cual fue constituida en beneficio de todas las áreas del sector herbolario naturista de nuestro país:
-        productores (campesinos), recolectores de plantas, fabricantes de productos naturistas, distribuidores,
-        terapeutas y médicos tradicionales. Por lo que me comprometo a cubrir con la cuota anual de Afiliación a
-        partir de ésta fecha.
-    </label>
-    <br><br>
-
-    <label for="nombreRepresentante">Nombre Representante Legal (sin abreviaturas):</label>
-    <br>
-    <input id="nombreRepresentante" name="nombreRepresentante" ngModel required>
-    <div *NgIf="formulario.submitted && formulario.controls['nombreRepresentante']?.invalid">
-        <small class="error">El nombre del representante legal es requerido.</small>
+<div class="titulo">
+    <h3>FEDERACIÓN NACIONAL DE LA INDUSTRIA HERBOLARIA MEDICINA ALTERNATIVA, TRADICIONAL Y NATURISTA A.C. </h3>
+    <div class="text">
+        <h5 for="texto" id="texto">
+            Por éste medio manifiesto respetuosamente mi absoluto consentimiento para afiliarme como miembro de la
+            Federación Nacional De La Industria Herbolaria Medicina Alternativa, Tradicional Y Naturista A.C.
+            (FNIHMATN)
+            La cual fue constituida en beneficio de todas las áreas del sector herbolario naturista de nuestro país:
+            productores (campesinos), recolectores de plantas, fabricantes de productos naturistas, distribuidores,
+            terapeutas y médicos tradicionales. Por lo que me comprometo a cubrir con la cuota anual de Afiliación a
+            partir de ésta fecha.
+        </h5>
     </div>
-    <br>
 
-    <label for="nombreMarca">Nombre de la marca/empresa:</label>
-    <br>
-    <input id="nombreMarca" name="nombreMarca" ngModel required>
-    <div *NgIf="formulario.submitted && formulario.controls['nombreMarca']?.invalid">
-        <small class="error">El nombre de la marca/empresa es requerido.</small>
-    </div>
-    <br>
+</div>
+<div class="formulario">
+    <form #formulario="ngForm" (ngSubmit)="generarPDF(formulario)" novalidate>
+        <label for="nombreRepresentante">Nombre Representante Legal (sin abreviaturas):</label>
+        <br>
+        <div class="input">
+            <input placeholder="Nombre del Representante" id="nombreRepresentante" name="nombreRepresentante" ngModel
+                required>
 
-    <label for="rfc">R.F.C.:</label>
-    <br>
-    <input id="rfc" name="rfc" ngModel required>
-    <div *NgIf="formulario.submitted && formulario.controls['rfc']?.invalid">
-        <small class="error">El RFC es requerido.</small>
-    </div>
-    <br>
+        </div>
+        <div *NgIf="formulario.submitted && formulario.controls['nombreRepresentante']?.invalid">
+            <small class="error">El nombre del representante legal es requerido.</small>
+        </div>
+        <br><br>
 
-    <label for="telefono">Teléfono:</label>
-    <br>
-    <input id="telefono" name="telefono" ngModel required>
-    <div *NgIf="formulario.submitted && formulario.controls['telefono']?.invalid">
-        <small class="error">El teléfono es requerido.</small>
-    </div>
-    <br>
+        <label for="nombreMarca">Nombre de la marca/empresa:</label>
+        <br>
+        <div class="input">
+            <input placeholder="Nombre de la Marca/Empresa" id="nombreMarca" name="nombreMarca" ngModel required>
+        </div>
+        <div *NgIf="formulario.submitted && formulario.controls['nombreMarca']?.invalid">
+            <small class="error">El nombre de la marca/empresa es requerido.</small>
+        </div>
+        <br><br>
 
-    <label for="email">Correo electrónico:</label>
-    <br>
-    <input id="email" name="email" type="email" ngModel required>
-    <div *NgIf="formulario.submitted && formulario.controls['email']?.invalid">
-        <small class="error">El correo electrónico es requerido y debe ser válido.</small>
-    </div>
-    <br>
+        <label for="rfc">R.F.C.:</label>
+        <br>
+        <div class="input">
+            <input placeholder="R.F.C" id="rfc" name="rfc" ngModel required>
+        </div>
+        <div *NgIf="formulario.submitted && formulario.controls['rfc']?.invalid">
+            <small class="error">El RFC es requerido.</small>
+        </div>
+        <br><br>
 
-    <label for="direccion">Dirección:</label>
-    <br>
-    <input id="direccion" name="direccion" ngModel required>
-    <div *NgIf="formulario.submitted && formulario.controls['direccion']?.invalid">
-        <small class="error">La dirección es requerida.</small>
-    </div>
-    <br><br>
+        <label for="telefono">Teléfono:</label>
+        <br>
+        <div class="input">
+            <input placeholder="Télefono" id="telefono" name="telefono" ngModel required>
+        </div>
+        <div *NgIf="formulario.submitted && formulario.controls['telefono']?.invalid">
+            <small class="error">El teléfono es requerido.</small>
+        </div>
+        <br><br>
 
-    <button type="submit">Generar doc</button>
-</form>
+        <label for="email">Correo electrónico:</label>
+        <br>
+        <div class="input">
+            <input placeholder="Correo Eléctronico" id="email" name="email" type="email" ngModel required>
+        </div>
+        <div *NgIf="formulario.submitted && formulario.controls['email']?.invalid">
+            <small class="error">El correo electrónico es requerido y debe ser válido.</small>
+        </div>
+        <br><br>
+
+        <label for="direccion">Dirección:</label>
+        <br>
+        <div class="input">
+            <input placeholder="Dirección" id="direccion" name="direccion" ngModel required>
+        </div>
+        <div *NgIf="formulario.submitted && formulario.controls['direccion']?.invalid">
+            <small class="error">La dirección es requerida.</small>
+        </div>
+        <br><br>
+
+        <div class="btn">
+            <button type="submit">Generar Cédula</button>
+        </div>
+    </form>
+
+</div>
 
 
-
+<div id="paypal-button-container"></div>
 
 <!--
     !!!!!!Este es el bueno

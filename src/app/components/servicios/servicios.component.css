@@ -389,8 +389,16 @@ b {
     /*!-------capaciotaciones--------*/
     .services0 {
         display: flex;
+        flex-direction: column;
         width: 100%;
         flex-wrap: wrap;
+    }
+
+    .asesorias0{
+        height: 100%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     .servicio0 {

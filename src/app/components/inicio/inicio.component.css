@@ -320,6 +320,9 @@
     .somos {
       height: 100%;
       width: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 2rem 0 0 0;
     }
 
     .img {
@@ -332,6 +335,7 @@
     .img img{
       width: 50%;
       height: 50%;
+      margin: initial;
     }
 
     .sInfo {
@@ -355,26 +359,26 @@
     /*? EStilos de invitacion a afiliarte*/
     .unete {
       height: 100%;
-      width: 100%;
+      width: auto;
       margin: initial;
-      margin-top: 2rem;
+      padding: 2rem 0;
       display: flex;
       justify-content: center;
       align-content: center;
-
     }
 
     .unete:hover {
-      background-color: transparent;
+      background-color: initial;
       box-shadow: none;
     }
 
     .invitacion {
-      height: 35vh;
+      height: 100%;
+      width: auto;
       box-shadow: none;
       width: auto;
       transition: none;
-      padding: 2rem 0 0 0;
+      /* padding: 2rem 0 0 0; */
     }
 
     .invitacion:hover {
@@ -382,6 +386,10 @@
       background-color: transparent;
     }
 
+    .ti{
+      margin: initial;
+      padding: 1rem 0;
+    }
     .ti h2 {
       margin: initial;
       padding: initial;
@@ -400,8 +408,7 @@
     }
 
     .btn {
-      width: 100%;
-      height: auto;
+      justify-content: center;
       margin: 2rem 0;
     }
 
@@ -411,7 +418,8 @@
       align-items: center;
       justify-content: center;
       height: 100%;
-      padding: 0 0 2rem 0;
+      width: auto;
+      /* padding: 0 0 2rem 0; */
       /* margin: 2rem 0 0 0; */
     }
 

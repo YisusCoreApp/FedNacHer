@@ -521,9 +521,16 @@ button:hover::before {
         margin: initial;
         background-color: initial;
     }
-
+    .nosotros{
+        height: 100%;
+        width: auto;
+    }
+    .info ul{
+        padding: 2rem 0;
+        
+    }
     .unirte {
-        padding-top: 2rem;
+        padding: 2rem 0;
     }
 
     .afiliacion {
@@ -539,15 +546,30 @@ button:hover::before {
         align-items: center;
         justify-content: center;
         /* padding: initial; */
+    }   
+    .encabezado{
+        margin: 0 0 2rem 0;
     }
 
-    .paraAfiliarse {
+    .afiliacion{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: auto;
+        padding: 3rem 0;
+    }
+
+    .afil{
+        height: 100%;
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
-    .paraAfiliarse p {
-        padding: 1rem 4rem;
-
+    .servicio{
+        height: 100%;
+        width: 70%;
+        margin-bottom: 3rem;
     }
 
     .b {
@@ -577,6 +599,19 @@ button:hover::before {
     .hero img {
         height: 50%;
         width: 50%
+    }
+
+    .masInfo{
+        height: 100%;
+        width: auto;
+    }
+    .solicitud{
+        height: 100%;
+        width: auto;
+    }
+    form{
+        height: 100%;
+        width: 90%;
     }
 }
 
